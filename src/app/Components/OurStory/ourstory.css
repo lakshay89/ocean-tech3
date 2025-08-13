@@ -1,0 +1,58 @@
+.story-hero {
+    background-color: #ffffff;
+  }
+  .storyTitle{
+    color:var(--theme-color);
+  }
+  .story-btn {
+    background-color:var(--theme-color);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+  
+  .explore-btn {
+    border: 2px solid #db5c49;
+    padding: 10px 25px;
+    
+    border-radius: 30px;
+    color: #db5c49;
+  }
+  
+  .hero-bg-shape {
+    position: absolute;
+    /* background-color:var(--theme-color); */
+    width: 350px;
+    height: 350px;
+    border-radius: 50% 50% 0 0;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  
+  .story-img {
+    position: relative;
+    z-index: 1;
+    max-height: 350px;
+    width: 75%;
+  }
+  
+  .recipe-card {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--theme-color);
+    border-radius: 12px;
+    padding: 8px 12px;
+    z-index: 2;
+  }
+  
+  .recipe-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  

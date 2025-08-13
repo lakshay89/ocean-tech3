@@ -10,6 +10,15 @@
   }
 }
 
+:root {
+  --theme-color:#50586b;   /* Main Brand Color */
+  --theme-dark: #dce2f0;    /* Darker Shade */
+  --theme-light: #3b82f6;   /* Lighter Shade */
+  --text-color:#dce2f0;    /* Default Text */
+}
+
+
+
 html,
 body {
   max-width: 100vw;

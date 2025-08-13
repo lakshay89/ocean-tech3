@@ -1,0 +1,23 @@
+.brand-carousel-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.brand-icon {
+    margin-top:30px;
+  width: 100px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.BrandTitle{
+    text-align: center;
+    color: var(--theme-color);
+    font-weight: 800;
+}
+
+.swiper-slide-active .brand-icon {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+}

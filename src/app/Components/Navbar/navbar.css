@@ -1,0 +1,72 @@
+/* General Navbar Styling */
+.navbar {
+    background-color: var(--text-color);
+    padding: 0.8rem 0;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    width: 70%;
+  }
+  
+  .brand-text {
+    color: #0d0d0d;
+  }
+  
+  .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  
+  .nav-link i {
+    color: #3b82f6;
+    margin-right: 4px;
+  }
+  
+  /* Hover to open dropdown */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+    border-radius: 0;
+    border: none;
+  }
+  
+  /* Mega Menu Styling */
+  .mega-menu {
+    width: 40vw !important;
+    min-height: 200px;
+    left: 380px;
+    top: 80%;
+    border-top: 2px solid #eee;
+    background-color:var(--theme-bg);
+  }
+  
+  .mega-menu ul {
+    padding-left: 0;
+  }
+  
+  .mega-menu ul li {
+    list-style: none;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  
+  .mega-menu ul li:hover {
+    color: #2563eb;
+  }
+  
+  /* Buttons */
+  /* .btn-primary {
+    background-color: #2563eb;
+    border: none;
+    font-weight: 500;
+  }
+   */
+  .btn-outline-dark {
+    border-radius: 6px;
+  }
+  
