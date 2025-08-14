@@ -110,7 +110,7 @@
 
 /* Submit Button */
 .custom-submit-btn {
-    background: linear-gradient(45deg, #ff6a00, #ff0084);
+    background: #63ded3 !important;
     border: none;
     color: #fff;
     font-weight: 600;

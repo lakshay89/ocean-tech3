@@ -1,7 +1,7 @@
 import React from "react";
 import "./ourstory.css";
 
-import cookImg from "@/app/Images/BulkSMS.jpg"; // replace with your image
+import Img1 from "@/app/Images/Home Page/BulkSMS.png"; // replace with your image
 import Image from "next/image";
 // import recipeImg from "./recipe.png"; // replace with your image
 
@@ -29,10 +29,10 @@ export default function OurStory() {
         {/* Right Image */}
         <div className="col-md-6 text-center position-relative">
           <div className="hero-bg-shape"></div>
-          <Image src={cookImg} alt="Cooking" className="img-fluid story-img" />
+          <Image src={Img1} alt="Cooking" className="img-fluid story-img" />
           <div className="recipe-card d-flex align-items-center shadow">
             {/* <img src={recipeImg} alt="recipe" className="recipe-img" /> */}
-            <p className="m-0  text-light ms-2">More than 5000+ Clients </p>
+            {/* <p className="m-0  text-light ms-2">More than 5000+ Clients </p> */}
           </div>
         </div>
       </div>

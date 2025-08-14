@@ -20,8 +20,9 @@ export default function FeatureSection() {
                     <div className="col-md-4 featureSec">
                         <div className="feature-box">
                             <div className="icon-circle green"><FaBriefcase /></div>
-                            <h4>500+ SITES</h4>
-                            <p>Bulk SMS has become an essential tool for businesses in Delhi, providing a strong and affordable method to connect with customers.</p>
+                            <h4>High Conversion Rates</h4>
+                            <p>SMS has an excellent 98% open rate, which is higher than other marketing channels such as email and social media.
+                             This strong engagement leads to better campaign results and quicker conversion of leads into customers.</p>
                         </div>
 
                         <div className="feature-box mt-5">
@@ -112,3 +113,44 @@ export default function FeatureSection() {
         </section>
     );
 }
+
+
+// "Local Expertise
+// Our team has extensive knowledge of the Delhi market, enabling us to help you design effective SMS campaigns that are specifically tailored to your target audience.
+
+// High Conversion Rates
+// SMS has an excellent 98% open rate, which is higher than other marketing channels such as email and social media.
+// This strong engagement leads to better campaign results and quicker conversion of leads into customers.
+
+// Cost-Effective Alternative
+// SMS marketing is a more affordable option compared to costly methods like direct mail, email campaigns, or paid advertisements.
+// For small and medium businesses in Delhi, Bulk SMS provides an economical way to reach a wide audience without sacrificing performance.
+
+// 24/7 Availability
+// Our service is available around the clock, allowing businesses to provide support and share information even when they are not open for regular business hours.
+
+// Instant Delivery
+// With instant delivery, your SMS messages are sent to recipients within seconds.
+// This ensures real-time communication for promotions, alerts, OTPs, and other urgent updates, delivering maximum speed and efficiency."							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							

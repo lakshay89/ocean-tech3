@@ -1,103 +1,71 @@
+"use client";
 import React from "react";
 import "./footer.css";
-import logo from "@/app/Images/logo.webp"
-import { FaFacebookF, FaLinkedinIn, FaWhatsapp, FaEnvelope, FaYoutube, FaInstagram, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
-import Image from "next/image";
+import { FaFacebookF, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        
-        {/* Logo & Contact */}
-        <div className="footer-column">
-          <Image src={logo} alt="OCEAN TECH" className="footer-logo" />
-          <p className="footer-address">
-            
-            <FaMapMarkerAlt /> Mtalkz Mobility Services (P) Ltd. C-2, Sector-1 Noida, UP - 201301
-          </p>
-          <p><FaEnvelope /> enquiry@mtalkz.com</p>
-          <p><FaPhoneAlt /> +91-98686 29924</p>
 
-          <div className="partner-logos">
-            <img src="/partner1.png" alt="IITians"/>
-            <img src="/partner2.png" alt="Seal of Trust"/>
-            <img src="/partner3.png" alt="Meta" />
-            <img src="/partner4.png" alt="Truecaller" />
+        {/* Column 1 - Logo, Description, Social */}
+        <div className="footer-col">
+          <div className="footer-logo-box">
+            <div className="logo-text">
+              <span className="logo-icon"> ✉    OCEAN TECH ZONE </span>
+            </div>
+            {/* <p className="tagline">The SMS leader...</p>  */}
+          </div>
+          <p className="footer-desc">
+            Our focus lies in targeted marketing, customer care, customer voice, and professional services that allow our clients to move beyond messaging to create a meaningful dialogue with the customers.
+          </p>
+          <div className="social-icons">
+            <a href="#"><FaFacebookF /></a>
+            <a href="#"><FaInstagram /></a>
           </div>
         </div>
 
-        {/* Products */}
-        <div className="footer-column">
-          <h4>PRODUCTS</h4>
+        {/* Column 2 - Services */}
+        <div className="footer-col">
+          <h4>Services</h4>
           <ul>
-            <li>Bulk SMS</li>
-            <li>RCS Messaging</li>
-            <li>WhatsApp API</li>
+            <li>Bulk SMS Promotion</li>
+            <li>Bulk SMS Transaction</li>
             <li>OTP SMS</li>
-            <li>IVR Solutions</li>
-            <li>WhatsApp Chatbot</li>
-            <li>E-mail</li>
-            <li>Enterprises</li>
-            <li>Startup</li>
-            <li>Developers</li>
+            <li>International SMS</li>
+            <li>WhatsApp SMS</li>
+            <li>Mobile Database</li>
+            <li>Website Designing</li>
+            <li>IVR Services</li>
+            <li>Voice Call</li>
+            <li>Email Marketing</li>
           </ul>
         </div>
 
-        {/* Solutions */}
-        <div className="footer-column">
-          <h4>SOLUTIONS</h4>
+        {/* Column 3 - Digital Marketing & Policy Info */}
+        <div className="footer-col">
+          <h4>Digital Marketing</h4>
           <ul>
-            <li><strong>Healthcare</strong></li>
-            <li>Travel & Holidays</li>
-            <li>FinTech</li>
-            <li>D2C & Retail</li>
-            <li>Insurance</li>
-            <li>Power & Utility</li>
-            <li>Logistics</li>
-            <li>EdTech</li>
-            <li>Political</li>
+            <li>Search Engine Optimization (SEO)</li>
+            <li>Social Media Optimization (SMO)</li>
           </ul>
-        </div>
-
-        {/* Resources */}
-        <div className="footer-column">
-          <h4>RESOURCES</h4>
+          <h4 className="mt-4">Policy Info.</h4>
           <ul>
-            <li>Blog</li>
-            <li>Pricing</li>
-            <li>Case Studies</li>
-            <li>Press-Releases</li>
-            <li>Client-Testimonial</li>
-          </ul>
-        </div>
-
-        {/* Company */}
-        <div className="footer-column">
-          <h4>COMPANY</h4>
-          <ul>
-            <li>About Us</li>
-            <li>Channel Partner</li>
-            <li>Contact Us</li>
-            <li>Terms of Service</li>
             <li>Privacy Policy</li>
+            <li>Term & Condition</li>
           </ul>
         </div>
-      </div>
 
-      <hr />
-
-      {/* Bottom */}
-      <div className="footer-bottom">
-        <p>© 2025 Mtalkz. All rights reserved.</p>
-        <div className="social-icons">
-          <FaFacebookF />
-          <FaLinkedinIn />
-          <FaWhatsapp />
-          <FaEnvelope />
-          <FaYoutube />
-          <FaInstagram />
+        {/* Column 4 - Contacts */}
+        <div className="footer-col">
+          <h4>Contacts</h4>
+          <ul className="contact-list">
+            <li><FaMapMarkerAlt /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030</li>
+            <li><FaPhoneAlt /> +91 9289933499</li>
+            <li><FaEnvelope /> info@oceantechzone.com</li>
+          </ul>
         </div>
+
       </div>
     </footer>
   );
