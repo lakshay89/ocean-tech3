@@ -19,7 +19,7 @@ export default function Navbar() {
             className="navbar-logo me-2"
           />
           {/* <span className="fw-bold brand-text">OCEAN TECH</span> */}
-        </Link>
+        </Link> 
 
         {/* Toggle Button */}
         <button
@@ -58,6 +58,24 @@ export default function Navbar() {
                 OTP SMS Service
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link href="/Pages/bulk-sms-whatsapp" className="nav-link">
+                WhatsApp SMS
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link href="/Pages/ivr-services" className="nav-link">
+                IVR Services
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/Pages/voice-call" className="nav-link">
+                Voice Call Service
+              </Link>
+            </li>
+
 
             {/* Products Dropdown */}
             <li className="nav-item  position-static">

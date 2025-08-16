@@ -53,7 +53,7 @@ export default function SMSTransection() {
             <div className="RightSidetitle text-center mb-4">
               <h3 className="fw-semibold">Get a Quote</h3>
               <p className="text-muted">
-                Fill in your details and we’ll get back to you with the best
+                Fill in your details and we ll get back to you with the best
                 pricing and solution for your needs.
               </p>
             </div>
