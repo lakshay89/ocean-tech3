@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import "./navbar.css";
-import logo from "@/app/Images/logo.webp";
+import logo from '@/app/Images/logo.webp'
 import Image from "next/image";
 import Link from "next/link";
 

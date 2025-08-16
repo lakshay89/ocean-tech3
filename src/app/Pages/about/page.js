@@ -8,6 +8,7 @@ export default function page() {
       <div>
         <AboutUs/>
         <WhatWeDo/>
+        
       </div>
     </>
   )
