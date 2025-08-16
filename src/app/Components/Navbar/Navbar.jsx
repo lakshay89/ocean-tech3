@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.css";
 import logo from '@/app/Images/logo.webp'
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -30,11 +31,20 @@ export default function Navbar() {
 
             {/* Static Links */}
             <li className="nav-item">
-              <a className="nav-link" href="#">Home</a>
+              <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About Us</a>
+            <Link href="/Pages/about" className="nav-link">About Us</Link>
             </li>
+            <li className="nav-item">
+            <Link href="/Pages/bulk-sms" className="nav-link">Bulk SMS</Link>
+            </li>
+              
+            <li className="nav-item">
+            <Link href="/Pages/bulk-sms" className="nav-link">OTP SMS Service</Link>
+            </li>
+
+
 
             {/* Products Dropdown */}
             <li className="nav-item dropdown position-static">

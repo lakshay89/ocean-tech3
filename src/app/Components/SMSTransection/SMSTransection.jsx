@@ -1,0 +1,125 @@
+"use client";
+import React, { useState } from "react";
+// import axios from "axios"; // keep if you plan to send data to backend
+import "./SMSTransection.css";
+
+export default function SMSTransection() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post("/api/contact", formData);
+      console.log("Response:", res.data);
+
+      setFormData({ name: "", phone: "", email: "", message: "" });
+      alert("Form submitted successfully!");
+    } catch (err) {
+      console.error(err);
+      alert("Error submitting form. Please try again.");
+    }
+  };
+
+  return (
+    <div className="SMS-Transection-MainSec py-5">
+      <div className="container">
+        <div className="row align-items-center">
+          {/* Left Section */}
+          <div className="col-md-6 mb-4 mb-md-0">
+            <div className="SMStitle mb-3">
+              <h3 className="fw-bold">
+                Bulk SMS Transaction – Secure, Fast & Reliable Messaging
+              </h3>
+            </div>
+            <div className="SMS-Content">
+              <p className="text-muted mb-4">
+                Send instant and secure transactional SMS alerts, OTPs, and
+                important notifications to your customers with our robust,
+                high-delivery SMS gateway.
+              </p>
+              <button className="btn btn-primary px-4">Schedule Demo</button>
+            </div>
+          </div>
+
+          {/* Right Section */}
+          <div className="col-md-6">
+            <div className="RightSidetitle text-center mb-4">
+              <h3 className="fw-semibold">Get a Quote</h3>
+              <p className="text-muted">
+                Fill in your details and we’ll get back to you with the best
+                pricing and solution for your needs.
+              </p>
+            </div>
+
+            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+              <div className="form-group mb-3">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Full Name"
+                  className="form-control"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+
+              <div className="form-group mb-3">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  className="form-control"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+
+              <div className="form-group mb-3">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone Number"
+                  className="form-control"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+
+              <div className="form-group mb-3">
+                <textarea
+                  id="message"
+                  name="message"
+                  className="form-control"
+                  rows="5"
+                  placeholder="Your Message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                ></textarea>
+              </div>
+
+              <button className="btn btn-primary w-100" type="submit">
+                Submit Query
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,89 @@
+.what-we-do-section {
+    background: #f8f9fa;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+  }
+  
+  .section-subtitle {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .vision-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .vision-text {
+    color: #666;
+    text-align: justify;
+  }
+  
+  .feature-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  }
+  
+  .feature-number {
+    display: inline-block;
+    background: #2c7a7b;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .feature-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .mission-section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .card-1 {
+    background: #e6f7ff; /* Light blue */
+  }
+  .card-2 {
+    background: #fff4e6; /* Light orange */
+  }
+  .card-3 {
+    background: #eafbea; /* Light green */
+  }
+  .card-4 {
+    background: #fce8f6; /* Light pink */
+  }
+  .card-5 {
+    background: #f9f9e6; /* Light yellow */
+  }
+  
+  
+  .mission-section p {
+    color: #444;
+    line-height: 1.7;
+  }
+  
