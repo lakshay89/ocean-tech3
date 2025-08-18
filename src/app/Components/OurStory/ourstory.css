@@ -1,8 +1,14 @@
 .story-hero {
-    background-color: #ffffff;
+    
+  background-image: url('../../Images/backgroundblue.jpg'); /* relative to public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
   }
   .storyTitle{
-    color:var(--theme-color);
+    color:var(--theme-light);
   }
   .story-btn {
     background-color:var(--theme-color);
@@ -12,11 +18,20 @@
   }
   
   .explore-btn {
-    border: 2px solid #db5c49;
+    border: 2px solid var(--theme-light) !important;
     padding: 10px 25px;
+    border-radius: 30px;
+
+    border-radius: 30px !important;
+    color: var(--theme-light) !important;
+  }
+  .explore-btn:hover {
+    border: 2px solid var(--theme-light) !important;
+    /* padding: 10px 25px; */
     
     border-radius: 30px;
-    color: #db5c49;
+    background-color: var(--theme-light) !important;
+    color:white !important;
   }
   
   .hero-bg-shape {
@@ -35,7 +50,7 @@
     position: relative;
     z-index: 1;
     max-height: 100%;
-    width: 75%;
+    width: 100%;
   }
   
   .recipe-card {

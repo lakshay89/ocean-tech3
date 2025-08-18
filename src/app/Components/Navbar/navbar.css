@@ -1,72 +1,64 @@
-/* General Navbar Styling */
-.navbar {
-    background-color: var(--text-color);
-    padding: 0.8rem 0;
-  }
-  
-  .navbar-logo {
-    height: 40px;
-    width: 70%;
-  }
-  
-  .brand-text {
-    color: #0d0d0d;
-  }
-  
-  .nav-link {
-    font-size: 0.95rem;
-    font-weight: 500;
-  }
-  
-  .nav-link i {
-    color: #3b82f6;
-    margin-right: 4px;
-  }
-  
-  /* Hover to open dropdown */
-  .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown-menu {
-    margin-top: 0;
-    border-radius: 0;
-    border: none;
-  }
-  
-  /* Mega Menu Styling */
-  .mega-menu {
-    width: 40vw !important;
-    min-height: 200px;
-    left: 380px;
-    top: 80%;
-    border-top: 2px solid #eee;
-    background-color:var(--theme-bg);
-  }
-  
-  .mega-menu ul {
-    padding-left: 0;
-  }
-  
-  .mega-menu ul li {
-    list-style: none;
-    padding: 5px 0;
-    cursor: pointer;
-    font-size: 0.95rem;
-  }
-  
-  .mega-menu ul li:hover {
-    color: #2563eb;
-  }
-  
-  /* Buttons */
-  /* .btn-primary {
-    background-color: #2563eb;
-    border: none;
-    font-weight: 500;
-  }
-   */
-  .btn-outline-dark {
-    border-radius: 6px;
-  }
-  
+/* Navbar.css */
+
+.custom-dropdown .dropdown-menu {
+  box-shadow: 0 4px 12px rgba(0, 74, 173, 0.3); /* Blue shadow */
+  border: none;
+}
+
+/* Blue shadow when dropdown is open */
+.custom-dropdown .dropdown-menu.show {
+  box-shadow: 0 4px 16px 0 rgba(0, 123, 255, 0.4);
+  border: 1px solid #007bff;
+}
+
+/* Hover effect */
+.custom-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #004aad; /* Blue background */
+  color: #fff !important;
+}
+
+/* Zoom effect on dropdown item hover */
+.dropdown-menu .dropdown-item {
+  transition: transform 0.2s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  background-color: #f0f8ff; /* Optional: subtle highlight */
+}
+
+/* Optional: prevent default Bootstrap override */
+.custom-dropdown .dropdown-item {
+  transition: background-color 0.3s ease;
+}
+.dropdown-toggle::after{display:none !important;}
+
+/* Animated blue underline for nav links */
+.nav-link {
+  position: relative;
+  overflow: hidden;
+  font-family:(var --font-poppins, 'Poppins', sans-serif) !important;
+  /* font-weight: 1000; */
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  width:250px;
+}
+.nav-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #007bff;
+  transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+  border-radius: 2px;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after,
+.nav-link:focus::after {
+  width: 100%;
+}
