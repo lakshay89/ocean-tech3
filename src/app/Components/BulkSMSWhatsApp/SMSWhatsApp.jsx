@@ -42,14 +42,14 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="SMStitle mb-3">
                                 <h3 className="fw-bold">
-                                    Bulk SMS on WhatsApp  Engage Customers on Their Favorite Messaging App
+                                   <span className="titlebold"> Bulk SMS ON WHATS APP </span> Engage Customers on Their Favorite Messaging App
                                 </h3>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
                                     "Reach your audience instantly with personalized bulk messages on WhatsApp, featuring images, videos, and interactive content for maximum engagement and conversions."
                                 </p>
-                                <button className="btn btn-primary px-4">Schedule Demo</button>
+                                <button className="btn btn themebackground text-light px-4">Schedule Demo</button>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@ export default function SMSWhatsApp() {
                                     ></textarea>
                                 </div>
 
-                                <button className="btn btn-primary w-100" type="submit">
+                                <button className="btn themebackground text-light w-100" type="submit">
                                     Submit Query
                                 </button>
                             </form>
@@ -128,26 +128,26 @@ export default function SMSWhatsApp() {
             <div className="">
 
                 <div className="container">
-                    <div className=" Whats-app-title text-center">
-                        <h2 className=" mt-5 "> SEND PDF,s IMAGES, AND EXCEL ATTACHMENTS VIA WHATSAPP BULK SMS SERVICES "</h2>
-                    </div>
+                  
                     <div className="row">
                         <div className="col-md-6 textCloumn">
 
                             <div>
+                            <h2 className=" mt-5"> SEND PDF,s IMAGES, AND EXCEL ATTACHMENTS VIA <span className="titlebold">WHATSAPP BULK SMS SERVICES</span> "</h2>
+                
                                 <p>
-                                    <b>High Engagement Rates:  </b>WhatsApp messages typically have higher open and response rates compared to traditional SMS and email.
+                                    <b className="headingColor">High Engagement Rates:  </b>WhatsApp messages typically have higher open and response rates compared to traditional SMS and email.
                                 </p>
 
-                                <p> <b> Rich Media Support:  </b> You can send images, videos, PDFs, and clickable buttons, making your bulk messages more interactive and engaging.
+                                <p> <b className="headingColor"> Rich Media Support:  </b> You can send images, videos, PDFs, and clickable buttons, making your bulk messages more interactive and engaging.
                                 </p>
 
-                                <p> <b> Personalized Messaging: </b> Bulk WhatsApp allows customization using customer names, preferences, or order details, enhancing user experience.
+                                <p> <b className="headingColor"> Personalized Messaging: </b> Bulk WhatsApp allows customization using customer names, preferences, or order details, enhancing user experience.
                                 </p>
                                 <p>
-                                    <b> Real-Time Customer Interaction: </b> Enables two-way communication, allowing customers to reply instantly and engage with your business in real time.
+                                    <b className="headingColor"> Real-Time Customer Interaction: </b> Enables two-way communication, allowing customers to reply instantly and engage with your business in real time.
                                 </p>
-                                <p> <b> Cost-Effective & Scalable: </b>With official WhatsApp Business API, businesses can send messages to thousands of customers at once, efficiently and affordably."
+                                <p> <b className="headingColor"> Cost-Effective & Scalable: </b>With official WhatsApp Business API, businesses can send messages to thousands of customers at once, efficiently and affordably."
                                 </p>
                             </div>
 
@@ -171,7 +171,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 textCloumn">
 										
                             <div>
-                             <h3 className="mb-5">What is Bulk SMS on WhatsApp and Its Benefits"	</h3>
+                             <h3 className="mb-5">What is <span className="titlebold"> Bulk SMS</span> on  <span className="titlebold">WhatsApp </span> and Its Benefits"	</h3>
 
                                 <p>
                                     Bulk SMS on WhatsApp offers an interactive method for businesses to effectively connect with customers and promote products digitally. It serves as an enhancement to traditional bulk SMS services, allowing companies to share comprehensive details about their products or services with a large number of customers.
@@ -194,27 +194,27 @@ export default function SMSWhatsApp() {
                 <div className="container">
                    
                     <div className="row">
-                                <h3>How Bulk SMS Marketing on WhatsApp Works"</h3>
+                                <h3>How  <span className="titlebold">Bulk SMS Marketing </span> on WhatsApp Works"</h3>
                         <div className="col-md-6 textCloumn">
 										
                             <div>
                                 <p>
-                                    <b> 1. WhatsApp Business API Access </b> <br />To send messages to many people, businesses need to obtain official access to the WhatsApp Business API.
+                                    <b className="headingColor"> 1. WhatsApp Business API Access </b> <br />To send messages to many people, businesses need to obtain official access to the WhatsApp Business API.
                                     This can be done directly or through a WhatsApp Business Solution Provider such as Twilio, Gupshup, or Kaleyra.
                                 </p>
 
-                                <p> <b>2. Get Your Number Approved </b> <br /> A business phone number must be registered with WhatsApp and verified to ensure it is approved for sending messages.
+                                <p> <b className="headingColor">2. Get Your Number Approved </b> <br /> A business phone number must be registered with WhatsApp and verified to ensure it is approved for sending messages.
                                 </p>
 
-                                <p> <b>3. Create Message Templates </b> <br />
+                                <p> <b className="headingColor">3. Create Message Templates </b> <br />
                                     Before sending messages in bulk or for promotion, WhatsApp requires pre-approved message templates.
                                     These can include text, images, and buttons, but must comply with WhatsApp's guidelines.
                                 </p>
                                 <p>
-                                    <b> 4. Upload Your Contact List </b> <br />You can upload a list of customer contacts who have given their consent to receive messages.
+                                    <b className="headingColor"> 4. Upload Your Contact List </b> <br />You can upload a list of customer contacts who have given their consent to receive messages.
                                     These contacts can be grouped, and messages can be personalized with details like names, locations, and order information.
                                 </p>
-                                <p> <b> 5. Send & Track Messages</b> <br />Use a bulk messaging tool or dashboard to send messages through WhatsApp.
+                                <p> <b className="headingColor"> 5. Send & Track Messages</b> <br />Use a bulk messaging tool or dashboard to send messages through WhatsApp.
                                     You can monitor message delivery, how many people open the messages, click on links, and respond in real time to evaluate the effectiveness of your messages."
 
                                 </p>

@@ -36,17 +36,6 @@ const Ivrservices = [
   ];
 
 
-
-
-
-
-
-
-
-
-
-
-
 export default function SMSWhatsApp() {
     const [formData, setFormData] = useState({
         name: "",
@@ -82,14 +71,14 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="SMStitle mb-3">
                                 <h3 className="fw-bold">
-                                    IVR Services  Automate Customer Calls with Interactive Voice Response
+                                 <span className="titlebold">   IVR Services </span> Automate Customer Calls with Interactive Voice Response
                                 </h3>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
                                     Enhance customer experience with our smart IVR solutions that route calls, provide self-service options, and deliver 24/7 automated support for your business.
                                 </p>
-                                <button className="btn btn-primary px-4">Schedule Demo</button>
+                                <button className="btn themebackground text-light px-4">Schedule Demo</button>
                             </div>
                         </div>
 
@@ -156,7 +145,7 @@ export default function SMSWhatsApp() {
                                     ></textarea>
                                 </div>
 
-                                <button className="btn btn-primary w-100" type="submit">
+                                <button className="btn themebackground w-100" type="submit">
                                     Submit Query
                                 </button>
                             </form>
@@ -175,8 +164,8 @@ export default function SMSWhatsApp() {
 
                             <div>
                                 <div className=" Whats-app-title text-center">
-                                    <h2 className=" mt-5 "> What is IVR and How Interactive Voice Response Works
-                                    </h2>
+                                    <h2 className=" mt-5 "> What is <span className="titlebold"> IVR </span>and How  <span className="titlebold">  INTERACTIVE VOICE RESPONSE </span> Works
+                                    </h2> 
                                 </div>
                                 <p>
                                     "IVR (Interactive Voice Response) is an automated telephony system that enables callers to interact with a business through pre-recorded voice menus and keypad inputs (or voice commands). It helps route calls to the appropriate department, provide self-service options like balance checks or order tracking, and operate 24/7 without the need for human agents. IVR systems improve customer experience, reduce wait times, and lower operational costs by handling large call volumes efficiently.
@@ -198,28 +187,29 @@ export default function SMSWhatsApp() {
                 <div className="container">
 
                     <div className="row">
-                        <h3>Top Key Features of IVR (Interactive Voice Response) Systems	</h3>
+                        
                         <div className="col-md-6">
                             <Image src={Pic2} alt="whatsappimg" className="whatsappImg Pic1" />
                         </div>
                         <div className="col-md-6 textCloumn">
 
                             <div>
+                            <h3>Top Key Features of IVR <span className="titlebold"> (Interactive Voice Response) </span> Systems	</h3>
                                 <p>
-                                    <b>	Automated Call Routing</b> <br />IVR directs callers to the appropriate department or agent based on their input, reducing wait times and improving service efficiency.
+                                    <b className="spanbold">	Automated Call Routing</b> <br />IVR directs callers to the appropriate department or agent based on their input, reducing wait times and improving service efficiency.
                                 </p>
 
-                                <p> <b>Self-Service Functionality </b> <br /> Customers can access information or perform actions (like checking account balance or booking appointments) without speaking to a live agent.
+                                <p> <b className="spanbold">Self-Service Functionality </b> <br /> Customers can access information or perform actions (like checking account balance or booking appointments) without speaking to a live agent.
                                 </p>
 
-                                <p> <b>
+                                <p> <b className="spanbold">
                                     Multi-Language Support </b> <br />
                                     IVR systems can present menus in several languages, allowing them to serve a wider range of customers from different language backgrounds.
                                 </p>
                                 <p>
-                                    <b>24/7 Availability </b> <br />Operates around the clock, allowing businesses to provide support and information even outside normal working hours.
+                                    <b className="spanbold">24/7 Availability </b> <br />Operates around the clock, allowing businesses to provide support and information even outside normal working hours.
                                 </p>
-                                <p> <b>
+                                <p> <b className="spanbold">
                                     Customizable Menus</b> <br />Businesses can design the IVR menu to match their specific needs, offering tailored options and updates as services evolve."
 
                                 </p>
@@ -237,8 +227,8 @@ export default function SMSWhatsApp() {
 
 
             <div className="IvrServiceTitleSec">
-      <h3 className="title"> Our Services</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nemo est sequi laudantium voluptates odio iste quas perferendis atque pariatur.</p>
+      <h4 className="title">  <span className="titlebold">IVR SERVICES </span>Provide in India </h4>
+            <p className="">Enhance customer experience and streamline communication with our advanced IVR (Interactive Voice Response) solutions. Our IVR system allows businesses to automate inbound and outbound calls, ensuring customers are quickly connected to the right department without waiting in long queues.</p>
     </div>
     <section className="IvrServices-section">
       <div className="container">
@@ -246,8 +236,8 @@ export default function SMSWhatsApp() {
           {Ivrservices.map((service, index) => (
             <div className="col-md-3" key={index}>
               <div
-                className="Ivrservice-card"
-                style={{ backgroundColor: service.color }}
+                className="Ivrservice-card themebackground"
+                // style={{ backgroundColor: service.color }}
               >
                 <h3>{service.title}</h3>
                 <p>{service.desc}</p>

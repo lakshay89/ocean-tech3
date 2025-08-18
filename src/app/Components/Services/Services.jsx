@@ -8,25 +8,25 @@ export default function Services() {
       title: "Bulk SMS Promotion",
       desc: "Promote your brand with high-delivery SMS campaigns. Reach thousands of customers instantly and boost engagement.",
       link: "/bulk-sms-promotion",
-      color: "#ed8a67"
+      color: "#124adb"
     },
     {
       title: "Transactional SMS",
       desc: "Send real-time OTPs, alerts, and notifications with 100% delivery assurance and priority routing.",
       link: "/transactional-sms",
-      color: "#439aaf"
+      color: "#124adb;"
     },
     {
       title: "WhatsApp Messaging",
       desc: "Engage customers directly on WhatsApp. Send offers, updates, and notifications seamlessly.",
       link: "/whatsapp-messaging",
-      color: "#f4bc4f"
+      color: "#124adb;"
     },
     {
       title: "API Integration",
       desc: "Integrate our powerful SMS APIs with your system to automate and simplify customer communication.",
       link: "/sms-api",
-      color: "#ed8a67"
+      color: "#124adb"
     },
   ];
 

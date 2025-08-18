@@ -14,7 +14,7 @@ export default function OtpServices() {
          <div className="LeftSideOTPSec">
          <section className=" text-center ">
             <h2 className="section-title">
-              Protect Your Business with the Best OTP SMS Authentication System for Maximum Security
+              Protect Your Business with the Best  <span className="titlebold">OTP SMS Authentication System </span> for Maximum Security
             </h2>
             <p className="section-text">
               A One Time Password, or OTP, is a security method that generates a unique password
@@ -28,7 +28,7 @@ export default function OtpServices() {
           {/* Section 2 */}
           <section className=" text-center">
             <h2 className="section-title">
-              Your Trusted Source for Fast and Secure OTP SMS Services
+              Your Trusted Source for Fast and <span className="titlebold">Secure OTP SMS Services</span>
             </h2>
             <p className="section-text">
               Ocean Techzone is one of the countries top platforms where you can find the best campaigns
@@ -62,16 +62,16 @@ export default function OtpServices() {
           </h3>
           <ul className="benefit-list">
             <li>
-              <strong>Authentication:</strong> Extra layer of security for websites and apps.
+              <strong className="text-primary">Authentication:</strong> Extra layer of security for websites and apps.
             </li>
             <li>
-              <strong>Transaction validation:</strong> Ensures all financial transactions are secure.
+              <strong className="text-primary">Transaction validation:</strong> Ensures all financial transactions are secure.
             </li>
             <li>
-              <strong>Authorization:</strong> Used for account deletion, activation, or restoration.
+              <strong className="text-primary">Authorization:</strong> Used for account deletion, activation, or restoration.
             </li>
             <li>
-              <strong>Reactivation:</strong> Helps reactivate a clients account through OTP confirmation.
+              <strong className="text-primary">Reactivation:</strong> Helps reactivate a clients account through OTP confirmation.
             </li>
           </ul>
         </div>
@@ -86,16 +86,16 @@ export default function OtpServices() {
           </h3>
           <ul className="benefit-list">
             <li>
-              <strong>Banking sector:</strong> OTP secures online banking transactions.
+              <strong className="text-primary">Banking sector:</strong> OTP secures online banking transactions.
             </li>
             <li>
-              <strong>Shipping companies:</strong> OTP confirms payments and shipping orders.
+              <strong className="text-primary">Shipping companies:</strong> OTP confirms payments and shipping orders.
             </li>
             <li>
-              <strong>E-commerce platforms:</strong> OTP confirms payments and authenticates orders.
+              <strong className="text-primary">E-commerce platforms:</strong> OTP confirms payments and authenticates orders.
             </li>
             <li>
-              <strong>Web portals:</strong> OTP verifies phone numbers for secure logins & marketing.
+              <strong className="text-primary">Web portals:</strong> OTP verifies phone numbers for secure logins & marketing.
             </li>
           </ul>
         </div>
@@ -104,7 +104,7 @@ export default function OtpServices() {
       {/* Section 4 */}
       <section className="text-center">
         <h2 className="section-title">
-          Different Types of OTP SMS Services We Provide for Secure Authentication
+          Different Types of <span className="titlebold"> OTP SMS SERVICE </span>We Provide for  <span className="titlebold">SECURE AUTHENTICATION</span>
         </h2>
         {/* <p className="section-text">
           We offer multiple OTP SMS solutions tailored to fit industries like banking, 
@@ -115,15 +115,15 @@ export default function OtpServices() {
         <div className="CardSection d-flex">
           <div className="card sec1">
             <div className="card-body">
-              <h3>SMS OTP Services : </h3>
+              <h3 className="themetitle" >SMS OTP SERVICE : </h3>
               <p>Send an OTP to your customer through SMS. We provide a dependable OTP service that ensures reliable delivery and minimal delay for your customers.
               </p>
             </div>
 
           </div>
-          <div className="card sec2 ">
+          <div className="card sec1 ">
             <div className="card-body ">
-              <h3>Voice OTP Service: : </h3>
+              <h3  className="themetitle">Voice OTP Service:</h3>
               <p>We help you to verify the customer using the voice OTP service. These are automatically generated voice calls that will play a sequence of digit and customer have to enter it manually.
               </p>
             </div>

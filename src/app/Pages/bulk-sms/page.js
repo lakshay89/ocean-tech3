@@ -7,8 +7,8 @@ import BrandCarousel from '@/app/Components/BrandCarousel/BrandCarousel'
 export default function page() {
   return (
     <>
-      <BannerSlider/>
       <SMSTransection/>
+      <BannerSlider/>
       <SmsFeatures/>
       <BrandCarousel/>
     </>

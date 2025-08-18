@@ -11,12 +11,27 @@
 }
 
 :root {
-  --theme-color:#50586b;   /* Main Brand Color */
-  --theme-dark: #dce2f0;    /* Darker Shade */
-  --theme-light: #3b82f6;   /* Lighter Shade */
+   /* Main Brand Color */
+   /* Darker Shade */
+  --theme-color: #124adb ;   /* Lighter Shade */
+  --theme-background: #124adb ;   /* Lighter Shade */
   --text-color:#dce2f0;    /* Default Text */
 }
 
+.titlebold{
+  color:var(--theme-color);
+  font-size: 30px;
+  font-weight: bold;
+}
+.spanbold{
+  color:var(--theme-color);
+}
+
+.themebackground{
+  background-color: var(--theme-background) !important;
+  color:white !important;
+}
+ 
 
 
 html,

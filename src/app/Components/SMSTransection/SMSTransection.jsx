@@ -37,7 +37,7 @@ export default function SMSTransection() {
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="SMStitle mb-3">
               <h3 className="fw-bold">
-                Bulk SMS Transaction – Secure, Fast & Reliable Messaging
+                <span className="titlebold"> BULK SMS TRANSACTION </span> Secure, Fast & Reliable Messaging
               </h3>
             </div>
             <div className="SMS-Content">
@@ -46,7 +46,7 @@ export default function SMSTransection() {
                 important notifications to your customers with our robust,
                 high-delivery SMS gateway.
               </p>
-              <button className="btn btn-primary px-4">Schedule Demo</button>
+              <button className="btn themebacground text-light px-4">Schedule Demo</button>
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export default function SMSTransection() {
                 ></textarea>
               </div>
 
-              <button className="btn btn-primary w-100" type="submit">
+              <button className="btn themebackground w-100" type="submit">
                 Submit Query
               </button>
             </form>

@@ -78,13 +78,13 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="SMStitle mb-3">
                                 <h3 className="fw-bold">
-                                    Voice Call Services  Connect with Customers Through Clear & Direct Communication
+                                  <span className="titlebold">  Voice Call Services </span> Connect with Customers Through Clear & Direct Communication
                                 </h3>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
                                     Deliver promotional, transactional, or reminder messages instantly with our high-quality automated voice call solutions designed for businesses of all sizes.    </p>
-                                <button className="btn btn-primary px-4">Schedule Demo</button>
+                                <button className="btn themebackground text-light px-4">Schedule Demo</button>
                             </div>
                         </div>
 
@@ -151,7 +151,7 @@ export default function SMSWhatsApp() {
                                     ></textarea>
                                 </div>
 
-                                <button className="btn btn-primary w-100" type="submit">
+                                <button className="btn themebackground text-light w-100" type="submit">
                                     Submit Query
                                 </button>
                             </form>
@@ -166,15 +166,16 @@ export default function SMSWhatsApp() {
 
                     <div className="row">
 
-                        <div className="col-md-6 textCloumn">
-
+                        <div className="col-md-6  d-grid textCloumn">
+                            
                             <div>
+                            <h3 className="mb-4"> What is <span className="titlebold"> Voice Call Service </span>and How it <span className="titlebold"> Benefits Your Business</span> </h3>
                                 <p>
                                     "Voice call services enable you to connect with customers effortlessly using pre-recorded messages. You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service. Our services are ideal for sending crucial information such as:
                                 </p>
 
 
-                                <ul>
+                                <ul className="list-unstyled">
                                     <li>1.   Alerts and reminders</li>
                                     <li>2.   Business promotions</li>
                                     <li>3.   Latest offers and deals</li>
@@ -194,14 +195,12 @@ export default function SMSWhatsApp() {
                 </div>
 
 
-
-
-
                 <div className="container">
 
                     <div className="row">
-                        <h3>
-                            "Automated Voice Messaging
+                        <h3 className="text-center fw-bold">
+                        Key  <span className="titlebold">FEATURES</span> and <span className="titlebold"> BENEFITS</span> of <span className="titlebold"> VOICE CALL SERVICE </span>										
+										
                         </h3>
                         <div className="col-md-6">
                             <Image src={Pic2} alt="whatsappimg" className="whatsappImg Pic1" />
@@ -209,26 +208,29 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                                <h3>Sends pre-recorded voice messages to many users at the same time through phone calls.</h3>
+                                <h3 className="mb-4">Sends pre-recorded voice messages to many users at the same time through phone calls.</h3>
                                 <p>
-                                    <b>   Mass Outreach   :</b>
+                                    <b className="spanbold"> Automated Voice Messaging  :</b>
+                                    Sends pre-recorded voice messages to many users at the same time through phone calls.    </p>
+                                <p>
+                                    <b className="spanbold">   Mass Outreach   :</b>
                                     This method is great for connecting with thousands of individuals quickly — ideal for sending alerts, promotions, reminders, or announcements.
                                 </p>
                                 <p>
-                                    <b>  Personalization Options  :</b>
+                                    <b className="spanbold">  Personalization Options  :</b>
 
                                     Voice messages can be tailored with personal details like names or locations to make the experience more customized for each recipient.
                                 </p>
 
                                 <p>
-                                    <b>  Interactive Capabilities  :</b>
+                                    <b className="spanbold">  Interactive Capabilities  :</b>
 
                                     It includes features like IVR (Interactive Voice Response), allowing callers to respond during the call, for example, by pressing a number to confirm.
 
                                 </p>
 
                                 <p>
-                                    <b>  Multi - Language Support  :</b>
+                                    <b className="spanbold">  Multi - Language Support  :</b>
                                    
 Messages can be created in various languages, making it easier to communicate with a broader and more diverse audience.							
                                 </p>
@@ -249,7 +251,7 @@ Messages can be created in various languages, making it easier to communicate wi
 
             <div className="Voice-ServiceTitleSec ">
                <div className="text-center">
-               <h3 className="title"> Voice Call  Services</h3>
+               <h3 className="title titlebold"> Voice Call  Services</h3>
                <p > You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service.</p>
                </div>
             </div>

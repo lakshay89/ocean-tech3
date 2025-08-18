@@ -9,14 +9,16 @@
   .section-title {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #b30059;
+    /* color: #b30059; */
     margin-bottom: 1rem;
   }
   .section-title{
-    color: #b30059;
+    /* color: #b30059; */
   }
-  .sub-title{
-    color: #b30059 !important;
+ 
+  .themetitle{
+    color:var(--theme-color);
+    font-weight: 700;
   }
   .LeftSideOTPSec{
     margin-top: 50px;

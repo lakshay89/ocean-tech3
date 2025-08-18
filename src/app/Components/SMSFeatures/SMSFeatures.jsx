@@ -21,7 +21,7 @@ export default function SmsFeatures() {
             viewport={{ once: true }}
           >
             <h2 className="section-title">
-              Transactional SMS: Reliable, Essential, and Trust-Building Communication
+              <span className="titlebold"> TRANSACTION SMS :</span> Reliable, Essential, and Trust-Building Communication
             </h2>
             <ul className="feature-list">
               <li>
@@ -84,7 +84,7 @@ export default function SmsFeatures() {
             viewport={{ once: true }}
           >
             <h2 className="section-title">
-              Top Benefits of Bulk SMS Marketing for Business Growth
+              Top  <span className="titlebold">BENIFITS  </span>of Bulk SMS Marketing for Business Growth
             </h2>
             <ul className="feature-list">
               <li>
