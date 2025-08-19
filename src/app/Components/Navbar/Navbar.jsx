@@ -52,7 +52,8 @@ export default function NavScrollExample() {
             </NavDropdown>
 
             <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
-            <Nav.Link href="#blog">Blog</Nav.Link>
+            <Nav.Link href="/Pages/term-conditions">Terms</Nav.Link>
+            <Nav.Link href="/Pages/privacy-policy">Privacy</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
 

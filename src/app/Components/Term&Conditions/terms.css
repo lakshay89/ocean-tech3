@@ -1,0 +1,81 @@
+.terms-page {
+  width: 100%;
+  background: #f4f6fb;
+  padding: 50px 0;
+}
+
+.terms-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.terms-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.terms-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.terms-header p {
+  color: #555;
+}
+
+.validity {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+}
+
+.terms-content section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f9f9ff;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.terms-content section:hover {
+  background: #eef3ff;
+}
+
+.terms-content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.terms-content ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.terms-content ul ul {
+  list-style: circle;
+}
+
+.terms-content a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.terms-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 20px;
+  }
+  .terms-header h1 {
+    font-size: 1.5rem;
+  }
+}

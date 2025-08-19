@@ -27,7 +27,7 @@
   }
   
   .btn-gradient {
-    background: var(--theme-color);
+    background:var( --theme-background);
     border: none;
     padding: 10px 24px;
     font-size: 1rem;

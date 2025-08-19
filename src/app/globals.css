@@ -18,6 +18,10 @@
   --text-color:#dce2f0;    /* Default Text */
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .titlebold{
   color:var(--theme-color);
   font-size: 30px;

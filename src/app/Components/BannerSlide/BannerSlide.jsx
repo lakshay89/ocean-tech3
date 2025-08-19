@@ -24,13 +24,13 @@ export default function TextCarouselSection() {
               Welcome to <span>Ocean Tech</span>
             </h2>
             <p className="section-desc">
-              We specialize in delivering <strong>high-quality Bulk SMS services</strong> 
-              tailored to enhance your business communication strategy. 
+              We specialize in delivering <strong>high-quality Bulk SMS services  </strong> 
+                tailored to enhance your business communication strategy. 
               With features like <em>high delivery rates</em>, real-time tracking, 
               and customizable messaging, we ensure your messages reach 
               the right audience at the right time.
             </p>
-            <button className="btn btn-gradient w-100 mt-3">Explore More</button>
+            <button className="btn themebackground w-100 mt-3">Explore More</button>
           </div>
 
           {/* Right Side - Bootstrap Carousel */}

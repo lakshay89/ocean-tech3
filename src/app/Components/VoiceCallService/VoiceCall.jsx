@@ -78,7 +78,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="SMStitle mb-3">
                                 <h3 className="fw-bold">
-                                  <span className="titlebold">  Voice Call Services </span> Connect with Customers Through Clear & Direct Communication
+                                  <span className="titlebold uppercase">  Voice Call Services </span> Connect with Customers Through Clear & Direct Communication
                                 </h3>
                             </div>
                             <div className="SMS-Content">
@@ -169,7 +169,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6  d-grid textCloumn">
                             
                             <div>
-                            <h3 className="mb-4"> What is <span className="titlebold"> Voice Call Service </span>and How it <span className="titlebold"> Benefits Your Business</span> </h3>
+                            <h3 className="mb-4"> What is <span className="titlebold uppercase"> Voice Call Service </span>and How it <span className="titlebold uppercase"> Benefits Your Business</span> </h3>
                                 <p>
                                     "Voice call services enable you to connect with customers effortlessly using pre-recorded messages. You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service. Our services are ideal for sending crucial information such as:
                                 </p>
@@ -251,7 +251,7 @@ Messages can be created in various languages, making it easier to communicate wi
 
             <div className="Voice-ServiceTitleSec ">
                <div className="text-center">
-               <h3 className="title titlebold"> Voice Call  Services</h3>
+               <h3 className="title titlebold "> VOICE CALL  SERVICES</h3>
                <p > You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service.</p>
                </div>
             </div>
