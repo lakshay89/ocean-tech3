@@ -9,13 +9,13 @@ export default function AboutSection() {
         <>
             <div className="about-section">
                 <div className="container">
-                <h2 className='mt-5 mb-5 text-center titlebold'>OUR STORY</h2>
+                    <h2 className='mt-5 mb-5 text-center titlebold'>OUR STORY</h2>
 
                     <div className="row">
                         <div className="col-md-6">
                             <div>
                                 <div className="aboutSecTitle">
-                                   
+
                                     <h3 className='text-right'>Delivering <span className='titlebold'> INNOVATION AND STRATEGIC BUSINESS </span> Solutions for Growth and Success"</h3>
                                 </div>
                                 <div className='aboutDetail-sec'>
@@ -50,8 +50,8 @@ export default function AboutSection() {
                     <div className="row">
                         <div className="col-md-6">
                             <div className='aboutbottomSec'>
-                               
-                                    <h3>	Why Choose Us for Your <span className='titlebold'>Trusted Business</span> Growth Partner </h3>
+
+                                <h3>	Why Choose Us for Your <span className='titlebold'>Trusted Business</span> Growth Partner </h3>
                                 <p className='paragraph-details'>Bulk SMS has become an indispensable tool for businesses in Delhi, offering a powerful, cost-effective way to communicate with customers. Below are the key reasons why Bulk SMS is the best choice for Delhi-based businesses
                                 </p>
 
@@ -121,7 +121,13 @@ export default function AboutSection() {
             </div>
 
 
+            <div className='container mb-5'>
+                <h3 className='text-center titlebold'>  OUR MISSION	</h3>
 
+                <p className='paragraph-details'>
+                    Our mission is to empower businesses with innovative and reliable SMS solutions that drive engagement, enhance communication, and optimize customer relationships. Through our state-of-the-art bulk SMS platform, we deliver seamless transactional and promotional messaging services that enable our clients to connect with their audience effectively and efficiently. We are committed to providing exceptional service, cutting-edge technology, and unparalleled support to help businesses achieve their goals and grow their brand.”
+                </p>
+            </div>
 
 
 
