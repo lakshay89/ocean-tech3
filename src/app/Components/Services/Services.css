@@ -15,6 +15,7 @@ font-size: 2.4rem;
 
 .service-card {
              /* Same color for all cards */
+             background: linear-gradient(179deg, rgba(10, 74, 220, 1) 18%, rgba(24, 151, 235, 1) 70%);   
   color: #fff;
   padding: 30px;
   border-radius: 8px;
