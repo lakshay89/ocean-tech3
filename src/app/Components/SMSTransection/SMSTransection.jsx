@@ -36,9 +36,9 @@ export default function SMSTransection() {
           {/* Left Section */}
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="SMStitle mb-3">
-              <h3 className="fw-bold">
+              <h1 className="fw-bold">
                 <span className="titlebold"> BULK SMS TRANSACTION </span> Secure, Fast & Reliable Messaging
-              </h3>
+              </h1>
             </div>
             <div className="SMS-Content">
               <p className="text-muted mb-4">
@@ -51,9 +51,10 @@ export default function SMSTransection() {
           </div>
 
           {/* Right Section */}
-          <div className="col-md-6">
+          <div className="col-md-6 justify-content-center align-items-center d-flex">
+            <div className="FormSection w-75">
             <div className="RightSidetitle text-center mb-4">
-              <h3 className="fw-semibold">Get a Quote</h3>
+              <h1 className="fw-semibold">Get a Quote</h1>
               <p className="text-muted">
                 Fill in your details and we ll get back to you with the best
                 pricing and solution for your needs.
@@ -117,6 +118,7 @@ export default function SMSTransection() {
                 Submit Query
               </button>
             </form>
+            </div>
           </div>
         </div>
       </div>

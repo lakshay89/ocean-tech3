@@ -41,10 +41,11 @@ export default function SMSWhatsApp() {
           <div className="row align-items-center">
             {/* Left Section */}
             <div className="col-md-6 mb-4 mb-md-0">
-              <div className="dlt-title mb-3">
-                <h3 className="fw-bold">
+            <div className="LeftFormSec">
+            <div className="dlt-title mb-3">
+                <h1 className="fw-bold">
                  <span className="titlebold"> DISTRIBUTED LEDGER TECHNOLOGY </span> for Secure Digital Communication
-                </h3>
+                </h1>
               </div>
               <div className="dlt-content">
                 <p className="mb-4">
@@ -68,11 +69,13 @@ export default function SMSWhatsApp() {
                 <button className="btn themebackground px-4">Schedule Demo</button>
               </div>
             </div>
+            </div>
 
             {/* Right Section */}
-            <div className="col-md-6">
-              <div className="dlt-right-title text-center mb-4">
-                <h3 className="fw-semibold">Get a Quote</h3>
+            <div className="col-md-6 d-flex justify-content-center">
+            <div className="w-75">
+            <div className="dlt-right-title text-center mb-4">
+                <h1 className="fw-semibold">Get a Quote</h1>
                 <p className="text-muted">
                   Fill in your details and well get back to you with the best
                   pricing and solution for your needs.
@@ -137,6 +140,7 @@ export default function SMSWhatsApp() {
                 </button>
               </form>
             </div>
+            </div>
           </div>
         </div>
       </div>
@@ -180,7 +184,7 @@ export default function SMSWhatsApp() {
       {/* Section 3 */}
       {/* <div className="container">
         <div className="row">
-          <h3>"Our Email Marketing Services and What We Offer"</h3>
+          <h1>"Our Email Marketing Services and What We Offer"</h1>
           <div className="col-md-6">
             <Image src={Pic2} alt="DLT Email Services" className="dlt-img" />
           </div>

@@ -8,9 +8,9 @@ export default function page() {
   return (
     <>
       <SMSTransection/>
-      <BannerSlider/>
       <SmsFeatures/>
       <BrandCarousel/>
+      <BannerSlider/>
     </>
   )
 }

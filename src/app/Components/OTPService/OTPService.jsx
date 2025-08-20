@@ -36,9 +36,9 @@ export default function SMSTransection() {
           {/* Left Section */}
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="SMStitle mb-3">
-              <h3 className="fw-bold w-75">
+              <h1 className="fw-bold w-75">
 	                <span className="titlebold"> OTP SMS Service</span> Instant & Secure One-Time Password Delivery									
-              </h3>
+              </h1>
             </div>
             <div className="SMS-Content">
               <p className="text-muted mb-4 w-75">
@@ -49,9 +49,10 @@ export default function SMSTransection() {
           </div>
 
           {/* Right Section */}
-          <div className="col-md-6">
-            <div className="RightSidetitle text-center mb-4">
-              <h3 className="fw-semibold">Get a Quote</h3>
+          <div className="col-md-6 d-flex justify-content-center">
+           <div className="w-75">
+           <div className="RightSidetitle text-center mb-4">
+              <h1 className="fw-semibold">Get a Quote</h1>
               <p className="text-muted">
                 Fill in your details and we ll get back to you with the best
                 pricing and solution for your needs.
@@ -115,6 +116,7 @@ export default function SMSTransection() {
                 Submit Query
               </button>
             </form>
+           </div>
           </div>
         </div>
       </div>

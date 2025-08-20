@@ -70,10 +70,11 @@ export default function BulkEmail() {
                     <div className="row align-items-center">
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <div className="SMStitle mb-3">
-                                <h3 className="fw-bold">
+                           <div className="FormRightSec">
+                           <div className="SMStitle mb-3">
+                                <h1 className="fw-bold">
                                     <span className="titlebold"> BULK EMAIL MARKETING </span> Reach Thousands with a Single Click
-                                </h3>
+                                </h1>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
@@ -81,12 +82,14 @@ export default function BulkEmail() {
                                 </p>
                                 <button className="btn themebackground px-4">Schedule Demo</button>
                             </div>
+                           </div>
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6">
+                        <div className="col-md-6 d-flex justify-content-center">
+                           <div className="w-75"> 
                             <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                                <h1 className="fw-semibold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -149,7 +152,7 @@ export default function BulkEmail() {
                                 <button className="btn themebackground w-100" type="submit">
                                     Submit Query
                                 </button>
-                            </form>
+                            </form></div>
                         </div>
                     </div>
                 </div>
@@ -199,8 +202,8 @@ export default function BulkEmail() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                            <h3>Our  <span className="titlebold">EMAIL MARKETING SERVICES </span>and What We Offer"
-                            </h3>
+                            <h1>Our  <span className="titlebold">EMAIL MARKETING SERVICES </span>and What We Offer"
+                            </h1>
                                 <p>
                                     <b className="spanbold">Manage subscriber base</b> <br />Track subscribers activity, get relevant stats, segment audience, & manage your subscribers at one place.
                                 </p>

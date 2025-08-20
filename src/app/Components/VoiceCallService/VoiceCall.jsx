@@ -76,22 +76,25 @@ export default function SMSWhatsApp() {
                     <div className="row align-items-center">
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <div className="SMStitle mb-3">
-                                <h3 className="fw-bold">
+                          <div className="FormLeftSide">
+                          <div className="SMStitle mb-3">
+                                <h1 className="fw-bold">
                                   <span className="titlebold uppercase">  Voice Call Services </span> Connect with Customers Through Clear & Direct Communication
-                                </h3>
+                                </h1>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
                                     Deliver promotional, transactional, or reminder messages instantly with our high-quality automated voice call solutions designed for businesses of all sizes.    </p>
                                 <button className="btn themebackground text-light px-4">Schedule Demo</button>
                             </div>
+                          </div>
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6">
-                            <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                        <div className="col-md-6 d-flex justify-content-center">
+                          <div className="w-75">
+                          <div className="RightSidetitle text-center mb-4">
+                                <h1 className="fw-semibold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -155,6 +158,7 @@ export default function SMSWhatsApp() {
                                     Submit Query
                                 </button>
                             </form>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -169,7 +173,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6  d-grid textCloumn">
                             
                             <div>
-                            <h3 className="mb-4"> What is <span className="titlebold uppercase"> Voice Call Service </span>and How it <span className="titlebold uppercase"> Benefits Your Business</span> </h3>
+                            <h1 className="mb-4 fontweight"> What is <span className="  uppercase"> Voice Call Service </span>and How it <span className="titlebold uppercase"> Benefits Your Business</span> </h1>
                                 <p>
                                     "Voice call services enable you to connect with customers effortlessly using pre-recorded messages. You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service. Our services are ideal for sending crucial information such as:
                                 </p>
@@ -198,17 +202,17 @@ export default function SMSWhatsApp() {
                 <div className="container">
 
                     <div className="row">
-                        <h3 className="text-center fw-bold">
+                        <h1 className="text-center fontweight">
                         Key  <span className="titlebold">FEATURES</span> and <span className="titlebold"> BENEFITS</span> of <span className="titlebold"> VOICE CALL SERVICE </span>										
 										
-                        </h3>
+                        </h1>
                         <div className="col-md-6">
                             <Image src={Pic2} alt="whatsappimg" className="whatsappImg Pic1" />
                         </div>
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                                <h3 className="mb-4">Sends pre-recorded voice messages to many users at the same time through phone calls.</h3>
+                                <h1 className="mb-4 fontweight">Sends pre-recorded voice messages to many users at the same time through phone calls.</h1>
                                 <p>
                                     <b className="spanbold"> Automated Voice Messaging  :</b>
                                     Sends pre-recorded voice messages to many users at the same time through phone calls.    </p>
@@ -251,7 +255,7 @@ Messages can be created in various languages, making it easier to communicate wi
 
             <div className="Voice-ServiceTitleSec ">
                <div className="text-center">
-               <h3 className="title titlebold "> VOICE CALL  SERVICES</h3>
+               <h1 className="title titlebold "> VOICE CALL  SERVICES</h1>
                <p > You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service.</p>
                </div>
             </div>
@@ -264,7 +268,7 @@ Messages can be created in various languages, making it easier to communicate wi
                                     className="Voice-service-card"
                                     style={{ backgroundColor: service.color }}
                                 >
-                                    <h3>{service.title}</h3>
+                                    <h1>{service.title}</h1>
                                     <p>{service.desc}</p>
                                     {/* <a href={service.link} className="Ivrservice-btn">
                   FIND OUT MORE

@@ -12,7 +12,7 @@ export default function BulkSms() {
                 <div className="col-md-6">
                     <div className='LeftSideSec'>
                         <div className='titleSec'>
-                            <h3>WHAT  IS BULK SMS ?</h3>
+                            <h1>WHAT  IS BULK SMS ?</h1>
                         </div>
                   <div className='subtitle'>
                     <p>Bulk SMS involves sending a large number of text messages at the same time to many people. It is commonly used by businesses, organizations, and other groups for different reasons, such as:</p>

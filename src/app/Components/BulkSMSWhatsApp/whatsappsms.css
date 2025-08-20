@@ -84,6 +84,10 @@
     font-weight: 600;
     transition: all 0.3s ease;
   }
+
+  .FormLeftSec{
+    width:90%;
+  }
   
   .SMS-WhatsApp-MainSec button[type="submit"]:hover {
     background: var(--theme-color);

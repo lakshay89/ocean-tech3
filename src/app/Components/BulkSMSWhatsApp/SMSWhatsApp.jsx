@@ -40,10 +40,11 @@ export default function SMSWhatsApp() {
                     <div className="row align-items-center">
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <div className="SMStitle mb-3">
-                                <h3 className="fw-bold">
+                           <div className="FormLeftSec">
+                           <div className="SMStitle mb-3">
+                                <h1 className="fw-bold">
                                    <span className="titlebold"> Bulk SMS ON WHATS APP </span> Engage Customers on Their Favorite Messaging App
-                                </h3>
+                                </h1>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
@@ -51,12 +52,14 @@ export default function SMSWhatsApp() {
                                 </p>
                                 <button className="btn btn themebackground text-light px-4">Schedule Demo</button>
                             </div>
+                           </div>
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6">
-                            <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                        <div className="col-md-6 d-flex justify-content-center">
+                           <div className="w-75">
+                           <div className="RightSidetitle text-center mb-4">
+                                <h1 className="fw-semibold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -120,6 +123,7 @@ export default function SMSWhatsApp() {
                                     Submit Query
                                 </button>
                             </form>
+                           </div>
                         </div>
                     </div>
                 </div>
@@ -133,7 +137,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                            <h2 className=" mt-5"> SEND PDF,s IMAGES, AND EXCEL ATTACHMENTS VIA <span className="titlebold">WHATSAPP BULK SMS SERVICES</span> "</h2>
+                            <h2 className=" mt-5 fontweight"> SEND PDF,s IMAGES, AND EXCEL ATTACHMENTS VIA <span className="titlebold">WHATSAPP BULK SMS SERVICES</span> "</h2>
                 
                                 <p>
                                     <b className="headingColor">High Engagement Rates:  </b>WhatsApp messages typically have higher open and response rates compared to traditional SMS and email.
@@ -171,7 +175,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 textCloumn">
 										
                             <div>
-                             <h3 className="mb-5">What is <span className="titlebold"> Bulk SMS</span> on  <span className="titlebold">WhatsApp </span> and Its Benefits"	</h3>
+                             <h1 className="mb-5 fontweight">What is <span className="titlebold"> Bulk SMS</span> on  <span className="titlebold">WhatsApp </span> and Its Benefits"	</h1>
 
                                 <p>
                                     Bulk SMS on WhatsApp offers an interactive method for businesses to effectively connect with customers and promote products digitally. It serves as an enhancement to traditional bulk SMS services, allowing companies to share comprehensive details about their products or services with a large number of customers.
@@ -194,7 +198,7 @@ export default function SMSWhatsApp() {
                 <div className="container">
                    
                     <div className="row">
-                                <h3>How  <span className="titlebold">Bulk SMS Marketing </span> on WhatsApp Works"</h3>
+                                <h1 className="fontweight"> How  <span className="titlebold">Bulk SMS Marketing </span> on WhatsApp Works"</h1>
                         <div className="col-md-6 textCloumn">
 										
                             <div>

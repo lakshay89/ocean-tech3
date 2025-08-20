@@ -14,7 +14,7 @@ export default function OurStory() {
         {/* Left Content */}
         <div className="col-md-6">
           <h1 className="fw-bold ">
-          Best Bulk <span className="storyTitle" > SMS SERVICE </span><br /> Provider in Delhi
+          Best Bulk <span className="storyTitle " > SMS SERVICE </span><br /> Provider in Delhi
           </h1>
           <p className="text-muted w-75 fs-5 fw-semibold">
           "Boost efficiency and reduce costs with our Bulk SMS services in Delhi — instantly connect with a global audience for faster communication."									

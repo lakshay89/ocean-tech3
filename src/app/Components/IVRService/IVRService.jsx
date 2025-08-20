@@ -69,10 +69,11 @@ export default function SMSWhatsApp() {
                     <div className="row align-items-center">
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="FormLeftSec">
                             <div className="SMStitle mb-3">
-                                <h3 className="fw-bold">
-                                 <span className="titlebold">   IVR Services </span> Automate Customer Calls with Interactive Voice Response
-                                </h3>
+                                <h1 className="fw-bold fontweight">
+                                 <span className="">   IVR Services </span> Automate Customer Calls with Interactive Voice Response
+                                </h1>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
@@ -80,12 +81,14 @@ export default function SMSWhatsApp() {
                                 </p>
                                 <button className="btn themebackground text-light px-4">Schedule Demo</button>
                             </div>
+                            </div>
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6">
-                            <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                        <div className="col-md-6 d-flex justify-content-center">
+                           <div className="w-75">
+                           <div className="RightSidetitle text-center mb-4">
+                                <h1 className="fw-semibold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -149,6 +152,7 @@ export default function SMSWhatsApp() {
                                     Submit Query
                                 </button>
                             </form>
+                           </div>
                         </div>
                     </div>
                 </div>
@@ -194,7 +198,7 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                            <h3>Top Key Features of IVR <span className="titlebold"> (Interactive Voice Response) </span> Systems	</h3>
+                            <h1>Top Key Features of IVR <span className="titlebold"> (Interactive Voice Response) </span> Systems	</h1>
                                 <p>
                                     <b className="spanbold">	Automated Call Routing</b> <br />IVR directs callers to the appropriate department or agent based on their input, reducing wait times and improving service efficiency.
                                 </p>
@@ -239,7 +243,7 @@ export default function SMSWhatsApp() {
                 className="Ivrservice-card themebackground"
                 // style={{ backgroundColor: service.color }}
               >
-                <h3>{service.title}</h3>
+                <h1>{service.title}</h1>
                 <p>{service.desc}</p>
                 {/* <a href={service.link} className="Ivrservice-btn">
                   FIND OUT MORE

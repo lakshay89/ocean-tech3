@@ -42,10 +42,11 @@ export default function RCSService() {
                     <div className="row align-items-center">
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <div className="RCStitle mb-3">
-                                <h3 className="fw-bold">
+                          <div className="FormLeftSec">
+                          <div className="RCStitle mb-3">
+                                <h1 className="fw-bold">
                                     <span className="titlebold"> RCS MESSAGING SERVICES </span> Enhance Customer Engagement with Rich Communication
-                                </h3>
+                                </h1>
                             </div>
                             <div className="RCS-Content">
                                 <p className="text-muted mb-4">
@@ -53,12 +54,14 @@ export default function RCSService() {
                                 </p>
                                 <button className="btn btn-primary px-4">Schedule Demo</button>
                             </div>
+                          </div>
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6">
-                            <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                        <div className="col-md-6 d-flex justify-content-center">
+                          <div className="w-75">
+                          <div className="RightSidetitle text-center mb-4">
+                                <h1 className="fw-semibold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -122,6 +125,7 @@ export default function RCSService() {
                                     Submit Query
                                 </button>
                             </form>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -192,10 +196,10 @@ export default function RCSService() {
 
                             <div>
 
-                                <h3>  <span className="titlebold">(Rich Communication Services),</span>
-                                    theyre usually categorized based on usage in business communication.
+                                <h1> RCS <span className="titlebold">(Rich Communication Services),</span>
+                                    they are usually categorized based on usage in business communication.
 
-                                </h3>
+                                </h1>
 
 
                                 <span className="fw-bold">1. RCS Promotional Messaging</span> <br />

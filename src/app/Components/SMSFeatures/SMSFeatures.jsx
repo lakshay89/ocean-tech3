@@ -20,9 +20,9 @@ export default function SmsFeatures() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <h2 className="section-title">
+            <h1 className="section-title fontweight">
               <span className="titlebold"> TRANSACTION SMS :</span> Reliable, Essential, and Trust-Building Communication
-            </h2>
+            </h1>
             <ul className="feature-list">
               <li>
                 <h5>Purpose-Driven Messaging</h5>
@@ -83,9 +83,9 @@ export default function SmsFeatures() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <h2 className="section-title">
+            <h1 className="section-title">
               Top  <span className="titlebold">BENIFITS  </span>of Bulk SMS Marketing for Business Growth
-            </h2>
+            </h1>
             <ul className="feature-list">
               <li>
                 <h5>Wide Reach Instantly</h5>

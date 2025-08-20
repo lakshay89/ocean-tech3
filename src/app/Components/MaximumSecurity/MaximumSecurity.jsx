@@ -13,9 +13,9 @@ export default function OtpServices() {
           {/* Section 1 */}
          <div className="LeftSideOTPSec">
          <section className=" text-center ">
-            <h2 className="section-title">
+            <h1 className="section-title">
               Protect Your Business with the Best  <span className="titlebold">OTP SMS Authentication System </span> for Maximum Security
-            </h2>
+            </h1>
             <p className="section-text">
               A One Time Password, or OTP, is a security method that generates a unique password
               and sends it to the users registered mobile number. This password allows the user
@@ -27,9 +27,9 @@ export default function OtpServices() {
 
           {/* Section 2 */}
           <section className=" text-center">
-            <h2 className="section-title">
+            <h1 className="section-title">
               Your Trusted Source for Fast and <span className="titlebold">Secure OTP SMS Services</span>
-            </h2>
+            </h1>
             <p className="section-text">
               Ocean Techzone is one of the countries top platforms where you can find the best campaigns
               for generating OTP messages. We guarantee that the SMS will reach users instantly without
@@ -57,9 +57,9 @@ export default function OtpServices() {
       <section className="row mb-5 mt-5 align-items-center">
         {/* Left Column */}
         <div className="col-md-6">
-          <h3 className="sub-title">
+          <h1 className="sub-title">
             How Businesses Can Benefit from Secure OTP Verification Services
-          </h3>
+          </h1>
           <ul className="benefit-list">
             <li>
               <strong className="text-primary">Authentication:</strong> Extra layer of security for websites and apps.
@@ -81,9 +81,9 @@ export default function OtpServices() {
 
         {/* Right Column */}
         <div className="col-md-6">
-          <h3 className="sub-title">
+          <h1 className="sub-title">
             Key Industries We Serve with Our Professional Services
-          </h3>
+          </h1>
           <ul className="benefit-list">
             <li>
               <strong className="text-primary">Banking sector:</strong> OTP secures online banking transactions.
@@ -103,9 +103,9 @@ export default function OtpServices() {
 
       {/* Section 4 */}
       <section className="text-center">
-        <h2 className="section-title">
+        <h1 className="sectiontitle fontweight">
           Different Types of <span className="titlebold"> OTP SMS SERVICE </span>We Provide for  <span className="titlebold">SECURE AUTHENTICATION</span>
-        </h2>
+        </h1>
         {/* <p className="section-text">
           We offer multiple OTP SMS solutions tailored to fit industries like banking, 
           shipping, e-commerce, and web portals, ensuring the highest security standards 

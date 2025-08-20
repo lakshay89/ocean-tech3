@@ -70,10 +70,11 @@ export default function BulkSMSPromotion() {
                     <div className="row align-items-center">
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <div className="SMStitle mb-3">
-                                <h3 className="fw-bold">
+                         <div className="FormLeftSec">
+                         <div className="SMStitle mb-3">
+                                <h1 className="fw-bold">
                                    <span className="titlebold"> BULK SMS PROMOTION </span>Reach Your Customers Instantly & Effectively
-                                </h3>
+                                </h1>
                             </div>
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
@@ -81,12 +82,14 @@ export default function BulkSMSPromotion() {
                                 </p>
                                 <button className="btn btn-primary px-4">Schedule Demo</button>
                             </div>
+                         </div>
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6">
-                            <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                        <div className="col-md-6 d-flex justify-content-center">
+                          <div className="w-75">
+                          <div className="RightSidetitle text-center mb-4">
+                                <h1 className="fw-semibold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -150,6 +153,7 @@ export default function BulkSMSPromotion() {
                                     Submit Query
                                 </button>
                             </form>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -201,14 +205,14 @@ export default function BulkSMSPromotion() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                            <h3>     Seamlessly Integrate <span className="titlebold">BULK SMS</span> with <span className="titlebold">EMAIL , WHATS APP</span> and Other <span className="titlebold">MARKETING</span>  Channels	
-                            </h3>
+                            <h1>     Seamlessly Integrate <span className="titlebold">BULK SMS</span> with <span className="titlebold">EMAIL , WHATS APP</span> and Other <span className="titlebold">MARKETING</span>  Channels	
+                            </h1>
                                 <p>
                                 For effective marketing, different promotional channels should function together efficiently. SMS is a great tool on its own for reaching out to customers, but it also works well with other marketing methods like email and social media. This means that if you're planning to host a webinar or introduce a new product, you can use a bulk SMS service to inform your customers. Additionally, you can send a message a few days or even hours before the event, such as asking, "Are you ready for the upcoming event? " This helps keep your customers informed and engaged.											
                                                           
                                 </p>
 
-                                <h3>  Run <span className="titlebold"> Targeted SMS Marketing Campaigns </span> with Exceptional Open Rates	</h3>
+                                <h1>  Run <span className="titlebold"> Targeted SMS Marketing Campaigns </span> with Exceptional Open Rates	</h1>
 
                                 <p>                                               
                                 To stay ahead in the fast-growing digital world, it is essential to send messages at the right time. Bulk SMS enables businesses to reach a larger audience in real-time, regardless of where customers are located or who they are. This method helps businesses gain new customers and keep current ones engaged. When customers agree to receive messages from your business, bulk SMS software makes it easy to send communications to a large list of contacts.	
