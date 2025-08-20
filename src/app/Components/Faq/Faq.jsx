@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import './faq.css';
 import Image from 'next/image';
-import img1 from '@/app/Images/faqimg.avif'
+import img1 from '@/app/Images/Banners/FAQ.png';
 
 
 const faqData = [
@@ -11,41 +11,81 @@ const faqData = [
   //   answer: ' Bulk SMS is the process of sending a large number of text messages simultaneously to many recipients. It is widely used by businesses and organizations for marketing, notifications, alerts, and reminders.'
   // },
   {
-    question: 'Who typically uses Bulk SMS services?',
-    answer: 'Businesses, organizations, event planners, emergency services, and customer service teams commonly use Bulk SMS to communicate important messages to their customers or members.'
-  },
-  // {
-  //   question: 'What are some common uses of Bulk SMS ?',
-  //   answer: 'Common uses include marketing campaigns, customer notifications, emergency alerts, and event reminders.',
-  // },
-  {
-    question: 'How do I send Bulk SMS messages',
-    answer: 'Bulk SMS is usually sent using specialized software or service providers that offer easy-to-use tools to manage and send large volumes of messages.',
+    question: 'Q: What are the key benefits of using Oceantechzone CRM?',
+    answer: `A: Oceantechzone CRM enables you to manage customer relationships effectively by integrating robust tools for communication, sales, and marketing into a single platform.
+The main advantages are:
+Having all customer information in one place, making it easy to organize and access.
+Sending messages to a large number of customers quickly and efficiently through bulk SMS.
+Saving time by using automated features for follow-ups, reminders, and marketing campaigns.
+Monitoring message delivery, customer interaction, and sales results in real time.
+Adapting to your business growth, whether you are a small company or a big organization, as our CRM system expands with your requirements.`,
   },
   {
-    question: ' What features do Bulk SMS service providers offer?',
-    answer: 'Most providers offer features like message scheduling, content customization, response tracking, and detailed reporting to measure campaign success.',
+    question: 'What are the different modules available in Oceantechzone CRM and ERP Systems?',
+    answer: `Bulk SMS is usually sent using specialized software or service providers that offer easy-to-use tools to manage and send large volumes of messages.`,
+  },
+//   
+  {
+    question: 'Q: What SMS services does Oceantechzone offer, and how will they benefit my business?',
+    answer: `We provide:
+
+Bulk SMS – Allow you to reach a large number of customers quickly.
+Promotional SMS – Drive sales with targeted offers.
+Transactional SMS – Send instant alerts, updates, and confirmations.
+OTP Services – Secure your transactions with one-time passwords.
+
+Benefits: Faster communication, higher customer engagement, improved marketing ROI, and enhanced service reliability.`,
   },
   {
-    question: 'Can I schedule my Bulk SMS messages?',
-    answer: 'Yes, many Bulk SMS tools allow you to schedule messages to be sent at a specific date and time for better campaign planning.',
+    question: 'Q: What are the benefits of using the SMS Messaging API service of Oceantechzone for business communication?',
+    answer: `A: Our SMS API lets you integrate messaging directly into your applications, websites, or software. Benefits include:
+
+Instant Delivery: Send messages in real time.
+Automation: Trigger SMS alerts, reminders, or confirmations automatically.
+Scalability: Handle large volumes without delays.
+Customization: Personalize messages for better engagement.
+Reliability: High delivery rates with secure infrastructure.`,
   },
   {
-    question: 'Is it possible to personalize Bulk SMS messages?',
-    answer: 'Absolutely! You can customize message content to include recipient names or other personalized information to increase engagement.',
+    question: 'Q: What is an SMS Gateway and how does it work with the Oceantechzone messaging platform?',
+    answer: `A: An SMS Gateway is a service that connects your software or application to mobile networks, enabling you to send and receive text messages worldwide. With Oceantechzone’s platform, the gateway seamlessly integrates with your systems, ensuring:
+
+Fast Message Delivery to any network.
+
+Two-Way Messaging for customer replies.
+
+High Reliability with secure, stable connections.
+
+Easy Integration via our API for smooth automation.`,
   },
   {
-    question: 'How do I know if my Bulk SMS campaign is successful?',
-    answer: 'Bulk SMS service providers usually provide reports and analytics that track message delivery, responses, and engagement rates.',
+    question: 'Q: How can I get started with your services?',
+    answer: `A: Getting started with Oceantechzone is easy:
+
+You can reach out to our sales team by phone, email, or through our enquiry form.
+Discuss your requirements so we can suggest the best package.
+Complete registration & payment.
+Start sending messages with our quick setup assistance.
+
+Our team will guide you through every step so you can launch your campaigns without delay.`,
+  },
+ 
+  {
+    question: 'Q: Can I customize the features and functionality of a Cloud Communication Platform to meet my specific business needs?',
+    answer: `
+    A:  Yes. Oceantechzone’s Cloud Communication Platform is flexible and can be tailored to your requirements. You can choose specific features, integrate with your existing systems via API, set custom workflows, and scale services as your business grows.`,
   },
   {
-    question: 'Are Bulk SMS messages cost-effective?',
-    answer: 'Yes, Bulk SMS is one of the most affordable and direct ways to communicate with large groups quickly and effectively.',
+    question: 'Q: How quickly will my messages be delivered through Oceantechzone?',
+    answer: `
+    A: Most messages are delivered within seconds, thanks to our direct connections with telecom operators. We ensure high delivery rates, low latency, and real-time status reports so you know exactly when your customers receive your messages.`,
   },
+
+ 
 ]
 
 export default function Faq() {
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
     setActiveIndex(prev => (prev === index ? null : index));
@@ -57,8 +97,9 @@ export default function Faq() {
       <div>
         <div className='container'>
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-6">
             <div className='faq-container'>
+              <h2 className='faq-title my-4'>Frequently Asked Questions</h2>
         {faqData.map((faq, index) => (
           <div key={index} className={`faq-item ${activeIndex === index ? 'active' : ''}`}
             onClick={() => toggleFAQ(index)}
@@ -70,8 +111,10 @@ export default function Faq() {
             </div>
             <div className='faq-answer'
               style={{
-                maxHeight: activeIndex === index ? '200px' : '0',
+                maxHeight: activeIndex === index ? '1000px' : '0',
                 opacity: activeIndex === index ? '1' : '0',
+                overflow: activeIndex === index ? 'visible' : 'hidden',
+                transition: 'max-height 0.4s ease, opacity 0.4s ease',
               }}
             >
               <p>{faq.answer}</p>
@@ -84,9 +127,9 @@ export default function Faq() {
 
       </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
              <div className='RightSec mt-3'>
-             <Image src={img1} alt="faqimg" className='RightSecImg'/>
+             <Image src={img1} alt="faqimg" className='img-fluid'/>
              </div>
             </div>
           </div>
@@ -118,101 +161,14 @@ export default function Faq() {
 
 
 
-// "use client"
-// import React, { useState } from 'react'
-// import './faq.css';
 
 
-// const faqData = [
-//   {
-//     question: ' What is Bulk SMS ?',
-//     answer: ' Bulk SMS is the process of sending a large number of text messages simultaneously to many recipients. It is widely used by businesses and organizations for marketing, notifications, alerts, and reminders.'
-//   },
-//   {
-//     question: 'Who typically uses Bulk SMS services?',
-//     answer: 'Businesses, organizations, event planners, emergency services, and customer service teams commonly use Bulk SMS to communicate important messages to their customers or members.'
-//   },
-//   {
-//     question: 'What are some common uses of Bulk SMS ?',
-//     answer: 'Common uses include marketing campaigns, customer notifications, emergency alerts, and event reminders.',
-//   },
-//   {
-//     question: 'How do I send Bulk SMS messages',
-//     answer: 'Bulk SMS is usually sent using specialized software or service providers that offer easy-to-use tools to manage and send large volumes of messages.',
-//   },
-//   {
-//     question: ' What features do Bulk SMS service providers offer?',
-//     answer: 'Most providers offer features like message scheduling, content customization, response tracking, and detailed reporting to measure campaign success.',
-//   },
-//   {
-//     question: 'Can I schedule my Bulk SMS messages?',
-//     answer: 'Yes, many Bulk SMS tools allow you to schedule messages to be sent at a specific date and time for better campaign planning.',
-//   },
-//   {
-//     question: 'Is it possible to personalize Bulk SMS messages?',
-//     answer: 'Absolutely! You can customize message content to include recipient names or other personalized information to increase engagement.',
-//   },
-//   {
-//     question: 'How do I know if my Bulk SMS campaign is successful?',
-//     answer: 'Bulk SMS service providers usually provide reports and analytics that track message delivery, responses, and engagement rates.',
-//   },
-//   {
-//     question: 'Are Bulk SMS messages cost-effective?',
-//     answer: 'Yes, Bulk SMS is one of the most affordable and direct ways to communicate with large groups quickly and effectively.',
-//   },
-// ]
-
-// export default function Faq() {
-//   const [activeIndex, setActiveIndex] = useState(1);
-
-//   const toggleFAQ = (index) => {
-//     setActiveIndex(prev => (prev === index ? null : index));
-//   }
 
 
-//   return (
-//     <>
-//       <div className='faq-container'>
-//         {faqData.map((faq, index) => (
-//           <div key={index} className={`faq-item ${activeIndex === index ? 'active' : ''}`}
-//             onClick={() => toggleFAQ(index)}
-//           >
-//             <div className='faq-question'>
-//               {faq.question}
-//               <span className='faq-icon'>{activeIndex === index ? '-' : '+'} </span>
-
-//             </div>
-//             <div className='faq-answer'
-//               style={{
-//                 maxHeight: activeIndex === index ? '200px' : '0',
-//                 opacity: activeIndex === index ? '1' : '0',
-//               }}
-//             >
-//               <p>{faq.answer}</p>
-//             </div>
-
-//           </div>
-//         ))
-
-//         }
-
-// {/* 
-//         <div className="faq-download-box">
-//           <h6>The Ultimate Mobile App for Beauty and Cosmetic Products</h6>
-//           <h2>Download the App Now!</h2>
-//           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-//           <div className="download-buttons">
-//             <img src="/google-play.png" alt="Google Play" />
-//             <img src="/app-store.png" alt="App Store" />
-//           </div>
-//         </div> */}
 
 
-//       </div>
 
 
-//     </>
 
 
-//   )
-// }
+

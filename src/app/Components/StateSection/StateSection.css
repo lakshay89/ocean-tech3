@@ -1,7 +1,8 @@
 .stats-section {
-    padding: 80px 0;
-    background: linear-gradient(to bottom, #c9f0ff, #e7e3ff);
-  }
+  padding: 80px 0;
+  /* background: #c9e9ff; light blue background */
+  /* background-color: ; */
+}
   
   /* Common Box Style */
   .stat-box {
@@ -27,8 +28,8 @@
     align-items: center;
     justify-content: center;
     font-size: 38px;
-    color: #222;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    color: #222222;
+    box-shadow: 0 5px 15px #1796eb;
     transition: all 0.3s;
   }
   
@@ -56,7 +57,8 @@
   /* Hover Effect */
   .stat-box:hover .stat-icon {
     transform: scale(1.1);
-    color: #ff3b8d;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    /* color: #1796eb; */
+    border: 1px solid #1796eb;
+    box-shadow: 0 10px 25px #1796eb;
   }
   

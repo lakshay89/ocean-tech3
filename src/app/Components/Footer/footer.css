@@ -10,7 +10,7 @@
   font-weight: 500;
 }
 .footer-container {
-  background-image: url("../../Images//world-map.png");
+  /* background-image: url("../../Images//world-map.png"); */
   width: 90%;
   max-width: 1300px;
   margin: auto;
@@ -73,7 +73,7 @@
   content: "▶";
   position: absolute;
   left: 0;
-  color: #ff1f66;
+  color: #1796eb;
   font-size: 12px;
 }
 
@@ -87,7 +87,7 @@
 
 .contact-list svg {
   margin-right: 8px;
-  color: #ff1f66;
+  color: #1796eb;
 }
 
 .mt-4 {

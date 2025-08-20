@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import "./aboutus.css";
 import { FaSms, FaWhatsapp, FaPhoneVolume, FaHandshake, FaCogs } from "react-icons/fa";
 import { RiVoiceprintLine } from "react-icons/ri";
@@ -6,6 +7,31 @@ import Image from "next/image";
 import pic1 from "@/app/Images/girl.png"; // replace with your actual image
 
 export default function AboutUs() {
+   const [formData, setFormData] = useState({
+          name: "",
+          phone: "",
+          email: "",
+          message: "",
+      });
+  
+      const handleChange = (e) => {
+          setFormData({ ...formData, [e.target.name]: e.target.value });
+      };
+  
+      const handleSubmit = async (e) => {
+          e.preventDefault();
+          try {
+              const res = await axios.post("/api/contact", formData);
+              console.log("Response:", res.data);
+  
+              setFormData({ name: "", phone: "", email: "", message: "" });
+              alert("Form submitted successfully!");
+          } catch (err) {
+              console.error(err);
+              alert("Error submitting form. Please try again.");
+          }
+      };
+  
   return (
     <section className="why-choose-us py-5">
       <div className="container">
@@ -68,8 +94,73 @@ export default function AboutUs() {
 
           {/* Right Image */}
           <div className="col-lg-5 position-relative text-center">
-            <div className="dots-pattern"></div>
-            <Image src={pic1} alt="Office Workspace" className="feature-image" />
+            {/* <div className="dots-pattern"></div>
+            <Image src={pic1} alt="Office Workspace" className="feature-image" /> */}
+              <div className="RightSidetitle text-center mb-4">
+                                <h3 className="fw-semibold">Get a Quote</h3>
+                                <p className="text-muted">
+                                    Fill in your details and we ll get back to you with the best
+                                    pricing and solution for your needs.
+                                </p>
+                            </div>
+
+                            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                                <div className="form-group mb-3">
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Full Name"
+                                        className="form-control"
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        required
+                                    />
+                                </div>
+
+                                <div className="form-group mb-3">
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="Email Address"
+                                        className="form-control"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        required
+                                    />
+                                </div>
+
+                                <div className="form-group mb-3">
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        placeholder="Phone Number"
+                                        className="form-control"
+                                        value={formData.phone}
+                                        onChange={handleChange}
+                                        required
+                                    />
+                                </div>
+
+                                <div className="form-group mb-3">
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        className="form-control"
+                                        rows="5"
+                                        placeholder="Your Message"
+                                        value={formData.message}
+                                        onChange={handleChange}
+                                        required
+                                    ></textarea>
+                                </div>
+
+                                <button className="btn themebackground w-100" type="submit">
+                                    Submit Query
+                                </button>
+                            </form>
           </div>
         </div>
       </div>

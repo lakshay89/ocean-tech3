@@ -20,11 +20,11 @@ export default function Home() {
          <Header/>
          <FeatureSection/>
          <AboutUs/>
-         <Faq/>
+         <Services/>
          <StatsSection/>
          <BulkSms/>
-         <Services/>
          <Testimonial/>
+         <Faq/>
 
       </div>
    
