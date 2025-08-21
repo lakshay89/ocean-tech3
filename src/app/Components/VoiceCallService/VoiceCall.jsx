@@ -172,7 +172,7 @@ export default function SMSWhatsApp() {
 
                         <div className="col-md-6  d-grid textCloumn">
                             
-                            <div>
+                            <div className="mt-5">
                             <h1 className="mb-4 fontweight"> What is <span className="  uppercase"> Voice Call Service </span>and How it <span className="titlebold uppercase"> Benefits Your Business</span> </h1>
                                 <p>
                                     "Voice call services enable you to connect with customers effortlessly using pre-recorded messages. You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service. Our services are ideal for sending crucial information such as:
@@ -192,7 +192,9 @@ export default function SMSWhatsApp() {
                         </div>
 
                         <div className="col-md-6">
-                            <Image src={Pic1} alt="whatsappimg" className="whatsappImg Pic1" />
+                            <div className="ImageSection">
+                            <Image src={Pic1} alt="whatsappimg" className="VoiceCallImg " />
+                            </div>
                         </div>
                     </div>
 
@@ -207,11 +209,13 @@ export default function SMSWhatsApp() {
 										
                         </h1>
                         <div className="col-md-6">
-                            <Image src={Pic2} alt="whatsappimg" className="whatsappImg Pic1" />
+                           <div className="ImageSection">
+                           <Image src={Pic2} alt="whatsappimg" className="VoiceCallImg "  />
+                           </div>
                         </div>
                         <div className="col-md-6 textCloumn">
 
-                            <div>
+                            <div className="mt-5">
                                 <h1 className="mb-4 fontweight">Sends pre-recorded voice messages to many users at the same time through phone calls.</h1>
                                 <p>
                                     <b className="spanbold"> Automated Voice Messaging  :</b>
@@ -260,25 +264,40 @@ Messages can be created in various languages, making it easier to communicate wi
                </div>
             </div>
             <section className="Voice-Services-section">
-                <div className="container">
-                    <div className="row d-flex justify-content-center align-items-center">
-                        {VoiceServices.map((service, index) => (
-                            <div className="col-md-4 d-flex justify-content-center align-items-center" key={index}>
-                                <div
-                                    className="Voice-service-card"
-                                    style={{ backgroundColor: service.color }}
-                                >
-                                    <h1>{service.title}</h1>
-                                    <p>{service.desc}</p>
-                                    {/* <a href={service.link} className="Ivrservice-btn">
-                  FIND OUT MORE
-                </a> */}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+  <div className="container">
+    <div className="section-header text-center mb-5">
+      <h1 className="section-title">
+        Explore Our <span className="highlight">Voice Call Services</span>
+      </h1>
+      <p className="section-subtitle">
+        Automate your customer communication with clear, fast, and reliable
+        voice calling solutions.
+      </p>
+    </div>
+
+    <div className="row d-flex justify-content-center align-items-stretch">
+      {VoiceServices.map((service, index) => (
+        <div
+          className="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center"
+          key={index}
+        >
+          <div
+            className="Voice-service-card"
+            style={{ backgroundColor: service.color }}
+          >
+            <div className="card-content">
+              <h3 className="card-title">{service.title}</h3>
+              <p className="card-desc">{service.desc}</p>
+              <a href={service.link} className="Voice-service-btn">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
 
 

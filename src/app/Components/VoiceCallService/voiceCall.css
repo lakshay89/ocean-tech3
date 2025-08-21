@@ -1,193 +1,156 @@
-/* Main Section */
-.Voice-Service-MainSec {
-    background: linear-gradient(135deg, #f8fbff, #eef5ff);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  /* Left Section */
-  .Voice-Service-MainSec .SMStitle h3 {
-    /* color: #0d47a1; */
-    font-size: 1.8rem;
-    line-height: 1.4;
-  } 
+/* ============================= */
+/*      VOICE SERVICES SECTION   */
+/* ============================= */
 
-  .FormLeftSide{
-    width:80%;
-  }
-  .whatsappImg{
-    width:100%;
-    height:100%;
-  }
-  .textCloumn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Voice-Service-MainSec .SMS-Content p {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .Voice-Service-MainSec .SMS-Content .btn {
-    background: #0d6efd;
-    border: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-  }
-  
-  .Voice-Service-MainSec .SMS-Content .btn:hover {
-    background: #084298;
-    transform: translateY(-2px);
-  }
-  
-  /* Right Section */
-  .Voice-Service-MainSec .RightSidetitle h3 {
-    color: #333;
-    font-size: 1.5rem;
-  }
-  
-  .Voice-Service-MainSec .RightSidetitle p {
-    font-size: 0.95rem;
-    color: #666;
-  }
-  
-  /* Form Styles */
-  .Voice-Service-MainSec form {
-    background: #fff;
-    border-radius: 12px;
-    border: 1px solid #e5e5e5;
-  }
-  
-  .Voice-Service-MainSec .form-control {
-    border-radius: 8px;
-    padding: 12px 15px;
-    font-size: 0.95rem;
-    transition: 0.3s ease;
-  }
-  
-  .Voice-Service-MainSec .form-control:focus {
-    border-color: #0d6efd;
-    box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
-  }
-  
-  /* Submit Button */
-  .Voice-Service-MainSec button[type="submit"] {
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-  }
-  
-  .Voice-Service-MainSec button[type="submit"]:hover {
-    background: #084298;
-    transform: scale(1.02);
-  }
-
-
-
-
-  .Voice-Services-section {
-    padding: 60px 0;
-    text-align: center;
-  }
-  .Voice-ServiceTitleSec{
-    margin-top: 20px;
-      text-align: center;
-  } 
-
-  .Voice-ServiceTitleSec h3{
-  font-weight: 700;
-  font-size: 2.4rem;
-  }
-  
-  .Voice-service-card {
-    width: 60%;
-    color: #fff;
-    padding: 22px;
-    border-radius: 8px;
-    margin: 15px 0px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-height: 225px;
-    display: flex
-;
-    flex-direction: column;
+.Voice-Services-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8fbff, #eef5ff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-  
+
+/* ======= SECTION HEADER ======= */
+.section-header {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0a4adc;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.section-title .highlight {
+  color: #ff4b91;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ======= SERVICE CARDS ======= */
+.Voice-service-card {
+  width: 100%;
+  min-height: 260px;
+  padding: 25px 22px;
+  border-radius: 16px;
+  color: #fff;
+  position: relative;
+  background: rgba(10, 74, 220, 0.95);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.35s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Hover effect */
+.Voice-service-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Card title */
+.Voice-service-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/* Card description */
+.Voice-service-card p {
+  font-size: 0.95rem;
+  color: #f1f1f1;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+/* ======= BUTTON STYLING ======= */
+.Voice-service-btn {
+  display: inline-block;
+  background: #fff;
+  color: #0a4adc;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin-top: auto;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 12px rgba(255, 255, 255, 0.2);
+}
+.VoiceCallImg{
+  height:100%;
+  width: 100%;
+}
+
+/* Button hover */
+.Voice-service-btn:hover {
+  background:blue;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(255, 75, 145, 0.4);
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/*         RESPONSIVE CSS        */
+/* ============================= */
+
+/* For tablets */
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .Voice-service-card {
+    padding: 22px;
+    min-height: 240px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .Voice-Services-section {
+    padding: 50px 15px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .Voice-service-card {
+    min-height: auto;
+    padding: 20px;
+  }
+
   .Voice-service-card h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 1.1rem;
   }
-  
+
   .Voice-service-card p {
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 25px;
+    font-size: 0.9rem;
   }
-  
-  .Voice-service-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  }
-  
+
   .Voice-service-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
-    transition: background 0.3s ease, color 0.3s ease;
+    padding: 8px 18px;
+    font-size: 0.85rem;
   }
-  
-  .Voice-service-btn:hover {
-    background: #fff;
-    color: #333;
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  /* Responsive */
-  @media (max-width: 991px) {
-    .Voice-Service-MainSec .SMStitle h3 {
-      font-size: 1.5rem;
-    }
-    .Voice-Service-MainSec .RightSidetitle h3 {
-      font-size: 1.3rem;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .Voice-Service-MainSec {
-      padding: 30px 15px;
-    }
-    .Voice-Service-MainSec .container {
-      text-align: center;
-    }
-    .Voice-Service-MainSec .SMS-Content {
-      margin-bottom: 30px;
-    }
-  }
-  
+}
