@@ -16,7 +16,7 @@ export default function AboutSection() {
                             <div>     
                                 <div className="aboutSecTitle">
 
-                                    <h1 className='text-right'>Delivering <span className='titlebold'> INNOVATION AND STRATEGIC BUSINESS </span> Solutions for Growth and Success"</h1>
+                                    <h1 className='text-right fontweight'>Delivering <span className='titlebold'> INNOVATION AND STRATEGIC BUSINESS </span> Solutions for Growth and Success"</h1>
                                 </div>
                                 <div className='aboutDetail-sec'>
                                     <p className='text-center fw-bold '>OCEAN TECH ZONE SINCE 2017 </p>
@@ -51,7 +51,7 @@ export default function AboutSection() {
                         <div className="col-md-6">
                             <div className='aboutbottomSec'>
 
-                                <h3>	Why Choose Us for Your <span className='titlebold'>Trusted Business</span> Growth Partner </h3>
+                                <h1 className='fontweight mb-3'>	Why Choose Us for Your <span className='titlebold'>Trusted Business</span> Growth Partner </h1>
                                 <p className='paragraph-details'>Bulk SMS has become an indispensable tool for businesses in Delhi, offering a powerful, cost-effective way to communicate with customers. Below are the key reasons why Bulk SMS is the best choice for Delhi-based businesses
                                 </p>
 
@@ -94,7 +94,7 @@ export default function AboutSection() {
                         </div>
                         <div className="col-md-6">
                             <div className='Detail-Sec'>
-                                <h2>   Our Vision Shaping the Future with <span className='titlebold'>Innovation and Excellence	</span>	</h2>
+                                <h1 className='fontweight mb-3'>   Our Vision Shaping the Future with <span className='titlebold'>Innovation and Excellence	</span>	</h1>
                                 <p className='paragraph-details'>
                                     To be the global leader in bulk SMS solutions, we aim to transform the way people communicate by upholding the highest standards of reliability, innovation, and customer satisfaction. Our vision is a world where businesses of all sizes can leverage the power of SMS to create stronger connections, boost growth, and provide outstanding value to their customers. Through ongoing advancements in technology and expanding our services, we seek to shape the future of messaging and become the trusted partner for organizations looking to enhance their communication strategies.
                                 </p>
