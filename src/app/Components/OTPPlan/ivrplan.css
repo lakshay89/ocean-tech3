@@ -1,0 +1,157 @@
+/* Wrapper */
+.pricing-wrapper {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Tabs */
+.nav-tabs {
+  border-bottom: none;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+  font-weight: 600;
+  border: none;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px 18px;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #0d6efd;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.headerTop {
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+.headerTopText {
+  line-height: 15px;
+}
+
+/* Pricing Card */
+.pricing-card {
+  width: 80%;
+  height: max-content;
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative; /* Add this for proper positioning of the overlay */
+}
+
+.overlayIcon {
+  position: absolute;
+  top: -22px;
+  right: -35px;
+  z-index: 10; /* Ensure it's above other content */
+  display: block; /* Make sure it's always visible when rendered */
+}
+
+.pricing-card.highlight {
+  /* Add any special styling for highlighted cards here */
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.pricing-header {
+  background-color: var(--theme-color);
+  border-radius: 40px 40px 0 0px;
+  margin-bottom: 15px;
+}
+
+.plan-title {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.rate {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.topIcons {
+  background: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.sms-count {
+  padding: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Features */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.feature-list li {
+  margin-bottom: 8px;
+  color: var(--theme-color);
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  gap: 8px;
+}
+
+.feature-list li i {
+  color: #0d6efd;
+}
+
+.not-available {
+  color: #bbb;
+  font-style: italic;
+}
+
+/* Footer */
+.pricing-footer {
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.choose-btn {
+  background-color: var(--theme-color);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.footerPriceText {
+  padding: 10px 0;
+  background-color: rgb(255, 219, 58);
+}
+
+.choose-btn:hover {
+  background-color: blue;
+}

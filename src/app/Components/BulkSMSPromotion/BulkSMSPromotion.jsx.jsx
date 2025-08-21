@@ -3,8 +3,8 @@ import React, { useState } from "react";
 // import axios from "axios"; // keep if you plan to send data to backend
 import "./bulksmspromotion.css";
 
-import Pic1 from "@/app/Images/Bulk Email Marketing Page/Launch a Professional Bulk Email Campaign in Minutes.png"
-import Pic2 from "@/app/Images/Bulk Email Marketing Page/Our Email Marketing Services and What We Offer.png"
+import Pic1 from "@/app/Images/Bulk SMS Promotion Page/High-Performance Bulk SMS Marketing Services to Grow Your Business.png"
+import Pic2 from "@/app/Images/Bulk SMS Promotion Page/Seamlessly Integrate Bulk SMS with Email, whatsapp, and Other Marketing Channels.png"
 import Image from "next/image";
 import BrandCarousel from "../BrandCarousel/BrandCarousel";
 
@@ -72,7 +72,7 @@ export default function BulkSMSPromotion() {
                         <div className="col-md-6 mb-4 mb-md-0">
                          <div className="FormLeftSec">
                          <div className="SMStitle mb-3">
-                                <h1 className="fw-bold">
+                                <h1 className="fw-bold ">
                                    <span className="titlebold"> BULK SMS PROMOTION </span>Reach Your Customers Instantly & Effectively
                                 </h1>
                             </div>
@@ -89,7 +89,7 @@ export default function BulkSMSPromotion() {
                         <div className="col-md-6 d-flex justify-content-center">
                           <div className="w-75">
                           <div className="RightSidetitle text-center mb-4">
-                                <h1 className="fw-semibold">Get a Quote</h1>
+                                <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
@@ -170,8 +170,8 @@ export default function BulkSMSPromotion() {
 
                             <div>
                                 <div className=" Whats-app-title text-center">
-                                    <h2 className=" mt-5 ">    High-Performance <span className="titlebold"> Bulk SMS Marketing Services </span> to Grow Your Business
-                                    </h2>
+                                    <h1 className=" mt-5 uppercase fontweight ">    High-Performance <span className="titlebold"> Bulk SMS Marketing Services </span> to Grow Your Business
+                                    </h1>
                                 </div>
                                 <p>
                                 Boost Your Brand's Visibility: Instantly reach thousands with personalized SMS promotions — perfect for new launches, discounts, and urgent campaigns.<br/>
@@ -205,14 +205,14 @@ export default function BulkSMSPromotion() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                            <h1>     Seamlessly Integrate <span className="titlebold">BULK SMS</span> with <span className="titlebold">EMAIL , WHATS APP</span> and Other <span className="titlebold">MARKETING</span>  Channels	
+                            <h1 className=" fontweight">     Seamlessly Integrate <span className="titlebold ">BULK SMS</span> with <span className="titlebold">EMAIL , WHATS APP</span> and Other <span className="titlebold">MARKETING</span>  Channels	
                             </h1>
                                 <p>
                                 For effective marketing, different promotional channels should function together efficiently. SMS is a great tool on its own for reaching out to customers, but it also works well with other marketing methods like email and social media. This means that if you're planning to host a webinar or introduce a new product, you can use a bulk SMS service to inform your customers. Additionally, you can send a message a few days or even hours before the event, such as asking, "Are you ready for the upcoming event? " This helps keep your customers informed and engaged.											
                                                           
                                 </p>
 
-                                <h1>  Run <span className="titlebold"> Targeted SMS Marketing Campaigns </span> with Exceptional Open Rates	</h1>
+                                <h1 className=" fontweight">  Run <span className="titlebold uppercase"> Targeted SMS Marketing Campaigns </span> with Exceptional Open Rates	</h1>
 
                                 <p>                                               
                                 To stay ahead in the fast-growing digital world, it is essential to send messages at the right time. Bulk SMS enables businesses to reach a larger audience in real-time, regardless of where customers are located or who they are. This method helps businesses gain new customers and keep current ones engaged. When customers agree to receive messages from your business, bulk SMS software makes it easy to send communications to a large list of contacts.	

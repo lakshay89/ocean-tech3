@@ -1,64 +1,136 @@
 .stats-section {
-  padding: 80px 0;
-  /* background: #c9e9ff; light blue background */
-  /* background-color: ; */
+  padding: 100px 0;
 }
-  
-  /* Common Box Style */
-  .stat-box {
-    display: flex;
-    align-items: center;
-   
-    gap: 20px;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-  }
-  .statfirst{
-   justify-content: center;
 
-  }
-  
-  /* Icon */
-  .stat-icon {
-    background: #fff;
-    border-radius: 8px 40px 8px 40px;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
+/* Common Box Style */
+.stat-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.statfirst {
+  justify-content: flex-end;
+  margin-right: 45px;
+}
+
+.topSectionRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Icon */
+.stat-icon {
+  background: #fff;
+  border-radius: 8px 40px 8px 40px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  color: #222222;
+  box-shadow: 0 5px 15px #1796eb;
+  transition: all 0.3s;
+}
+
+/* Text */
+.stat-text h2,
+.stat-text h3 {
+  margin: 0;
+  font-weight: 800;
+  color: #0d1b52;
+}
+
+.stat-text h2 {
+  font-size: 36px;
+}
+
+.stat-text h3 {
+  font-size: 26px;
+}
+
+.stat-text p {
+  font-size: 16px;
+  color: #6c757d;
+  margin: 0;
+}
+
+/* Hover Effect */
+.stat-box:hover .stat-icon {
+  transform: scale(1.1);
+  border: 1px solid #1796eb;
+  box-shadow: 0 10px 25px #1796eb;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* For tablets */
+@media (max-width: 992px) {
+  .statfirst {
     justify-content: center;
-    font-size: 38px;
-    color: #222222;
-    box-shadow: 0 5px 15px #1796eb;
-    transition: all 0.3s;
+    margin-right: 0;
   }
-  
-  /* Text */
-  .stat-text h2, .stat-text h3 {
-    margin: 0;
-    font-weight: 800;
-    color: #0d1b52;
+
+  .topSectionRight {
+    justify-content: center;
   }
-  
+
+  .stat-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .stat-icon {
+    width: 80px;
+    height: 80px;
+  }
+
   .stat-text h2 {
-    font-size: 36px; /* Bigger for top row */
+    font-size: 30px;
   }
-  
+
   .stat-text h3 {
-    font-size: 26px; /* Smaller for bottom row */
+    font-size: 22px;
   }
-  
+
   .stat-text p {
-    font-size: 16px;
-    color: #6c757d;
-    margin: 0;
+    font-size: 14px;
   }
-  
-  /* Hover Effect */
-  .stat-box:hover .stat-icon {
-    transform: scale(1.1);
-    /* color: #1796eb; */
-    border: 1px solid #1796eb;
-    box-shadow: 0 10px 25px #1796eb;
+}
+
+/* For small mobile - 2 cards per row */
+@media (max-width: 576px) {
+  .stats-section {
+    padding: 60px 0;
   }
-  
+
+  .stat-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .stat-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .stat-text h2 {
+    font-size: 22px;
+  }
+
+  .stat-text h3 {
+    font-size: 18px;
+  }
+
+  .stat-text p {
+    font-size: 13px;
+  }
+}

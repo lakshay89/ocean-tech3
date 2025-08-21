@@ -7,7 +7,7 @@ import Image from 'next/image';
 import './navbar.css'
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-import './Navbar.css'; // 👈 Make sure you import the custom styles
+
 // Create Navbar.css in the same folder
 
 export default function NavScrollExample() {
@@ -46,15 +46,16 @@ export default function NavScrollExample() {
               <NavDropdown.Item href="/Pages/voice-call">Voice Call Service</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/ivr-services">IVR Service</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/bulk-email">Bulk Email Marketing</NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item> */}
               <NavDropdown.Item href="/Pages/rcs-services">RCS Service</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/bulk-sms-transactional">Bulk Sms Transactional</NavDropdown.Item>
               <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
             <Nav.Link href="/Pages/term-conditions">Terms</Nav.Link>
             <Nav.Link href="/Pages/privacy-policy">Privacy</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
           </Nav>
 
           {/* Right: Buttons */}

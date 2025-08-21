@@ -39,7 +39,7 @@ export default function AboutUs() {
           
           {/* Left Content */}
           <div className="col-lg-7">
-            <h2 className="section-title text-center">Why Choose Us</h2>
+            <h2 className="section-title text-center ">Why <span className="spanbold">Choose Us</span></h2>
             <p className="section-subtitle text-center">
               Ocean Tech Zone, established in 2017, is a leading provider of advanced business
               communication solutions designed to help you grow, connect, and thrive.
@@ -52,7 +52,8 @@ export default function AboutUs() {
                   <FaSms size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold">Bulk SMS & WhatsApp Messaging</h6>
+                  <h6 className="fw-bold spanbold pt-2 ">Bulk SMS & WhatsApp Messaging</h6>
+                  
                   <p>Reach your audience instantly with Bulk SMS and WhatsApp Business Messaging.</p>
                 </div>
               </div>
@@ -63,7 +64,7 @@ export default function AboutUs() {
                   <RiVoiceprintLine size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold">Voice Call & IVR Systems</h6>
+                  <h6 className="fw-bold spanbold pt-2">Voice Call & IVR Systems</h6>
                   <p>Deliver smooth and professional customer interactions 24/7 with our call solutions.</p>
                 </div>
               </div>
@@ -74,7 +75,7 @@ export default function AboutUs() {
                   <FaHandshake size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold">Reliability & Cost-Efficiency</h6>
+                  <h6 className="fw-bold spanbold pt-2">Reliability & Cost-Efficiency</h6>
                   <p>Our services are built for maximum performance at the most competitive rates.</p>
                 </div>
               </div>
@@ -85,7 +86,7 @@ export default function AboutUs() {
                   <FaCogs size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold">Customized Solutions</h6>
+                  <h6 className="fw-bold spanbold pt-2">Customized Solutions</h6>
                   <p>Tailored communication tools to meet your specific business requirements.</p>
                 </div>
               </div>
@@ -97,7 +98,7 @@ export default function AboutUs() {
             {/* <div className="dots-pattern"></div>
             <Image src={pic1} alt="Office Workspace" className="feature-image" /> */}
               <div className="RightSidetitle text-center mb-4">
-                                <h3 className="fw-semibold">Get a Quote</h3>
+                                <h3 className="uppercase fontweight spanbold">Get a Quote</h3>
                                 <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.

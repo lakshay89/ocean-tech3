@@ -15,46 +15,51 @@ import pic3 from '@/app/Images/user4.jpeg'
 export default function TestimonialSlider() {
   const testimonials = [
     {
-      name: "Saul Goodman",
-      role: "CEO & Founder",
+      name: "Rahul Mehta",
+      role: "Marketing Manager, XYZ Retail Pvt. Ltd.",
       image: pic1,
       rating: 5,
-      text: "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.",
+      text: "We have been using  for over a year now, and the results have been fantastic. The delivery rate is excellent, messages are sent instantly, and their support team is always ready to help. Its the most reliable bulk SMS service we have tried.",
     },
     {
-      name: "Neha Gupta",
-      role: "Marketing Head",
+      name: "Neha Sharma",
+      role: "Operations Head, ABC Enterprises	",
       image: pic2,
       rating: 5,
-      text: "Ocean Tech Zone has simplified our campaigns. Excellent delivery rates and a time-saving scheduling feature!",
-    },
+      text: "The user-friendly platform and quick delivery have made our customer communication so much easier. We have seen a significant increase in engagement since switching to Ocean Tech. Highly recommended!"									
+						 			,
+    },  				
     {
-      name: "Rajesh Mehta",
-      role: "Founder - Mehta Classes",
+      name: " Amit Kumar ",
+      role: "Director , BrightFuture Education Services	",
       image: pic3,
       rating: 4,
-      text: "We can reach thousands instantly for updates & reminders. Highly reliable service with great support.",
-    },
+      text: "What sets Ocean Tech apart is their consistent service quality and transparent pricing. We use it for both promotional and transactional messages, and it has never let us down."									
+									,
+    },								
     {
-      name: "Amit Khurana",
-      role: "Owner - Khurana Electronics",
+      name: " Priya Nair",
+      role: "  Customer Relations Manager,  TechNova Solutions	",
       image: pic1,
       rating: 5,
-      text: "The best Bulk SMS service provider we’ve worked with. Affordable and effective!",
-    },
+      text: "Fast delivery, excellent uptime, and easy integration with our CRM  exactly what we needed. Thanks to Ocean Tech, we can reach our clients instantly and efficiently.",
+    },										
+										
+									
     {
-      name: "Priya Sharma",
-      role: "HR Manager",
+      name: "Vikram Singh",
+      role: "CEO, UrbanMart Online	",
       image: pic2,
       rating: 5,
-      text: "Timely delivery, smooth platform, and great support team. Totally worth it!",
-    },
+      text: "From OTPs to promotional campaigns, every SMS reaches our customers on time. Their system is simple to use, and the reporting tools are extremely helpful for tracking performance.",
+    }, 						
+					
   ];
 
   return (
     <section className="testimonial-section py-5">
       <div className="container">
-        <h2 className="text-center mb-5">What Our Clients Say</h2>
+        <h2 className="text-center mb-5 fontweight">What Our <span className="spanbold"> Clients Say</span></h2>
         <Swiper
           modules={[Navigation, Autoplay]}
           spaceBetween={30}

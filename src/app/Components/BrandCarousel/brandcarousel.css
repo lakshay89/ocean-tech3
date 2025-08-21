@@ -1,24 +1,72 @@
 .brand-carousel-container {
-  /* max-width: 1000px; */
   width: 80%;
   margin: auto;
 }
 
 .brand-icon {
-    margin-top:30px;
+  margin-top: 20px;
   width: 150px;
-  height:100px;
+  height: 100px;
+  object-fit: contain;
   filter: grayscale(100%);
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.BrandTitle{
-    text-align: center;
-    color: var(--theme-color);
-    font-weight: 800;
+.BrandTitle {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--theme-color);
+  font-weight: 800;
+  font-size: 1.2rem;
 }
 
+/* Active slide animation */
 .swiper-slide-active .brand-icon {
   transform: scale(1.2);
   filter: grayscale(0%);
+}
+
+/* ===== Responsive Styles ===== */
+
+/* Small devices (mobile) */
+@media (max-width: 480px) {
+  .brand-carousel-container {
+    width: 95%;
+  }
+
+  .brand-icon {
+    width: 90px;
+    height: 60px;
+    margin-top: 15px;
+  }
+
+  .BrandTitle {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .brand-carousel-container {
+    width: 90%;
+  }
+
+  .brand-icon {
+    width: 110px;
+    height: 70px;
+    margin-top: 15px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1024px) {
+  .brand-carousel-container {
+    width: 80%;
+  }
+
+  .brand-icon {
+    width: 150px;
+    height: 100px;
+  }
 }
