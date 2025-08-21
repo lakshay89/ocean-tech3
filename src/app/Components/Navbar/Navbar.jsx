@@ -7,7 +7,7 @@ import Image from 'next/image';
 import './navbar.css'
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-import './Navbar.css'; // 👈 Make sure you import the custom styles
+
 // Create Navbar.css in the same folder
 
 export default function NavScrollExample() {

@@ -58,7 +58,7 @@ export default function Footer() {
             </li>
             <li className="mb-2">
               <Link href="/Pages/bulk-sms" className="text-light text-decoration-none d-block">
-               Bulk SMS
+                Bulk SMS
               </Link>
             </li>
             <li className="mb-2">
@@ -90,10 +90,19 @@ export default function Footer() {
         <div className="footer-col">
 
           <h4 className="">Policy Info.</h4>
-          <ul>
-            <li><Link href="/Pages/privacy-policy">Privacy Policy</Link></li>
-            <li><Link href="/Pages/term-conditions">Term & Condition</Link></li>
+          <ul className="list-unstyled">
+            <li><Link href="/Pages/privacy-policy" className="text-light text-decoration-none d-block">Privacy Policy</Link></li>
+            <li><Link href="/Pages/term-conditions" className="text-light text-decoration-none d-block">Term & Condition</Link></li>
           </ul>
+          <h4 className="">Social Media Links</h4>
+          <ul className="list-unstyled">
+            <li><Link href="https://www.linkedin.com/company/ocean-tech-zone/" className="text-light text-decoration-none d-block">  linkedin</Link> </li>
+            <li><Link href="https://www.instagram.com/oceantechzone?igsh=bXp6NmJqZnM0cnhm" className="text-light text-decoration-none d-block">Instagram</Link></li>
+            <li><Link href="https://www.facebook.com/Promotionkiduniya/" className="text-light text-decoration-none d-block">Facebook</Link></li>
+            <li><Link href="https://www.youtube.com/channel/UC1RKOYMU2fW13keNQmZLKyQ" className="text-light text-decoration-none d-block">Youtube</Link></li>
+            <li><Link href="info@oceantechzone.com" className="text-light text-decoration-none d-block">Mail</Link></li>
+          </ul>
+
         </div>
 
         {/* Column 4 - Contacts */}

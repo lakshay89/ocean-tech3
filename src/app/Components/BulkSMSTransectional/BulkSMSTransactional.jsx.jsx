@@ -61,7 +61,7 @@ export default function BulkSMSPromotion() {
                         <div className="col-md-6 d-flex justify-content-center">
                             <div className="w-75">
                                 <div className="RightSidetitle text-center mb-4">
-                                    <h1 className="fw-semibold">Get a Quote</h1>
+                                    <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                                     <p className="text-muted">
                                         Fill in your details and we ll get back to you with the best
                                         pricing and solution for your needs.

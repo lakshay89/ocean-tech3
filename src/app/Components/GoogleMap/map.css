@@ -1,0 +1,35 @@
+/* Fullscreen Map Container */
+.MapContainer {
+    width: 100vw;
+    height: 80vh; /* You can change to 100vh if you want fullscreen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+/* Styling iframe */
+.MapContainer iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.MapContainer iframe:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .MapContainer {
+        height: 60vh;
+        border-radius: 10px;
+    }
+}

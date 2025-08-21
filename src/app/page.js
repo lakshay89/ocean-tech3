@@ -11,6 +11,7 @@ import StatsSection from "./Components/StateSection/StateSection";
 import Services from "./Components/Services/Services";
 import BulkSms from "./Components/BulkSMS/BulkSms";
 import PricingPlans from "./Components/PricingPlans/PricingPlans";
+import GoogleMap from "./Components/GoogleMap/GoogleMap";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
          <StatsSection/>
          <BulkSms/>
          <Testimonial/>
+         <GoogleMap/>
          <Faq/>
 
       </div>

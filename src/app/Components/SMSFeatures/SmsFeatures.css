@@ -40,7 +40,7 @@
   .feature-list li:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 20px rgba(13, 110, 253, 0.2);
-    background: #f9f9ff;
+    background: #ffe6f0;
   }
   
   .feature-list h5 {
