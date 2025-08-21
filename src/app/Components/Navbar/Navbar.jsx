@@ -48,6 +48,7 @@ export default function NavScrollExample() {
               <NavDropdown.Item href="/Pages/bulk-email">Bulk Email Marketing</NavDropdown.Item>
               {/* <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item> */}
               <NavDropdown.Item href="/Pages/rcs-services">RCS Service</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/bulk-sms-transactional">Bulk Sms Transactional</NavDropdown.Item>
               <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item>
             </NavDropdown>
 

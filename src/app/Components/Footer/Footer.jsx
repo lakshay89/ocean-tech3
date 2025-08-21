@@ -2,6 +2,7 @@
 import React from "react";
 import "./footer.css";
 import { FaFacebookF, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -28,31 +29,70 @@ export default function Footer() {
         {/* Column 2 - Services */}
         <div className="footer-col">
           <h4>Services</h4>
-          <ul>
-            <li>Bulk SMS Promotion</li>
-            <li>Bulk SMS Transaction</li>
-            <li>OTP SMS</li>
-            <li>International SMS</li>
-            <li>WhatsApp SMS</li>
-            <li>Mobile Database</li>
-            <li>Website Designing</li>
-            <li>IVR Services</li>
-            <li>Voice Call</li>
-            <li>Email Marketing</li>
+
+          <ul className="list-unstyled">
+            <li className="mb-2">
+              <Link href="/Pages/bulk-sms-promotion" className="text-light text-decoration-none d-block">
+                Bulk SMS Promotion
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/bulk-sms-transactional" className="text-light text-decoration-none d-block">
+                Bulk SMS Transaction
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/otp-sms" className="text-light text-decoration-none d-block">
+                OTP SMS
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/about" className="text-light text-decoration-none d-block">
+                About
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/bulk-sms-whatsapp" className="text-light text-decoration-none d-block">
+                WhatsApp SMS
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/bulk-sms" className="text-light text-decoration-none d-block">
+               Bulk SMS
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/dtl-service" className="text-light text-decoration-none d-block">
+                DTL Service
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/ivr-services" className="text-light text-decoration-none d-block">
+                IVR Services
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/voice-call" className="text-light text-decoration-none d-block">
+                Voice Call
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link href="/Pages/bulk-email" className="text-light text-decoration-none d-block">
+                Bulk Email
+              </Link>
+            </li>
           </ul>
+
+
         </div>
 
         {/* Column 3 - Digital Marketing & Policy Info */}
         <div className="footer-col">
-          <h4>Digital Marketing</h4>
+
+          <h4 className="">Policy Info.</h4>
           <ul>
-            <li>Search Engine Optimization (SEO)</li>
-            <li>Social Media Optimization (SMO)</li>
-          </ul>
-          <h4 className="mt-4">Policy Info.</h4>
-          <ul>
-            <li>Privacy Policy</li>
-            <li>Term & Condition</li>
+            <li><Link href="/Pages/privacy-policy">Privacy Policy</Link></li>
+            <li><Link href="/Pages/term-conditions">Term & Condition</Link></li>
           </ul>
         </div>
 

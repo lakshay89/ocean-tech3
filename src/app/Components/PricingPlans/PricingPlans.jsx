@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { Modal, Button, Form } from "react-bootstrap";
 import { FaChessKing } from "react-icons/fa";
 import "./pricingplans.css";
 import { FaCheckCircle } from "react-icons/fa";
@@ -325,6 +326,59 @@ const pricingData = {
 export default function PricingPlans() {
   const tabs = Object.keys(pricingData);
   const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [showPopup, setShowPopup] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState(null);
+
+  // SMTP Form State
+  const [formData, setFormData] = useState({
+    host: "",
+    port: "",
+    user: "",
+    pass: "",
+    to: "",
+    subject: "",
+    message: "",
+  });
+  const [loading, setLoading] = useState(false);
+  const [responseMsg, setResponseMsg] = useState("");
+
+  // Open popup when "Choose Plan" clicked
+  const handleChoosePlan = (plan) => {
+    setSelectedPlan(plan);
+    setShowPopup(true);
+    setFormData({ ...formData, subject: `Interested in ${plan.title}`, message: `I want to know more about ${plan.title} plan.` });
+  };
+
+  // Handle input changes
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Submit SMTP details
+  const handleSubmit = async () => {
+    setLoading(true);
+    setResponseMsg("");
+
+    try {
+      const res = await fetch("/api/send-smtp-mail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        setResponseMsg("✅ Email sent successfully!");
+      } else {
+        setResponseMsg("❌ Failed to send email!");
+      }
+    } catch (error) {
+      console.error("SMTP Error:", error);
+      setResponseMsg("❌ Error sending email!");
+    }
+
+    setLoading(false);
+  };
 
   return (
     <div className="pricing-wrapper container my-5">
@@ -345,29 +399,27 @@ export default function PricingPlans() {
       {/* Pricing Cards */}
       <div className="row justify-content-center">
         {pricingData[activeTab].map((plan, index) => (
-          <div key={index} className="col-md-4 mb-4 d-flex  justify-content-center">
-            <div className={`pricing-card`}>
+          <div key={index} className="col-md-4 mb-4 d-flex justify-content-center">
+            <div className="pricing-card">
               <div className="overlayIcon">
                 {plan.highlight && (
                   <Image src={pic1} alt="populartag" height={100} width={100} />
                 )}
               </div>
 
-
               <div className="pricing-header">
-                <div className=" headerTop  d-flex">
+                <div className="headerTop d-flex">
                   <div className="align-items-center d-flex">
                     <FaChessKing className="fs-1 topIcons" />
                   </div>
                   <div className="headerTopText ps-3">
-                    <h1 className="plan-title text-light fontweight ">{plan.title}</h1>
+                    <h1 className="plan-title text-light fontweight">{plan.title}</h1>
                     <p className="rate text-light">{plan.rate}</p>
                   </div>
                 </div>
-
-
                 <p className="sms-count text-light">{plan.sms}</p>
               </div>
+
               <ul className="feature-list">
                 {plan.features.map((feature, i) => (
                   <li key={i}>
@@ -375,23 +427,126 @@ export default function PricingPlans() {
                       <span className="not-available">--</span>
                     ) : (
                       <>
-                        <FaCheckCircle /> <i className="bi bi-check-circle-fill"></i> {feature}
+                        <FaCheckCircle /> {feature}
                       </>
                     )}
                   </li>
                 ))}
               </ul>
+
               <div className="pricing-footer">
                 <div className="footerPriceText">
                   <h4 className="price">{plan.price}</h4>
                   <small>(18% GST Applicable on all plans)</small>
                 </div>
-                <button className="choose-btn mb-4">Choose Plan</button>
+                <button
+                  className="choose-btn mb-4"
+                  onClick={() => handleChoosePlan(plan)}
+                >
+                  Choose Plan
+                </button>
               </div>
             </div>
           </div>
         ))}
       </div>
+
+      {/* SMTP POPUP MODAL */}
+      <Modal show={showPopup} onHide={() => setShowPopup(false)} centered size="lg">
+        <Modal.Header closeButton>
+          <Modal.Title>SMTP Email Sender</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
+            <div className="row">
+              <div className="col-md-6 mb-3">
+                <Form.Label>SMTP Host</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="e.g. smtp.gmail.com"
+                  name="host"
+                  value={formData.host}
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="col-md-6 mb-3">
+                <Form.Label>Port</Form.Label>
+                <Form.Control
+                  type="number"
+                  placeholder="587"
+                  name="port"
+                  value={formData.port}
+                  onChange={handleChange}
+                />
+              </div>
+            </div>
+
+            <Form.Group className="mb-3">
+              <Form.Label>Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="your-email@gmail.com"
+                name="user"
+                value={formData.user}
+                onChange={handleChange}
+              />
+            </Form.Group>
+
+            <Form.Group className="mb-3">
+              <Form.Label>Password / App Key</Form.Label>
+              <Form.Control
+                type="password"
+                placeholder="Enter App Password"
+                name="pass"
+                value={formData.pass}
+                onChange={handleChange}
+              />
+            </Form.Group>
+
+            <Form.Group className="mb-3">
+              <Form.Label>Recipient Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="receiver@example.com"
+                name="to"
+                value={formData.to}
+                onChange={handleChange}
+              />
+            </Form.Group>
+
+            <Form.Group className="mb-3">
+              <Form.Label>Subject</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Email Subject"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+              />
+            </Form.Group>
+
+            <Form.Group>
+              <Form.Label>Message</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={3}
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+              />
+            </Form.Group>
+
+            {responseMsg && <p className="mt-3 text-center">{responseMsg}</p>}
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setShowPopup(false)}>Close</Button>
+          <Button variant="success" onClick={handleSubmit} disabled={loading}>
+            {loading ? "Sending..." : "Send Email"}
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
+

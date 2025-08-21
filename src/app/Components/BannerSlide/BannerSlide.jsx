@@ -9,7 +9,7 @@ import img5 from "@/app/Images/Banners/banner5.png" // external css for styling
 import img6 from "@/app/Images/Banners/banner6.png" // external css for styling
 //  import img7 from "@/app/Images/Banners/banner7.png" // external css for styling
 import img8 from "@/app/Images/Banners/banner8.png" // external css for styling
-import img9 from "@/app/Images/Banners/banner9.png" // external css for styling
+import img9 from "@/app/Images/Banners/FAQ.png" // external css for styling
 import img10 from "@/app/Images/Banners/banner10.png" // external css for styling
 import Image from "next/image";
 

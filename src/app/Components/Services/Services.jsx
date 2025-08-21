@@ -13,7 +13,7 @@ export default function Services() {
     {
       title: "Bulk SMS Transaction",
       desc: "Deliver instant, secure, and automated transactional messages like OTPs, alerts, and confirmations to customers, ensuring timely updates and smooth business communication every time.",
-      link: "/Pages/transactional-sms",
+      link: "/Pages/bulk-sms-transactional",
       color: "#0a4adc;"
     },
     {

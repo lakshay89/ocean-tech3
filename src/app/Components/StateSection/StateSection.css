@@ -1,5 +1,5 @@
 .stats-section {
-  padding: 80px 0;
+  padding: 100px 0;
   /* background: #c9e9ff; light blue background */
   /* background-color: ; */
 }
@@ -8,14 +8,22 @@
   .stat-box {
     display: flex;
     align-items: center;
+    justify-content: center;
    
     gap: 20px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
   .statfirst{
-   justify-content: center;
+   justify-content: end;
+   margin-right: 45px;
 
+  }
+  .topSectionRight{
+    display: flex;
+        align-items: center;
+       
+    justify-content:flex-start;
   }
   
   /* Icon */

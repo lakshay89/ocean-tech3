@@ -36,7 +36,7 @@ const Ivrservices = [
   ];
 
 
-export default function SMSWhatsApp() {
+export default function IVRService() {
     const [formData, setFormData] = useState({
         name: "",
         phone: "",

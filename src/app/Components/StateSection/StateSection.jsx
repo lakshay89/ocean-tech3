@@ -37,12 +37,12 @@ export default function StatsSection() {
             </div>
           </div>
           <div className="col-md-6 col-sm-12 mb-4">
-            <div className="stat-box big">
+            <div className="stat-box big topSectionRight">
               <div className="stat-icon">
               <Image src={pic2} className="" alt="stateImg" height={50} width={50} />
                 {/* <FaUsers /> */}
               </div>
-              <div className="stat-text">
+              <div className="stat-text ">
                 <h2>20+</h2>
                 <p>Team Members</p>
               </div>
