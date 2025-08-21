@@ -5,9 +5,6 @@ export default function page() {
   return (
     <>
     <Blog/>
-  
-
-
 
     </>
   )

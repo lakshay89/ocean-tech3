@@ -1,9 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import "./Blog.css";
 
-// Import images correctly
+// Import images
 import pic2 from "@/app/Images/blog.png";
 import pic4 from "@/app/Images/Banners/banner3.png";
 import pic1 from "@/app/Images/Banners/banner4.png";
@@ -54,6 +55,11 @@ const blogs = [
 
 export default function Blog() {
   const [selectedBlog, setSelectedBlog] = useState(blogs[0]);
+  const router = useRouter();
+
+  const handleRedirect = (id) => {
+    router.push(`/Pages/blogs/${id}`);
+  };
 
   return (
     <div className="container sms-blog-section py-5">
@@ -61,7 +67,11 @@ export default function Blog() {
       <div className="row g-4">
         {/* Left Side Main Blog */}
         <div className="col-lg-7">
-          <div className="card border-0 shadow-sm sms-blog-main">
+          <div
+            className="card border-0 shadow-sm sms-blog-main"
+            onClick={() => handleRedirect(selectedBlog.id)}
+            style={{ cursor: "pointer" }}
+          >
             <div style={{ width: "100%", height: "300px", position: "relative" }}>
               <Image
                 src={selectedBlog.image}

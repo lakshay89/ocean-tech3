@@ -25,7 +25,7 @@
 }
 
 .section-title .highlight {
-  color: #ff4b91;
+  color: rgb(44, 31, 31);
 }
 
 .section-subtitle {
@@ -97,8 +97,8 @@
 
 /* Button hover */
 .Voice-service-btn:hover {
-  background:blue;
-  color: #fff;
+  background:white;
+  color:var(--theme-color);
   box-shadow: 0 5px 15px rgba(255, 75, 145, 0.4);
   transform: scale(1.05);
 }

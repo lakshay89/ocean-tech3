@@ -55,6 +55,7 @@ export default function NavScrollExample() {
             <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
             <Nav.Link href="/Pages/term-conditions">Terms</Nav.Link>
             <Nav.Link href="/Pages/privacy-policy">Privacy</Nav.Link>
+            <Nav.Link href="/Pages/blogs">Blogs</Nav.Link>
             {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
           </Nav>
 

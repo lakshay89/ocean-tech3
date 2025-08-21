@@ -7,13 +7,20 @@
     height:70%;
     width:100%;
 }
+.aboutbottomSec h1{
+    width: 90%;
 
+}
+
+.Detail-Sec h1{
+    width:90%;
+}
 .Detail-Sec h3{
  width: 90%;
 }
 .aboutbottomSec{
     text-align: justify !important;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     display: flex;
     flex-direction: column;
