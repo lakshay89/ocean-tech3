@@ -7,6 +7,7 @@ import Pic1 from "@/app/Images/Bulk SMS Transaction Page/Top Benefits of Bulk SM
 import Pic2 from "@/app/Images/Bulk SMS Transaction Page/Transactional SMS_ Reliable, Essential, and Trust-Building Communication.png"
 import Image from "next/image";
 import BrandCarousel from "../BrandCarousel/BrandCarousel";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 
 
@@ -67,8 +68,9 @@ export default function BulkSMSPromotion() {
                                         pricing and solution for your needs.
                                     </p>
                                 </div>
+                                 <InquiaryForm/>
 
-                                <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                                {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                                     <div className="form-group mb-3">
                                         <input
                                             type="text"
@@ -124,7 +126,7 @@ export default function BulkSMSPromotion() {
                                     <button className="btn btn-primary w-100" type="submit">
                                         Submit Query
                                     </button>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>
