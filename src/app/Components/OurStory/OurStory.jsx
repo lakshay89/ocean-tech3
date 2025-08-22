@@ -13,7 +13,7 @@ export default function OurStory() {
       <div className="row align-items-center">
         {/* Left Content */}
         <div className="col-md-6">
-          <h1 className="fw-bold ">
+          <h1 className="fw-bold pb-3">
           Best <span className="spanbold" > Bulk SMS SERVICE </span><br /> Provider in Delhi
           </h1>
           <p className="text-muted w-75 fs-5 fw-semibold">

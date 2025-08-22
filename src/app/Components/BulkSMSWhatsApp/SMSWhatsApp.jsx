@@ -6,6 +6,7 @@ import Pic1 from "@/app/Images/Bulk Sms on WhatsApp Page/How Bulk SMS on WhatsAp
 import Pic2 from "@/app/Images/Bulk Sms on WhatsApp Page/Send PDFs, Images, and Excel Attachments via WhatsApp Bulk SMS Services.png"
 import Pic3 from "@/app/Images/Bulk SMS Promotion Page/Seamlessly Integrate Bulk SMS with Email, whatsapp, and Other Marketing Channels.png"
 import Image from "next/image";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 export default function SMSWhatsApp() {
     const [formData, setFormData] = useState({
@@ -60,13 +61,15 @@ export default function SMSWhatsApp() {
                            <div className="w-75">
                            <div className="RightSidetitle text-center mb-4">
                                 <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
-                                <p className="text-muted">
+                                {/* <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
-                                </p>
+                                </p> */}
                             </div>
 
-                            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                              <InquiaryForm/>
+
+                            {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                                 <div className="form-group mb-3">
                                     <input
                                         type="text"
@@ -122,7 +125,7 @@ export default function SMSWhatsApp() {
                                 <button className="btn themebackground text-light w-100" type="submit">
                                     Submit Query
                                 </button>
-                            </form>
+                            </form> */}
                            </div>
                         </div>
                     </div>

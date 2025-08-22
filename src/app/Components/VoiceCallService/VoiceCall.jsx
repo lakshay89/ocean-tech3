@@ -7,6 +7,7 @@ import Pic1 from "@/app/Images/Voice Call Page/Key Features and Benefits of Voic
 import Pic2 from "@/app/Images/Voice Call Page/What is Voice Call Service and How It Benefits Your Business.png"
 
 import Image from "next/image";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 
 const VoiceServices = [
@@ -91,73 +92,15 @@ export default function SMSWhatsApp() {
                         </div>
 
                         {/* Right Section */}
-                        <div className="col-md-6 d-flex justify-content-center">
-                          <div className="w-75">
-                          <div className="RightSidetitle text-center mb-4">
-                                <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
-                                <p className="text-muted">
-                                    Fill in your details and we ll get back to you with the best
-                                    pricing and solution for your needs.
-                                </p>
-                            </div>
+                        <div className="col-md-6 d-flex align-items-center justify-content-center">
+                          <div className="w-75 h-100">
+                                <div className="RightSidetitle1 text-center mb-4">
+                                        <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
+                                    </div>
 
-                            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
-                                <div className="form-group mb-3">
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        className="form-control"
-                                        value={formData.name}
-                                        onChange={handleChange}
-                                        required
-                                    />
-                                </div>
+                               <InquiaryForm/>
 
-                                <div className="form-group mb-3">
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        name="email"
-                                        placeholder="Email Address"
-                                        className="form-control"
-                                        value={formData.email}
-                                        onChange={handleChange}
-                                        required
-                                    />
-                                </div>
-
-                                <div className="form-group mb-3">
-                                    <input
-                                        type="tel"
-                                        id="phone"
-                                        name="phone"
-                                        placeholder="Phone Number"
-                                        className="form-control"
-                                        value={formData.phone}
-                                        onChange={handleChange}
-                                        required
-                                    />
-                                </div>
-
-                                <div className="form-group mb-3">
-                                    <textarea
-                                        id="message"
-                                        name="message"
-                                        className="form-control"
-                                        rows="5"
-                                        placeholder="Your Message"
-                                        value={formData.message}
-                                        onChange={handleChange}
-                                        required
-                                    ></textarea>
-                                </div>
-
-                                <button className="btn themebackground text-light w-100" type="submit">
-                                    Submit Query
-                                </button>
-                            </form>
+                           
                           </div>
                         </div>
                     </div>

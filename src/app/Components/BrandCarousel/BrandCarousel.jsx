@@ -22,9 +22,9 @@ export default function BrandCarousel() {
     <>
       <div className='BrandSec'>
         <div className='BrandTitleSec'>
-          <h4 className='BrandTitle'>
+          <h1 className='BrandTitle '>
             TRUSTED BY 500+ LARGE AND SMALL BUSINESS
-          </h4>
+          </h1>
         </div>
       </div>
 

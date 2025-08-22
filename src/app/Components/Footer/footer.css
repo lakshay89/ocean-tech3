@@ -76,6 +76,22 @@
   color: #1796eb;
   font-size: 12px;
 }
+.footer-col ul li::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  color: #1796eb;
+  font-size: 12px;
+}
+.contact-list li::before {
+  content: "" !important;
+}
+/* Completely override the icon for contact list items */
+.footer-col .contact-list li::before {
+  content: none !important;
+}
+
+
 
 .contact-list li {
   padding-left: 0 !important;

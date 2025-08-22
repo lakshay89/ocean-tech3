@@ -116,7 +116,7 @@ export default function OtpServices() {
           <div className="card sec1">
             <div className="card-body">
               <h3 className="themetitle" >SMS OTP SERVICE : </h3>
-              <p>Send an OTP to your customer through SMS. We provide a dependable OTP service that ensures reliable delivery and minimal delay for your customers.
+              <p className="text-light">Send an OTP to your customer through SMS. We provide a dependable OTP service that ensures reliable delivery and minimal delay for your customers.
               </p>
             </div>
 
@@ -124,7 +124,7 @@ export default function OtpServices() {
           <div className="card sec1 ">
             <div className="card-body ">
               <h3  className="themetitle">Voice OTP Service:</h3>
-              <p>We help you to verify the customer using the voice OTP service. These are automatically generated voice calls that will play a sequence of digit and customer have to enter it manually.
+              <p className="text-light">We help you to verify the customer using the voice OTP service. These are automatically generated voice calls that will play a sequence of digit and customer have to enter it manually.
               </p>
             </div>
 

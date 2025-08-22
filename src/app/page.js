@@ -27,7 +27,7 @@ export default function Home() {
          <StatsSection/>
          <BulkSms/>
          <Testimonial/>
-         <GoogleMap/>
+         {/* <GoogleMap/> */}
          <Faq/>
 
       </div>
