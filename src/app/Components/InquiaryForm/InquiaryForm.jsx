@@ -1,4 +1,6 @@
+"use client";
 import React, { useState } from "react";
+import './inquiaryform.css';
 
 export default function InquiaryForm() {
   const [formData, setFormData] = useState({
@@ -10,7 +12,6 @@ export default function InquiaryForm() {
     message: "",
   });
 
-  // Store services in a state variable
   const [services] = useState([
     "Bulk SMS Service",
     "Bulk SMS Promotion",
@@ -23,136 +24,66 @@ export default function InquiaryForm() {
     "RCS Service",
   ]);
 
-  // Handle Input Change
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+  const [loading, setLoading] = useState(false);
+  const [successMsg, setSuccessMsg] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // Handle Form Submit
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("Form Data Submitted:", formData);
-    alert("Form submitted successfully!");
-  
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      company: "",
-      service: "",
-      message: "",
-    });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setSuccessMsg("");
 
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await res.json();
+
+      if (res.ok) {
+        setSuccessMsg("Form submitted successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          service: "",
+          message: "",
+        });
+      } else {
+        alert("Failed: " + result.message);
+      }
+    } catch (err) {
+      console.error(err);
+      alert("An error occurred while sending the form.");
+    }
+
+    setLoading(false);
   };
 
   return (
-    <>
-      <div className="FormSection">
-        <div>
-          <form
-            onSubmit={handleSubmit}
-            className="p-4 shadow rounded bg-light"
-          >
-            {/* Name */}
-            <div className="form-group mb-3">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Full Name"
-                className="form-control"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
-            </div>
-
-            {/* Email */}
-            <div className="form-group mb-3">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email Address"
-                className="form-control"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-            </div>
-
-            {/* Phone */}
-            <div className="form-group mb-3">
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="Phone Number"
-                className="form-control"
-                value={formData.phone}
-                onChange={handleChange}
-                required
-              />
-            </div>
-
-            {/* Company */}
-            <div className="form-group mb-3">
-              <input
-                type="text"
-                id="company"
-                name="company"
-                placeholder="Company"
-                className="form-control"
-                value={formData.company}
-                onChange={handleChange}
-                required
-              />
-            </div>
-
-            {/* Service Dropdown */}
-            <div className="form-group mb-3">
-              <select
-                id="service"
-                name="service"
-                className="form-control"
-                value={formData.service}
-                onChange={handleChange}
-                required
-              >
-                <option value="">Select a Service</option>
-                {services.map((service, index) => (
-                  <option key={index} value={service}>
-                    {service}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* Message */}
-            <div className="form-group mb-3">
-              <textarea
-                id="message"
-                name="message"
-                className="form-control"
-                rows="2"
-                placeholder="Your Message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-              ></textarea>
-            </div>
-
-            {/* Submit Button */}
-            <button className="btn themebackground w-100" type="submit">
-              Submit Query
-            </button>
-          </form>
-        </div>
-      </div>
-    </>
+    <div className="FormSection">
+      <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+        <input type="text" name="name" placeholder="Full Name" className="form-control mb-3" value={formData.name} onChange={handleChange} required />
+        <input type="email" name="email" placeholder="Email Address" className="form-control mb-3" value={formData.email} onChange={handleChange} required />
+        <input type="tel" name="phone" placeholder="Phone Number" className="form-control mb-3" value={formData.phone} onChange={handleChange} required />
+        <input type="text" name="company" placeholder="Company" className="form-control mb-3" value={formData.company} onChange={handleChange} required />
+        <select name="service" className="form-control mb-3" value={formData.service} onChange={handleChange} required>
+          <option value="">Select a Service</option>
+          {services.map((s, i) => <option key={i} value={s}>{s}</option>)}
+        </select>
+        <textarea name="message" placeholder="Your Message" className="form-control mb-3" rows="3" value={formData.message} onChange={handleChange} required />
+        <button type="submit" className="btn themebackground w-100" disabled={loading}>
+          {loading ? "Sending..." : "Submit Query"}
+        </button>
+        {successMsg && <p className="text-success mt-2">{successMsg}</p>}
+      </form>
+    </div>
   );
 }
