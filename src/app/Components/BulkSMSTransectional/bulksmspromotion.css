@@ -147,30 +147,7 @@
     background: #fff;
     color: #333;
   }
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   /* Responsive */
   @media (max-width: 991px) {
     .PromotionService-MainSec .SMStitle h3 {
@@ -185,6 +162,14 @@
     .PromotionService-MainSec {
       padding: 30px 15px;
     }
+    .SMS-Content p{
+      text-align: justify;
+    }
+    .titlebold {
+    
+      font-size: 1.5rem;
+   
+  }
     .PromotionService-MainSec .container {
       text-align: center;
     }

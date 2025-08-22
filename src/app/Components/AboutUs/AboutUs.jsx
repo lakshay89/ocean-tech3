@@ -114,9 +114,8 @@ This ensures real-time communication for promotions, alerts, OTPs, and other urg
           </div>
 
           {/* Right Image */}
-          <div className="col-lg-5 position-relative text-center">
-            {/* <div className="dots-pattern"></div>
-            <Image src={pic1} alt="Office Workspace" className="feature-image" /> */}
+          <div className="col-lg-5 position-relative text-center w-100 d-sm-none d-md-block">
+          
               <div className="RightSidetitle text-center mb-4">
                                 <h3 className="uppercase fontweight spanbold">Get a Quote</h3>
                                 <p className="text-muted">
