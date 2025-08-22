@@ -45,13 +45,13 @@ export default function BulkSMSPromotion() {
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="FormLeftSec">
-                                <div className="SMStitle mb-3">
+                                <div className="SMStitle text-start mb-3">
                                     <h1 className="fw-bold">
                                         <span className="titlebold uppercase"> Bulk SMS Transaction</span>	 Secure, Fast & Reliable Messaging
                                     </h1>
                                 </div>
                                 <div className="SMS-Content">
-                                    <p className="text-muted mb-4">
+                                    <p className=" mb-4">
                                         Send instant and secure transactional SMS alerts, OTPs, and important notifications to your customers with our robust and high-delivery SMS gateway.										     </p>
                                     <button className="btn btn-primary px-4">Schedule Demo</button>
                                 </div>

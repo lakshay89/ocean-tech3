@@ -1,7 +1,7 @@
 /* InquiaryForm.css */
 
 .FormSection {
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   .FormSection form {
@@ -53,7 +53,9 @@
   
   @media (max-width: 768px) {
     .FormSection form {
-      padding: 20px;
+      padding: 10px;
     }
   }
+
+  
   
