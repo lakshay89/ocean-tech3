@@ -7,6 +7,7 @@ import Pic1 from "@/app/Images/Bulk SMS Transaction Page/Top Benefits of Bulk SM
 import Pic2 from "@/app/Images/Bulk SMS Transaction Page/Transactional SMS_ Reliable, Essential, and Trust-Building Communication.png"
 import Image from "next/image";
 import BrandCarousel from "../BrandCarousel/BrandCarousel";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 
 
@@ -44,13 +45,13 @@ export default function BulkSMSPromotion() {
                         {/* Left Section */}
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="FormLeftSec">
-                                <div className="SMStitle mb-3">
+                                <div className="SMStitle text-start mb-3">
                                     <h1 className="fw-bold">
                                         <span className="titlebold uppercase"> Bulk SMS Transaction</span>	 Secure, Fast & Reliable Messaging
                                     </h1>
                                 </div>
                                 <div className="SMS-Content">
-                                    <p className="text-muted mb-4">
+                                    <p className=" mb-4">
                                         Send instant and secure transactional SMS alerts, OTPs, and important notifications to your customers with our robust and high-delivery SMS gateway.										     </p>
                                     <button className="btn btn-primary px-4">Schedule Demo</button>
                                 </div>
@@ -67,8 +68,9 @@ export default function BulkSMSPromotion() {
                                         pricing and solution for your needs.
                                     </p>
                                 </div>
+                                 <InquiaryForm/>
 
-                                <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                                {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                                     <div className="form-group mb-3">
                                         <input
                                             type="text"
@@ -124,7 +126,7 @@ export default function BulkSMSPromotion() {
                                     <button className="btn btn-primary w-100" type="submit">
                                         Submit Query
                                     </button>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>

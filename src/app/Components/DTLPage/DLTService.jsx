@@ -8,6 +8,7 @@ import Pic2 from "@/app/Images/DLT2.png";
 
 import Image from "next/image";
 import BrandCarousel from "../BrandCarousel/BrandCarousel";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 export default function SMSWhatsApp() {
   const [formData, setFormData] = useState({
@@ -64,13 +65,15 @@ export default function SMSWhatsApp() {
               <div className="w-75 w-sm-100">
                 <div className="dlt-right-title text-center mb-4">
                   <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
-                  <p className="text-muted">
+                  {/* <p className="text-muted">
                     Fill in your details and well get back to you with the best
                     pricing and solution for your needs.
-                  </p>
+                  </p> */}
                 </div>
 
-                <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                    <InquiaryForm/>
+
+                {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                   <div className="form-group mb-3">
                     <input
                       type="text"
@@ -126,7 +129,7 @@ export default function SMSWhatsApp() {
                   <button className="btn themebackground w-100" type="submit">
                     Submit Query
                   </button>
-                </form>
+                </form> */}
               </div>
             </div>
           </div>

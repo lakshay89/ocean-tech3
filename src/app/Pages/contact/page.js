@@ -1,5 +1,215 @@
+// "use client";
+
+// import React from "react";
+// import GoogleMap from "@/app/Components/GoogleMap/GoogleMap";
+// import InquiaryForm from "@/app/Components/InquiaryForm/InquiaryForm";
+// import { Container, Row, Col } from "react-bootstrap";
+// import {
+//   FaMapMarkerAlt,
+//   FaEnvelope,
+//   FaPhone,
+//   FaInstagram,
+//   FaFacebook,
+//   FaLinkedin,
+//   FaYoutube,
+// } from "react-icons/fa";
+
+// export default function ContactUs() {
+//   return (
+//     <section
+//       className="py-5"
+//       style={{
+//         background: "linear-gradient(135deg, #f8faff, #e6f0ff)",
+//         minHeight: "100vh",
+//       }}
+//     >
+//       <Container>
+//         {/* Heading Section */}
+//         <div className="text-center mb-5">
+//           <h2
+//             className="fw-bold"
+//             style={{
+//               fontSize: "2.5rem",
+//               color: "#0d6efd",
+//             }}
+//           >
+//             Contact Us
+//           </h2>
+//           <p
+//             className="text-secondary mx-auto"
+//             style={{
+//               fontSize: "1.1rem",
+//               maxWidth: "700px",
+//               lineHeight: "1.6",
+//             }}
+//           >
+//             Thanks for your interest in <strong>Ocean Techzone</strong>. We’d
+//             love to hear from you! Please fill out the form, and we’ll get back
+//             to you shortly.
+//           </p>
+//         </div>
+
+//         <Row className="g-4">
+//           {/* Left Side - Contact Info */}
+//           <Col md={6}>
+//             <div
+//               className="shadow-lg p-4 rounded-4 bg-white"
+//               style={{ minHeight: "100%" }}
+//             >
+//               <h4 className="fw-bold mb-3">Get in Touch</h4>
+//               <p className="text-muted">
+//                 Have questions about our services? We're always ready to help!
+//               </p>
+
+//               {/* Address */}
+//               <div className="d-flex align-items-start mb-3">
+//                 <FaMapMarkerAlt
+//                   style={{
+//                     fontSize: "1.4rem",
+//                     color: "#0d6efd",
+//                     marginRight: "12px",
+//                     marginTop: "3px",
+//                   }}
+//                 />
+//                 <p className="mb-0">
+//                   F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030
+//                 </p>
+//               </div>
+
+//               {/* Email */}
+//               <div className="d-flex align-items-start mb-3">
+//                 <FaEnvelope
+//                   style={{
+//                     fontSize: "1.4rem",
+//                     color: "#0d6efd",
+//                     marginRight: "12px",
+//                     marginTop: "3px",
+//                   }}
+//                 />
+//                 <a
+//                   href="mailto:info@oceantechzone.com"
+//                   className="text-decoration-none"
+//                   style={{
+//                     color: "#333",
+//                     transition: "color 0.3s ease",
+//                   }}
+//                   onMouseEnter={(e) => (e.target.style.color = "#0d6efd")}
+//                   onMouseLeave={(e) => (e.target.style.color = "#333")}
+//                 >
+//                   info@oceantechzone.com
+//                 </a>
+//               </div>
+
+//               {/* Phone */}
+//               <div className="d-flex align-items-start mb-4">
+//                 <FaPhone
+//                   style={{
+//                     fontSize: "1.4rem",
+//                     color: "#0d6efd",
+//                     marginRight: "12px",
+//                     marginTop: "3px",
+//                   }}
+//                 />
+//                 <a
+//                   href="tel:+919289933499"
+//                   className="text-decoration-none"
+//                   style={{
+//                     color: "#333",
+//                     transition: "color 0.3s ease",
+//                   }}
+//                   onMouseEnter={(e) => (e.target.style.color = "#0d6efd")}
+//                   onMouseLeave={(e) => (e.target.style.color = "#333")}
+//                 >
+//                   +91 9289933499
+//                 </a>
+//               </div>
+
+//               {/* Social Media */}
+//               <p className="fw-semibold">Follow us:</p>
+//               <div className="d-flex gap-3 fs-4 mb-4">
+//                 {[
+//                   {
+//                     icon: <FaFacebook />,
+//                     link: "https://www.facebook.com/Promotionkiduniya/",
+//                   },
+//                   {
+//                     icon: <FaInstagram />,
+//                     link: "https://www.instagram.com/oceantechzone?igsh=bXp6NmJqZnM0cnhm",
+//                   },
+//                   {
+//                     icon: <FaLinkedin />,
+//                     link: "https://www.linkedin.com/company/ocean-tech-zone/",
+//                   },
+//                   {
+//                     icon: <FaYoutube />,
+//                     link: "https://www.youtube.com/channel/UC1RKOYMU2fW13keNQmZLKyQ",
+//                   },
+//                 ].map((item, index) => (
+//                   <a
+//                     key={index}
+//                     href={item.link}
+//                     target="_blank"
+//                     rel="noreferrer"
+//                     style={{
+//                       color: "#333",
+//                       transition: "all 0.3s ease",
+//                     }}
+//                     onMouseEnter={(e) => {
+//                       e.target.style.color = "#0d6efd";
+//                       e.target.style.transform = "scale(1.2)";
+//                     }}
+//                     onMouseLeave={(e) => {
+//                       e.target.style.color = "#333";
+//                       e.target.style.transform = "scale(1)";
+//                     }}
+//                   >
+//                     {item.icon}
+//                   </a>
+//                 ))}
+//               </div>
+
+//               {/* Google Map */}
+//               <div
+//                 className="rounded-4 overflow-hidden shadow-sm"
+//                 style={{
+//                   border: "2px solid #e9ecef",
+//                   height: "350px", // Increased map height here
+//                 }}
+//               >
+//                 <GoogleMap />
+//               </div>
+//             </div>
+//           </Col>
+
+//           {/* Right Side - Inquiry Form */}
+//           <Col md={6}>
+//             <div className="shadow-lg p-4 rounded-4 bg-white">
+//               <h4 className="fw-bold mb-3">Send Us a Message</h4>
+//               <p className="text-muted mb-4">
+//                 Fill out the form and we’ll get back to you within 24 hours.
+//               </p>
+//               <InquiaryForm />
+//             </div>
+//           </Col>
+//         </Row>
+//       </Container>
+//     </section>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
 "use client";
 import GoogleMap from "@/app/Components/GoogleMap/GoogleMap";
+import InquiaryForm from "@/app/Components/InquiaryForm/InquiaryForm";
 import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import {
@@ -14,7 +224,7 @@ import {
 
 export default function ContactUs() {
   return (
-    <section className="contact-us py-5 bg-white text-dark">
+    <section className="contact-us py-5 bg-white text-dark mb-5">
       <Container>
         <h2 className="text-center text-primary mb-4 fw-bold">Contact Us</h2>
         <p className="text-center mb-5 text-secondary">
@@ -28,7 +238,7 @@ export default function ContactUs() {
             <h4 className="fw-semibold">Get in Touch</h4>
             <p className="text-muted">
               For any inquiries or support related to our bulk SMS and marketing services,
-              feel free to reach out. We’re here to help!
+              feel free to reach out. We are here to help!
             </p>
 
             <p><FaMapMarkerAlt className="me-2 text-primary" /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030</p>
@@ -50,9 +260,9 @@ export default function ContactUs() {
 
           {/* Right Side - Form */}
           <Col md={6}>
-            <div className="p-4 rounded bg-light shadow-lg border border-2 border-white">
-              <h4 className="mb-4 text-primary">Request a Callback</h4>
-              <Form>
+            <div className="p-4 rounded ">
+              
+              {/* <Form>
                 <Form.Group className="mb-3">
                   <Form.Label>Name<span className="text-danger">*</span></Form.Label>
                   <Form.Control type="text" placeholder="Enter your name" />
@@ -105,7 +315,9 @@ export default function ContactUs() {
                 <Button variant="primary" type="submit" className="w-100">
                   SUBMIT REQUEST
                 </Button>
-              </Form>
+              </Form> */}
+              <h4 className="mb-4 text-primary ">Request a Callback</h4>
+              <InquiaryForm />
             </div>
           </Col>
         </Row>

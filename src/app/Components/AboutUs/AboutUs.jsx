@@ -5,6 +5,7 @@ import { FaSms, FaWhatsapp, FaPhoneVolume, FaHandshake, FaCogs } from "react-ico
 import { RiVoiceprintLine } from "react-icons/ri";
 import Image from "next/image";
 import pic1 from "@/app/Images/girl.png"; // replace with your actual image
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 export default function AboutUs() {
    const [formData, setFormData] = useState({
@@ -113,7 +114,7 @@ This ensures real-time communication for promotions, alerts, OTPs, and other urg
           </div>
 
           {/* Right Image */}
-          <div className="col-lg-5 position-relative text-center">
+          <div className="col-lg-5 position-relative text-center ">
             {/* <div className="dots-pattern"></div>
             <Image src={pic1} alt="Office Workspace" className="feature-image" /> */}
               <div className="RightSidetitle text-center mb-4">
@@ -123,8 +124,10 @@ This ensures real-time communication for promotions, alerts, OTPs, and other urg
                                     pricing and solution for your needs.
                                 </p>
                             </div>
+                          
+                          <InquiaryForm/>
 
-                            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                            {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                                 <div className="form-group mb-3">
                                     <input
                                         type="text"
@@ -180,7 +183,7 @@ This ensures real-time communication for promotions, alerts, OTPs, and other urg
                                 <button className="btn themebackground w-100" type="submit">
                                     Submit Query
                                 </button>
-                            </form>
+                            </form> */}
           </div>
         </div>
       </div>
