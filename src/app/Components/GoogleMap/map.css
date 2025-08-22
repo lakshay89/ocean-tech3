@@ -1,7 +1,7 @@
 /* Fullscreen Map Container */
 .MapContainer {
-    width: 100vw;
-    height: 80vh; /* You can change to 100vh if you want fullscreen */
+    width: 100%;
+    height: 60%; /* You can change to 100vh if you want fullscreen */
     display: flex;
     justify-content: center;
     align-items: center;

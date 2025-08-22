@@ -35,28 +35,23 @@ export default function AboutUs() {
   return (
     <section className="why-choose-us py-5">
       <div className="container">
+        <div className="row">
+          <div className="col-12">
+             <h2 className="section-title text-center ">Why <span className="spanbold">Choose Us</span></h2>
+            <p className="section-subtitle text-center">
+             Bulk SMS has become an essential tool for businesses in Delhi, providing a strong and affordable method to connect with customers. Below are the main reasons why Bulk SMS is the preferred choice for businesses based in Delhi.
+            </p>
+          </div>
+        </div>
         <div className="row align-items-center">
           
           {/* Left Content */}
           <div className="col-lg-7">
-            <h2 className="section-title text-center ">Why <span className="spanbold">Choose Us</span></h2>
-            <p className="section-subtitle text-center">
-              Ocean Tech Zone, established in 2017, is a leading provider of advanced business
-              communication solutions designed to help you grow, connect, and thrive.
-            </p>
+           
 
             <div className="row mt-4">
               {/* 1. Bulk SMS & WhatsApp */}
-              <div className="col-md-6 Details d-flex mb-4">
-                <div className="icon-box">
-                  <FaSms size={26} />
-                </div>
-                <div>
-                  <h6 className="fw-bold spanbold pt-2 ">Bulk SMS & WhatsApp Messaging</h6>
-                  
-                  <p>Reach your audience instantly with Bulk SMS and WhatsApp Business Messaging.</p>
-                </div>
-              </div>
+             
 
               {/* 2. Voice Call & IVR */}
               <div className="col-md-6 Details d-flex mb-4">
@@ -64,8 +59,10 @@ export default function AboutUs() {
                   <RiVoiceprintLine size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold spanbold pt-2">Voice Call & IVR Systems</h6>
-                  <p>Deliver smooth and professional customer interactions 24/7 with our call solutions.</p>
+                  <h6 className="fw-bold spanbold pt-2">High Conversion Rates</h6>
+                  <p>SMS has an excellent 98% open rate, which is higher than other marketing channels such as email and social media.
+This strong engagement leads to better campaign results and quicker conversion of leads into customers.
+</p>
                 </div>
               </div>
 
@@ -75,8 +72,20 @@ export default function AboutUs() {
                   <FaHandshake size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold spanbold pt-2">Reliability & Cost-Efficiency</h6>
-                  <p>Our services are built for maximum performance at the most competitive rates.</p>
+                  <h6 className="fw-bold spanbold pt-2">Cost-Effective Alternative</h6>
+                  <p>SMS marketing is a more affordable option compared to costly methods like direct mail, email campaigns, or paid advertisements.
+For small and medium businesses in Delhi, Bulk SMS provides an economical way to reach a wide audience without sacrificing performance.</p>
+                </div>
+              </div>
+
+               <div className="col-md-6 Details d-flex mb-4">
+                <div className="icon-box">
+                  <FaSms size={26} />
+                </div>
+                <div>
+                  <h6 className="fw-bold spanbold pt-2 ">Local Expertise</h6>
+                  
+                  <p>Our team has extensive knowledge of the Delhi market, enabling us to help you design effective SMS campaigns that are specifically tailored to your target audience.</p>
                 </div>
               </div>
 
@@ -86,8 +95,18 @@ export default function AboutUs() {
                   <FaCogs size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold spanbold pt-2">Customized Solutions</h6>
-                  <p>Tailored communication tools to meet your specific business requirements.</p>
+                  <h6 className="fw-bold spanbold pt-2">24/7 Availability</h6>
+                  <p>Our service is available around the clock, allowing businesses to provide support and share information even when they are not open for regular business hours.</p>
+                </div>
+              </div>
+              <div className="col-md-6 Details d-flex mb-4">
+                <div className="icon-box">
+                  <FaCogs size={26} />
+                </div>
+                <div>
+                  <h6 className="fw-bold spanbold pt-2">Instant Delivery</h6>
+                  <p>With instant delivery, your SMS messages are sent to recipients within seconds.
+This ensures real-time communication for promotions, alerts, OTPs, and other urgent updates, delivering maximum speed and efficiency."		</p>
                 </div>
               </div>
             </div>

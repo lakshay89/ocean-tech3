@@ -6,6 +6,7 @@ import "./ivr-service.css";
 import Pic1 from "@/app/Images/IVR Services Page/Top Key Features of IVR (Interactive Voice Response) Systems.png"
 import Pic2 from "@/app/Images/IVR Services Page/What is IVR and How Interactive Voice Response Works.png"
 import Image from "next/image";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 
 const Ivrservices = [
@@ -71,7 +72,7 @@ export default function IVRService() {
                         <div className="col-md-6 mb-4 mb-md-0">
                             <div className="FormLeftSec">
                             <div className="SMStitle mb-3">
-                                <h1 className="fw-bold fontweight">
+                                <h1 className="fw-bold fontweight text-align-start">
                                  <span className="">   IVR Services </span> Automate Customer Calls with Interactive Voice Response
                                 </h1>
                             </div>
@@ -89,13 +90,15 @@ export default function IVRService() {
                            <div className="w-75">
                            <div className="RightSidetitle text-center mb-4">
                                 <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
-                                <p className="text-muted">
+                                {/* <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
-                                </p>
+                                </p> */}
                             </div>
 
-                            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                         <InquiaryForm/>
+
+                            {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                                 <div className="form-group mb-3">
                                     <input
                                         type="text"
@@ -151,7 +154,7 @@ export default function IVRService() {
                                 <button className="btn themebackground w-100" type="submit">
                                     Submit Query
                                 </button>
-                            </form>
+                            </form> */}
                            </div>
                         </div>
                     </div>
@@ -167,7 +170,7 @@ export default function IVRService() {
                         <div className="col-md-6 textCloumn">
 
                             <div>
-                                <div className=" Whats-app-title text-center">
+                                <div className=" IVR-title text-center">
                                     <h2 className=" mt-5 "> What is <span className="titlebold"> IVR </span>and How  <span className="titlebold">  INTERACTIVE VOICE RESPONSE </span> Works
                                     </h2> 
                                 </div>

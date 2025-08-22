@@ -14,10 +14,9 @@
 
 .BrandTitle {
   margin-top: 20px;
-  text-align: center;
-  color: var(--theme-color);
+  text-align: center; 
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
 }
 
 /* Active slide animation */

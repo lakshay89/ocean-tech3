@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 // import axios from "axios"; // keep if you plan to send data to backend
 import "./otp-service.css";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 export default function SMSTransection() {
   const [formData, setFormData] = useState({
@@ -44,7 +45,7 @@ export default function SMSTransection() {
               <p className="text-muted mb-4 w-75">
               Ensure fast, reliable, and secure OTP delivery to authenticate users, prevent fraud, and enhance account security with our high-performance SMS gateway.
               </p>
-              <button className="btn text-light px-4">Schedule Demo</button>
+              <button className="btn text-light px-3">Schedule Demo</button>
             </div>
           </div>
 
@@ -53,13 +54,14 @@ export default function SMSTransection() {
            <div className="w-75">
            <div className="RightSidetitle text-center mb-4">
               <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
-              <p className="text-muted">
+              {/* <p className="text-muted">
                 Fill in your details and we ll get back to you with the best
                 pricing and solution for your needs.
-              </p>
+              </p> */}
             </div>
+                 <InquiaryForm/>
 
-            <form onSubmit={handleSubmit} className="p-4 shadow formSec rounded bg-light">
+            {/* <form onSubmit={handleSubmit} className="p-4 shadow formSec rounded bg-light">
               <div className="form-group mb-3">
                 <input
                   type="text"
@@ -115,7 +117,7 @@ export default function SMSTransection() {
               <button className="btn text-light btnBackground w-100" type="submit">
                 Submit Query
               </button>
-            </form>
+            </form> */}
            </div>
           </div>
         </div>

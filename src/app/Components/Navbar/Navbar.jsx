@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Navbar, Nav, Container, Button, NavDropdown } from 'react-bootstrap';
-import logo from '../../Images/logoimg.jpg';
+import logo from '../../Images/logo.jpg';
 import Image from 'next/image';
 import './navbar.css'
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -49,14 +49,13 @@ export default function NavScrollExample() {
               {/* <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item> */}
               <NavDropdown.Item href="/Pages/rcs-services">RCS Service</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/bulk-sms-transactional">Bulk Sms Transactional</NavDropdown.Item>
-              <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item>
+              {/* <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item> */}
             </NavDropdown>
 
             <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
-            <Nav.Link href="/Pages/term-conditions">Terms</Nav.Link>
-            <Nav.Link href="/Pages/privacy-policy">Privacy</Nav.Link>
+            <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>
             <Nav.Link href="/Pages/blogs">Blogs</Nav.Link>
-            {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
+            
           </Nav>
 
           {/* Right: Buttons */}

@@ -5,13 +5,14 @@
 }
 .LeftSideSec{
     padding:30px 10px;
-    text-align: center;
+    text-align: left;
     
 }
 .titleSec h3{
     font-size: 30px;
    
     font-weight: 700;
+    align-items: left;
 
 }
 .ParaSec{

@@ -164,26 +164,26 @@ export default function SMSWhatsApp() {
       {/* Section 3 */}
       <div className="container">
         <div className="row">
-          <h1>	Why is DLT Registration Important?</h1>
          
-          <div className="col-md-6 dlt-textcol">
+          <div className="col-md-6 ">
+          <h1>	Why is DLT Registration Important?</h1>
             <div>
-           <p>   "DLT registration is a necessary step for businesses that send SMS and voice messages in India, as required by TRAI regulations. <br />
+           <p className="mb-3">   "DLT registration is a necessary step for businesses that send SMS and voice messages in India, as required by TRAI regulations. <br />
            </p>
               <b className="">Heres why it is significant:</b> <br />
 
              <b className="spanbold"> Prevents Spam and Fraud </b><br />
-              Only verified businesses can send messages, reducing spam and safeguarding customers from fraudulent activities. <br />
+             <p> Only verified businesses can send messages, reducing spam and safeguarding customers from fraudulent activities.</p> <br />
 
              <b className="spanbold"> Improves Transparency</b><br />
-              All communications are recorded on a secure blockchain, ensuring complete transparency in message delivery. <br />
+            <p>  All communications are recorded on a secure blockchain, ensuring complete transparency in message delivery.</p> <br />
 
              <b className="spanbold"> Ensures Regulatory Compliance</b><br />
-              Businesses must follow TRAIs rules to avoid legal issues and financial penalties. <br />
+            <p>  Businesses must follow TRAIs rules to avoid legal issues and financial penalties.</p> <br />
 
              <b className="spanbold"> Builds Customer Trust</b><br />
-              Verified registration enhances brand credibility, fostering stronger trust and better engagement with customers."
-
+          <p>    Verified registration enhances brand credibility, fostering stronger trust and better engagement with customers."
+          </p>
 
             </div>
           </div>

@@ -7,6 +7,7 @@ import Pic1 from "@/app/Images/Bulk SMS Promotion Page/High-Performance Bulk SMS
 import Pic2 from "@/app/Images/Bulk SMS Promotion Page/Seamlessly Integrate Bulk SMS with Email, whatsapp, and Other Marketing Channels.png"
 import Image from "next/image";
 import BrandCarousel from "../BrandCarousel/BrandCarousel";
+import InquiaryForm from "../InquiaryForm/InquiaryForm";
 
 
 // const Promotionservices = [
@@ -90,13 +91,16 @@ export default function BulkSMSPromotion() {
                           <div className="w-75">
                           <div className="RightSidetitle text-center mb-4">
                                 <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
-                                <p className="text-muted">
+                                {/* <p className="text-muted">
                                     Fill in your details and we ll get back to you with the best
                                     pricing and solution for your needs.
-                                </p>
+                                </p> */}
                             </div>
 
-                            <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+                              <InquiaryForm/>
+
+
+                            {/* <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
                                 <div className="form-group mb-3">
                                     <input
                                         type="text"
@@ -152,7 +156,7 @@ export default function BulkSMSPromotion() {
                                 <button className="btn btn-primary w-100" type="submit">
                                     Submit Query
                                 </button>
-                            </form>
+                            </form> */}
                           </div>
                         </div>
                     </div>
