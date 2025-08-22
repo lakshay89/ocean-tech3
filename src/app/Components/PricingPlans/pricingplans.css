@@ -155,3 +155,9 @@
 .choose-btn:hover {
   background-color: blue;
 }
+
+@media (max-width: 576px) {
+  .pricing-card{
+      width:95% !important;
+  }
+}

@@ -13,6 +13,7 @@
   
   .SMS-Transection-MainSec .SMS-Content p {
     font-size: 1rem;
+    text-align: left;
     color: #555;
   }
   
@@ -90,6 +91,16 @@
     }
     .SMS-Transection-MainSec .SMS-Content {
       margin-bottom: 30px;
+    }
+    .titlebold{
+      font-size: 1.5rem;
+    }
+    .fw-bold{
+            text-align: left !important;
+
+    }
+    .w-sm-100{
+      width:100% !important;
     }
   }
   

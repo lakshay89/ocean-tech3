@@ -46,6 +46,7 @@
   .carousel-inner img {
     border-radius: 12px;
     /* object-fit: cover; */
+    height: 100% !important;
   }
   
   @keyframes fadeInLeft {

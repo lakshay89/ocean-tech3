@@ -11,7 +11,10 @@
     font-size: 1.8rem;
     line-height: 1.4;
   }
-
+  .fw-bold,.titlebold{
+    text-align: left !important;
+    font-size: 1.5rem ;
+  }
   .FormLeftSec{
     width: 80%;
   }
@@ -147,8 +150,17 @@
     background: #ffe6f0;
     color: #333;
   }
-  
-
+  .text-muted{
+    text-align: left !important;
+  }
+  .Whats-app-title h1{
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .textCloumn div h1{
+    text-align: left;
+    font-size: 1.5rem;
+  }
 
 
 

@@ -13,10 +13,10 @@ export default function OtpServices() {
           {/* Section 1 */}
          <div className="LeftSideOTPSec">
          <section className=" text-center ">
-            <h1 className="section-title">
-              Protect Your Business with the Best  <span className="titlebold">OTP SMS Authentication System </span> for Maximum Security
+            <h1 className="section-title text-left">
+              Protect Your Business with the Best  <span className="titlebold text-left">OTP SMS Authentication System </span> for Maximum Security
             </h1>
-            <p className="section-text">
+            <p className="section-text text-left2">
               A One Time Password, or OTP, is a security method that generates a unique password
               and sends it to the users registered mobile number. This password allows the user
               to verify their identity and access their account securely. Implementing this OTP
@@ -27,10 +27,10 @@ export default function OtpServices() {
 
           {/* Section 2 */}
           <section className=" text-center">
-            <h1 className="section-title">
+            <h1 className="section-title text-left mt-3">
               Your Trusted Source for Fast and <span className="titlebold">Secure OTP SMS Services</span>
             </h1>
-            <p className="section-text">
+            <p className="section-text text-left">
               Ocean Techzone is one of the countries top platforms where you can find the best campaigns
               for generating OTP messages. We guarantee that the SMS will reach users instantly without
               any delays. Additionally, customer data is kept secure with two-way authentication in place.
@@ -103,8 +103,8 @@ export default function OtpServices() {
 
       {/* Section 4 */}
       <section className="text-center">
-        <h1 className="sectiontitle fontweight">
-          Different Types of <span className="titlebold"> OTP SMS SERVICE </span>We Provide for  <span className="titlebold">SECURE AUTHENTICATION</span>
+        <h1 className="sectiontitle fontweight text-left">
+          Different Types of <span className="titlebold text-left"> OTP SMS SERVICE </span>We Provide for  <span className="titlebold text-left">SECURE AUTHENTICATION</span>
         </h1>
         {/* <p className="section-text">
           We offer multiple OTP SMS solutions tailored to fit industries like banking, 
@@ -112,8 +112,8 @@ export default function OtpServices() {
           and seamless authentication processes.
         </p> */}
 
-        <div className="CardSection d-flex">
-          <div className="card sec1">
+        <div className="CardSection d-flex flex-wrap justify-content-center gap-4 mt-4">
+          <div className="card sec1 ">
             <div className="card-body">
               <h3 className="themetitle" >SMS OTP SERVICE : </h3>
               <p className="text-light">Send an OTP to your customer through SMS. We provide a dependable OTP service that ensures reliable delivery and minimal delay for your customers.

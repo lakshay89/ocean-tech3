@@ -36,12 +36,12 @@ export default function SMSTransection() {
         <div className="row align-items-center">
           {/* Left Section */}
           <div className="col-md-6 mb-4 mb-md-0">
-            <div className="SMStitle mb-3">
+            <div className="SMStitle text-left mb-3">
               <h1 className="fw-bold">
-                <span className="titlebold"> BULK SMS TRANSACTION </span> Secure, Fast & Reliable Messaging
+                <span className="titlebold text-left"> BULK SMS TRANSACTION </span> Secure, Fast & Reliable Messaging
               </h1>
             </div>
-            <div className="SMS-Content">
+            <div className="SMS-Content" >
               <p className="text-muted mb-4">
                 Send instant and secure transactional SMS alerts, OTPs, and
                 important notifications to your customers with our robust,
@@ -53,7 +53,7 @@ export default function SMSTransection() {
 
           {/* Right Section */}
           <div className="col-md-6 justify-content-center align-items-center d-flex">
-            <div className="FormSection w-75">
+            <div className="FormSection w-75 w-100 d-sm-none d-md-block">
             <div className="RightSidetitle text-center mb-4">
               <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
               {/* <p className="text-muted">

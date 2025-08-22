@@ -20,7 +20,7 @@ export default function SmsFeatures() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <h1 className="section-title fontweight">
+            <h1 className="section-title fontweight text-left">
               <span className="titlebold"> TRANSACTION SMS :</span> Reliable, Essential, and Trust-Building Communication
             </h1>
             <ul className="feature-list">

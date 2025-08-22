@@ -61,7 +61,7 @@ export default function SMSWhatsApp() {
 
             {/* Right Section */}
             <div className="col-md-6 d-flex justify-content-center">
-              <div className="w-75">
+              <div className="w-75 w-sm-100">
                 <div className="dlt-right-title text-center mb-4">
                   <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                   <p className="text-muted">
@@ -141,8 +141,8 @@ export default function SMSWhatsApp() {
           </div>
           <div className="col-md-6 dlt-textcol">
             <div>
-              <div className="dlt-section-title text-center">
-                <h2 className="mt-5">
+              <div className="dlt-section-title text-center mb-sm-5">
+                <h2 className="mt-5 text-left ">
                   What is DLT  <span className="titlebold">( DISTRIBUTED LEDGER TECHNOLOGY ) </span>and How It Works
                 </h2>
               </div>
