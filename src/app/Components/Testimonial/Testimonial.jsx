@@ -13,48 +13,44 @@ import pic3 from '@/app/Images/user4.jpeg'
 
 
 export default function TestimonialSlider() {
-  const testimonials = [
-    {
-      name: "Rahul Mehta",
-      role: "Marketing Manager, XYZ Retail Pvt. Ltd.",
-      image: pic1,
-      rating: 5,
-      text: "We have been using  for over a year now, and the results have been fantastic. The delivery rate is excellent, messages are sent instantly, and their support team is always ready to help. Its the most reliable bulk SMS service we have tried.",
-    },
-    {
-      name: "Neha Sharma",
-      role: "Operations Head, ABC Enterprises	",
-      image: pic2,
-      rating: 5,
-      text: "The user-friendly platform and quick delivery have made our customer communication so much easier. We have seen a significant increase in engagement since switching to Ocean Tech. Highly recommended!"									
-						 			,
-    },  				
-    {
-      name: " Amit Kumar ",
-      role: "Director , BrightFuture Education Services	",
-      image: pic3,
-      rating: 4,
-      text: "What sets Ocean Tech apart is their consistent service quality and transparent pricing. We use it for both promotional and transactional messages, and it has never let us down."									
-									,
-    },								
-    {
-      name: " Priya Nair",
-      role: "  Customer Relations Manager,  TechNova Solutions	",
-      image: pic1,
-      rating: 5,
-      text: "Fast delivery, excellent uptime, and easy integration with our CRM  exactly what we needed. Thanks to Ocean Tech, we can reach our clients instantly and efficiently.",
-    },										
-										
-									
-    {
-      name: "Vikram Singh",
-      role: "CEO, UrbanMart Online	",
-      image: pic2,
-      rating: 5,
-      text: "From OTPs to promotional campaigns, every SMS reaches our customers on time. Their system is simple to use, and the reporting tools are extremely helpful for tracking performance.",
-    }, 						
-					
-  ];
+ const testimonials = [
+  {
+    name: "Rahul Mehta",
+    role: "Marketing Manager, XYZ Retail Pvt. Ltd.",
+    image: pic1,
+    rating: 5,
+    text: "We partnered with Ocean Tech for a complete website redesign, and the results were beyond expectations. Our site is now modern, responsive, and optimized for conversions. Their team’s attention to detail is commendable.",
+  },
+  {
+    name: "Neha Sharma",
+    role: "Operations Head, ABC Enterprises",
+    image: pic2,
+    rating: 5,
+    text: "Ocean Tech transformed our digital presence through their expert SEO services. Within three months, we noticed a significant boost in our organic traffic and keyword rankings. Highly recommended for any business looking to grow online.",
+  },
+  {
+    name: "Amit Kumar",
+    role: "Director, BrightFuture Education Services",
+    image: pic3,
+    rating: 4,
+    text: "Thanks to Ocean Tech's SMO strategies, our social media engagement has grown steadily. Their creative posts and regular updates have helped us connect better with our target audience across platforms.",
+  },
+  {
+    name: "Priya Nair",
+    role: "Customer Relations Manager, TechNova Solutions",
+    image: pic1,
+    rating: 5,
+    text: "We hired Ocean Tech for both SEO and SMO services, and the experience has been outstanding. Our online visibility has improved drastically, and lead generation has become more consistent. Their team is proactive and results-driven.",
+  },
+  {
+    name: "Vikram Singh",
+    role: "CEO, UrbanMart Online",
+    image: pic2,
+    rating: 5,
+    text: "Ocean Tech developed our e-commerce website with great precision. The user experience is seamless, and the site loads lightning fast. Their post-launch support and SEO integration have helped us scale quickly.",
+  },
+];
+
 
   return (
     <section className="testimonial-section py-5">

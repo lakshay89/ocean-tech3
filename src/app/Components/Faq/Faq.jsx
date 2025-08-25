@@ -6,83 +6,48 @@ import img1 from '@/app/Images/Banners/FAQ.png';
 
 
 const faqData = [
-  // {
-  //   question: ' What is Bulk SMS ?',
-  //   answer: ' Bulk SMS is the process of sending a large number of text messages simultaneously to many recipients. It is widely used by businesses and organizations for marketing, notifications, alerts, and reminders.'
-  // },
   {
-    question: 'Q: What are the key benefits of using Oceantechzone CRM?',
-    answer: `A: Oceantechzone CRM enables you to manage customer relationships effectively by integrating robust tools for communication, sales, and marketing into a single platform.
-The main advantages are:
-Having all customer information in one place, making it easy to organize and access.
-Sending messages to a large number of customers quickly and efficiently through bulk SMS.
-Saving time by using automated features for follow-ups, reminders, and marketing campaigns.
-Monitoring message delivery, customer interaction, and sales results in real time.
-Adapting to your business growth, whether you are a small company or a big organization, as our CRM system expands with your requirements.`,
+    question: 'What services does your digital marketing agency provide?',
+    answer: 'We offer a full range of digital marketing services including Search Engine Optimization (SEO), Pay-Per-Click Advertising (PPC), Social Media Marketing, Content Marketing, Email Marketing, Web Design & Development, and Branding Solutions.'
   },
   {
-    question: 'What are the different modules available in Oceantechzone CRM and ERP Systems?',
-    answer: `Bulk SMS is usually sent using specialized software or service providers that offer easy-to-use tools to manage and send large volumes of messages.`,
-  },
-//   
-  {
-    question: 'Q: What SMS services does Oceantechzone offer, and how will they benefit my business?',
-    answer: `We provide:
-
-Bulk SMS – Allow you to reach a large number of customers quickly.
-Promotional SMS – Drive sales with targeted offers.
-Transactional SMS – Send instant alerts, updates, and confirmations.
-OTP Services – Secure your transactions with one-time passwords.
-
-Benefits: Faster communication, higher customer engagement, improved marketing ROI, and enhanced service reliability.`,
+    question: 'How can digital marketing help my business grow?',
+    answer: 'Digital marketing helps you increase your online visibility, attract more qualified leads, build brand awareness, engage with your target audience, and ultimately drive more sales and revenue.'
   },
   {
-    question: 'Q: What are the benefits of using the SMS Messaging API service of Oceantechzone for business communication?',
-    answer: `A: Our SMS API lets you integrate messaging directly into your applications, websites, or software. Benefits include:
-
-Instant Delivery: Send messages in real time.
-Automation: Trigger SMS alerts, reminders, or confirmations automatically.
-Scalability: Handle large volumes without delays.
-Customization: Personalize messages for better engagement.
-Reliability: High delivery rates with secure infrastructure.`,
+    question: 'How do you determine the right digital marketing strategy for my business?',
+    answer: 'We start by understanding your business goals, target audience, and competition. Then, we create a customized digital marketing strategy designed to deliver measurable results.'
   },
   {
-    question: 'Q: What is an SMS Gateway and how does it work with the Oceantechzone messaging platform?',
-    answer: `A: An SMS Gateway is a service that connects your software or application to mobile networks, enabling you to send and receive text messages worldwide. With Oceantechzone’s platform, the gateway seamlessly integrates with your systems, ensuring:
-
-Fast Message Delivery to any network.
-
-Two-Way Messaging for customer replies.
-
-High Reliability with secure, stable connections.
-
-Easy Integration via our API for smooth automation.`,
+    question: 'How long does it take to see results from digital marketing?',
+    answer: 'Results depend on the type of service. SEO can take 3–6 months to show strong results, while PPC campaigns and social media ads can generate leads and sales almost immediately.'
   },
   {
-    question: 'Q: How can I get started with your services?',
-    answer: `A: Getting started with Oceantechzone is easy:
-
-You can reach out to our sales team by phone, email, or through our enquiry form.
-Discuss your requirements so we can suggest the best package.
-Complete registration & payment.
-Start sending messages with our quick setup assistance.
-
-Our team will guide you through every step so you can launch your campaigns without delay.`,
-  },
- 
-  {
-    question: 'Q: Can I customize the features and functionality of a Cloud Communication Platform to meet my specific business needs?',
-    answer: `
-    A:  Yes. Oceantechzone’s Cloud Communication Platform is flexible and can be tailored to your requirements. You can choose specific features, integrate with your existing systems via API, set custom workflows, and scale services as your business grows.`,
+    question: 'Do you work with small businesses or only large companies?',
+    answer: 'We work with businesses of all sizes — from startups to established enterprises. Our strategies are flexible and tailored to fit your goals and budget.'
   },
   {
-    question: 'Q: How quickly will my messages be delivered through Oceantechzone?',
-    answer: `
-    A: Most messages are delivered within seconds, thanks to our direct connections with telecom operators. We ensure high delivery rates, low latency, and real-time status reports so you know exactly when your customers receive your messages.`,
+    question: 'How much does digital marketing cost?',
+    answer: 'The cost varies depending on the services you need and the scale of your campaigns. We offer customized packages to ensure you only pay for what benefits your business.'
   },
+  {
+    question: 'How do you measure success in digital marketing campaigns?',
+    answer: 'We use key performance indicators (KPIs) such as website traffic, leads, conversion rates, ROI, engagement metrics, and sales growth to track and measure success.'
+  },
+  {
+    question: 'Will I get regular reports on my campaigns?',
+    answer: 'Yes! We provide transparent, easy-to-understand performance reports so you can clearly see the progress and ROI of your campaigns.'
+  },
+  {
+    question: 'Can you guarantee top rankings on Google?',
+    answer: 'No agency can guarantee specific rankings, as search engines constantly update their algorithms. However, we use proven SEO strategies to significantly improve your visibility and increase your chances of ranking higher.'
+  },
+  {
+    question: 'How do I get started with your agency?',
+    answer: 'Getting started is easy! Simply contact us for a free consultation. We’ll analyze your current digital presence, discuss your goals, and create a strategy tailored to your business.'
+  }
+];
 
- 
-]
 
 export default function Faq() {
   const [activeIndex, setActiveIndex] = useState(null);

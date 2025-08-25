@@ -20,7 +20,7 @@ export default function SMOSection() {
     <section className="seo-section py-5 px-3">
       <div className="container">
         <h2 className="text-center text-pink fw-bold mb-2">
-          Social Media Optimization
+          Social Media Optimization (SMO)
         </h2>
         <hr className="seo-underline mx-auto " />
 

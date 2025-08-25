@@ -4,20 +4,19 @@ export async function POST(req) {
   try {
     const { name, email, phone, company, service, message } = await req.json();
 
-    // Use environment variables for sensitive info
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST, // e.g., smtp.gmail.com
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: Number(process.env.SMTP_PORT) === 465,
+      host: process.env.SMTP_HOST, // smtp.hostinger.com
+      port: Number(process.env.SMTP_PORT) || 465, // Hostinger prefers 465
+      secure: true, // ✅ Required for port 465
       auth: {
-        user: process.env.SMTP_USER, // your email
-        pass: process.env.SMTP_PASS, // app password or SMTP password
+        user: process.env.SMTP_USER, // info@oceantechzone.com
+        pass: process.env.SMTP_PASS, // your actual Hostinger email password
       },
     });
 
     await transporter.sendMail({
-      from: `"${name}" <${email}>`, // user info in "from"
-      to: process.env.SMTP_TO,     // your receiving email
+      from: `"${name}" <${process.env.SMTP_USER}>`, // ✅ must be your SMTP user (not random email)
+      to: process.env.SMTP_TO, // where the mail should land
       subject: `New Inquiry from ${name}`,
       html: `
         <h3>New Inquiry</h3>
@@ -30,9 +29,9 @@ export async function POST(req) {
       `,
     });
 
-    return new Response(JSON.stringify({ success: true }), { status: 200 });
+    return new Response(JSON.stringify({ success: true, message: "Email sent successfully!" }), { status: 200 });
   } catch (error) {
     console.error("SMTP Error:", error);
-    return new Response(JSON.stringify({ success: false, error: error.message }), { status: 500 });
+    return new Response(JSON.stringify({ success: false, message: error.message }), { status: 500 });
   }
 }

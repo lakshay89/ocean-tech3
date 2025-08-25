@@ -13,12 +13,12 @@ import seoImg from '../../Images/current/seo-image.b14577d53ec6403cd904.webp';
 import Link from 'next/link';
 
 const seoFeatures = [
-  { img: '/gif/seo1.gif', title: 'Keyword Research', desc: 'In-depth research to find the most effective keywords for your business.' },
-  { img: '/gif/smo2.gif', title: 'On-Page Optimization', desc: 'Ensure your site structure and content are optimized for best results.' },
+  { img: '/gif/seo1.gif', title: 'Keyword Research', desc: 'Our experts analyze your industry and competitors to find the right keywords that your target audience is searching for. We then build a custom strategy to help you rank for those terms.' },
+  { img: '/gif/smo2.gif', title: 'On-Page Optimization', desc: 'We optimize your website’s content, titles, meta descriptions, header tags, and internal links to improve search visibility.' },
   { img: '/gif/seo3.gif', title: 'Link Building', desc: 'Boost domain authority with high-quality backlinks.' },
-  { img: '/gif/smo4.gif', title: 'SEO Audit', desc: 'Analyze your current SEO efforts and identify areas for improvement.' },
-  { img: '/gif/smo5.gif', title: 'Analytics & Reporting', desc: 'Detailed insights on your SEO strategy’s performance.' },
-  { img: '/gif/smo6.gif', title: 'Local SEO', desc: 'Optimize your business for local searches and visibility.' },
+  { img: '/gif/smo4.gif', title: 'SEO Audit', desc: 'We perform an in-depth audit of your website to identify technical issues, broken links, site speed problems, and areas for improvement.' },
+  { img: '/gif/smo5.gif', title: 'Analytics & Reporting', desc: 'You’ll receive transparent monthly reports showing rankings, traffic, and ROI so you can see the direct impact of our work.' },
+  { img: '/gif/smo6.gif', title: 'Local SEO', desc: 'We help your business appear in Google Maps and local search results, making it easier for nearby customers to find you' },
 ];
 
 export default function SEOSection() {
@@ -86,9 +86,10 @@ export default function SEOSection() {
         </div>
         <div className="row my-5">
           <div className="col-12 d-flex align-items-center flex-column">
-            <h2 className="text-pink fw-bold mb-2 text-center fs-1 pb-2">Request A Demo</h2>
-            <p className="text-uppercase text-black mb-3 text-center fs-5">
-              Explore our fully featured SEO services
+            <h2 className="text-pink fw-bold mb-2 text-center fs-1 pb-2">Grow Your Business with SEO</h2>
+            <p className="text-uppercase text-black mb-3 text-center ">
+              Whether you're a small business looking for local visibility or a large brand aiming for national reach,  provides the expertise, tools, and strategies to help you dominate search results. With our SEO services, you will not only attract more visitors but also convert them into loyal customers.
+              Ready to get started? Let's optimize your website for better rankings, more traffic, and higher conversions today.
             </p>
             {/* <div className="seo-underline mx-auto mb-4"></div> */}
             <Link href="/Pages/contact">

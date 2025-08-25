@@ -13,11 +13,11 @@ export default function OurStory() {
         {/* Left Content */}
         <div className="col-lg-6 mb-4 mb-lg-0 text-left text-lg-start">
           <h1 className="fw-bold pb-3 story-heading fs-1">
-            Best <span className="spanbold fs-1">DIGITAL <br/> MARKETING SERVICE</span><br /> Provider in Delhi
+            Grow Your Business <br /> <span className="spanbold fs-1">with Result-Driven <br/>Digital Marketing Solutions</span>
+           
           </h1>
           <p className="text-muted story-text mx-auto mx-lg-0">
-            Boost efficiency and reduce costs with our Bulk SMS services in Delhi — 
-            instantly connect with a global audience for faster communication.
+            We help businesses build a powerful online presence, generate qualified leads, and achieve sustainable growth through innovative marketing strategies.
           </p>
           <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-4">
             <Link href="/Pages/contact" className="text-decoration-none">
