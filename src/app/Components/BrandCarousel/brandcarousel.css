@@ -15,8 +15,10 @@
 .BrandTitle {
   margin-top: 20px;
   text-align: center; 
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.2rem;
+  /* font-family: --(var(--font-poppins)); */
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 /* Active slide animation */

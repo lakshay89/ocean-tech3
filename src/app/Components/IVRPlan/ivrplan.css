@@ -155,3 +155,12 @@
 .choose-btn:hover {
   background-color: blue;
 }
+.pricing-card {
+    width: 95%;
+    height: max-content;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}

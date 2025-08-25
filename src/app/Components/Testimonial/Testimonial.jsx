@@ -74,7 +74,7 @@ export default function TestimonialSlider() {
         >
           {testimonials.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="testimonial-card shadow-sm p-4 d-flex align-items-start">
+              <div className="testimonial-card shadow-sm p-2 d-flex align-items-start">
                 <div className="client-image me-3">
                   <Image
                     src={item.image}

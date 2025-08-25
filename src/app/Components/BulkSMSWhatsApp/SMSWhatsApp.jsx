@@ -43,8 +43,8 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 mb-4 mb-md-0">
                            <div className="FormLeftSec">
                            <div className="SMStitle mb-3">
-                                <h1 className="fw-bold">
-                                   <span className="titlebold"> Bulk SMS ON WHATS APP </span> Engage Customers on Their Favorite Messaging App
+                                <h1 className="fw-bold ">
+                                   <span className="titlebold "> Bulk SMS ON WHATS APP </span> Engage Customers on Their Favorite Messaging App
                                 </h1>
                             </div>
                             <div className="SMS-Content">
@@ -58,7 +58,7 @@ export default function SMSWhatsApp() {
 
                         {/* Right Section */}
                         <div className="col-md-6 d-flex justify-content-center">
-                           <div className="w-75">
+                           <div className="w-100">
                            <div className="RightSidetitle text-center mb-4">
                                 <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                                 {/* <p className="text-muted">

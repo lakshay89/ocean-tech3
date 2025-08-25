@@ -45,7 +45,7 @@ export default function RCSService() {
                         <div className="col-md-6 mb-4 mb-md-0">
                           <div className="FormLeftSec">
                           <div className="RCStitle mb-3">
-                                <h1 className="fw-bold">
+                                <h1 className=" fw-bold ">
                                     <span className="titlebold"> RCS MESSAGING SERVICES </span> Enhance Customer Engagement with Rich Communication
                                 </h1>
                             </div>
@@ -60,7 +60,7 @@ export default function RCSService() {
 
                         {/* Right Section */}
                         <div className="col-md-6 d-flex justify-content-center">
-                          <div className="w-75">
+                          <div className="w-100">
                           <div className="RightSidetitle text-center mb-4">
                                 <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                                 {/* <p className="text-muted">

@@ -114,5 +114,22 @@
     .SMS-WhatsApp-MainSec .SMS-Content {
       margin-bottom: 30px;
     }
+    .titlebold {
+    color: var(--theme-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: left;
+}
+.fw-bold {
+    font-weight: 700 !important;
+    text-align: left;
+}
+.SMS-WhatsApp-MainSec .SMS-Content p {
+    /* padding: 0 50px !important; */
+    text-align: justify;
+    width: 91%;
+    font-size: 1rem;
+    /* color: #555; */
+}
   }
   

@@ -12,6 +12,7 @@ import img8 from "@/app/Images/Banners/banner8.png" // external css for styling
 import img9 from "@/app/Images/Banners/FAQ.png" // external css for styling
 import img10 from "@/app/Images/Banners/banner10.png" // external css for styling
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TextCarouselSection() {
   return (
@@ -23,14 +24,12 @@ export default function TextCarouselSection() {
             <h2 className="section-title text-center uppercase ">
               Welcome to <span>Ocean Tech</span>
             </h2>
-            <p className="section-desc">
-              We specialize in delivering <strong>high-quality Bulk SMS services  </strong> 
-                tailored to enhance your business communication strategy. 
-              With features like <em>high delivery rates</em>, real-time tracking, 
-              and customizable messaging, we ensure your messages reach 
-              the right audience at the right time.
+            <p className="section-desc text-center ">
+             The Click Funnel is one of India’s top web development companies, with a reputation for offering high-quality services. We hire the best people to join our team so that we can work quickly and effectively to provide our clients with timely services. our website developers serve as consultants to our clients, guiding them through fundamental aspects of websites such as site architecture, design, style, content management systems, integration with various apps and marketing, and branding. Our team’s years of expertise enable them to put and manage all digital assets in accordance with the digital marketing plan..
             </p>
-            <button className="btn themebackground w-100 mt-3">Explore More</button>
+            <Link href="/Pages/contact" className="text-decoration-none">
+            <button className="btn themebackground w-100 mt-3">Contact Now</button>
+            </Link>
           </div>
 
           {/* Right Side - Bootstrap Carousel */}

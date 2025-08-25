@@ -39,20 +39,20 @@ export default function NavScrollExample() {
                   className="custom-dropdown"
                 >
 
-              <NavDropdown.Item href="/Pages/bulk-sms">Bulk Sms </NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-sms-promotion">Bulk Sms Promotion</NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/otp-sms">Otp Sms Service</NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">Whatsapp Sms Service</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/seo">Search Engine Optimization</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/Digital-marketing">Website Designing</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/Socialmedia">Social Media Optimization</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">Whatsapp Sms Service</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/voice-call">Voice Call Service</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/ivr-services">IVR Service</NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-email">Bulk Email Marketing</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/bulk-email">Bulk Email Marketing</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item> */}
-              <NavDropdown.Item href="/Pages/rcs-services">RCS Service</NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-sms-transactional">Bulk Sms Transactional</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/Pages/rcs-services">RCS Service</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/bulk-sms-transactional">Bulk Sms Transactional</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item> */}
             </NavDropdown>
 
-            <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
+            {/* <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link> */}
             <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>
             <Nav.Link href="/Pages/blogs">Blogs</Nav.Link>
             

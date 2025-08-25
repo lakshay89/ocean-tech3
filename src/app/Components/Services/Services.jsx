@@ -4,53 +4,23 @@ import "./Services.css";
 
 export default function Services() {
   const services = [
-    {
-      title: "Bulk SMS Promotion",
-      desc: "			Send offers, deals, and marketing messages instantly to a large audience with targeted lists and personalized content, boosting engagement and driving higher sales results.",
-      link: "/Pages/bulk-sms-promotion",
+  {
+      title: "Search Engine Optimization (SEO)",
+      desc: "(SEO) is the key to increasing the visibility of your business on search engines like Google, Yahoo, and Bing. Our SEO services ensure that your business ranks higher in search results. ",
+      link: "/Pages/seo",
       color: "#1897eb"
     },
     {
-      title: "Bulk SMS Transaction",
-      desc: "Deliver instant, secure, and automated transactional messages like OTPs, alerts, and confirmations to customers, ensuring timely updates and smooth business communication every time.",
-      link: "/Pages/bulk-sms-transactional",
+      title: "Social Media Optimization",
+      desc: "Looking to expand your social media growth? We are here for everything you need increase engagement, or build brand awareness, we are here to provide expert support and tailored strategies.",
+      link: "/Pages/Socialmedia",
       color: "#0a4adc;"
     },
     {
-      title: "OTP SMS Services",
-      desc: "Send fast and secure one-time passwords to verify user identity, protect transactions, and enhance security for online services, apps, and customer interactions.",
-      link: "/Pages/otp-sms",
+      title: "Website Designing",
+      desc: "Boost your business with our experienced Web development team and build your presence.A business website lets your online audience see your products and services and get in touch with them. ",
+      link: "/Pages/Digital-marketing",
       color: "#1897eb;"
-    },
-    {
-      title: "Bulk Sms on WhatsApp",
-      desc: "Send bulk messages, offers, and updates directly on WhatsApp, enabling instant, engaging, and interactive communication with customers through a familiar and widely used platform.",
-      link: "/Pages/bulk-sms-whatsapp",
-      color: "#0a4adc"
-    },
-    {
-      title: "IVR Services",
-      desc: "Automate customer interactions with Interactive Voice Response, allowing callers to navigate menus, access information, and connect to the right department quickly and efficiently.",
-      link: "/Pages/ivr-services",
-      color: "#1897eb"
-    },
-    {
-      title: "Voice Call Services",
-      desc: "Send pre-recorded voice messages to a large audience instantly, delivering announcements, promotions, or alerts in a clear and personalized way for maximum engagement.",
-      link: "/Pages/voice-call",
-      color: "#0a4adc"
-    },
-    {
-      title: "Bulk Email Marketing",
-      desc: "Send promotional emails, newsletters, and updates to a large audience at once, with personalized content and tracking tools to boost engagement and conversions.",
-      link: "/Pages/bulk-email",
-      color: "#1897eb"
-    },
-    {
-      title: "RCS SMS",
-      desc: "RCS SMS is an upgraded messaging service that allows businesses to send interactive, media-rich, and secure messages with images, videos, buttons, and real-time engagement.",
-      link: "/Pages/rcs-services",
-      color: "#0a4adc"
     },
   ];
 

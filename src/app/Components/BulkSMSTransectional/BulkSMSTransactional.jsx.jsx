@@ -60,7 +60,7 @@ export default function BulkSMSPromotion() {
 
                         {/* Right Section */}
                         <div className="col-md-6 d-flex justify-content-center">
-                            <div className="w-75">
+                            <div className="w-100">
                                 <div className="RightSidetitle text-center mb-4">
                                     <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                                     <p className="text-muted">

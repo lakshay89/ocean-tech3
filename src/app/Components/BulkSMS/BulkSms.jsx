@@ -12,18 +12,19 @@ export default function BulkSms() {
                 <div className="col-md-6">
                     <div className='LeftSideSec'>
                         <div className='titleSec'>
-                            <h1 className='fontweight'>WHAT  IS <span className='spanbold'>BULK SMS ?</span></h1>
+                            <h1 className='fontweight'>What is <span className='spanbold'>Search Engine Optimization (SEO) ?</span></h1>
                         </div>
-                  <div className='subtitle'>
-                    <p>Bulk SMS involves sending a large number of text messages at the same time to many people. It is commonly used by businesses, organizations, and other groups for different reasons, such as:</p>
-                  </div>
                     <div className='ParaSec'>
-                    <p  className='para list1'  > <b>Marketing Campaigns:</b> To introduce products, services, or special deals to a wide group of people.</p>
-                       <p  className='para list2'  ><b>Customer Notifications:</b> To let customers know about updates on their orders, reminders for appointments, or alerts about services.</p>
-                       <p  className='para list3'  ><b>Emergency Alerts:</b> To quickly send urgent messages or warnings to a big group of people.</p>
-                       <p  className='para list4'  > <b>Event Reminders:</b> To inform participants about upcoming events, any changes, or important details.</p>
-                       <p  className='para list5'  >Bulk SMS is usually handled through specific software or service providers that offer tools for sending messages efficiently.</p>
-                       <p  className='para list6'  > These tools often have features like scheduling messages, customizing content, tracking responses, and providing reports to improve the success of SMS campaigns</p>
+                      <p  className='para list3'  >Our SEO services ensure that your business ranks higher in search results, driving organic traffic and potential customers to your website. 
+                        With a proven track record, TheClickFunnel offers expert solutions in keyword research,
+                         on-page SEO, link-building, and more.
+                         Unlock the full potential of your website and boost your search rankings with our expert SEO services. </p>
+                       <p  className='para list5'  ><b>Keyword Research</b> Our team conducts in-depth research to find the most effective keywords for your business.</p>
+                       <p  className='para list5'  ><b>On-Page Optimization</b> We ensure your website’s structure and content are optimized for the best search results.</p>
+                       <p  className='para list5'  ><b>Link Building</b> Enhance your domain authority with high-quality backlinks from reputable sites.</p>
+                       <p  className='para list5'  ><b>SEO Audit</b> We analyze your current SEO efforts and identify areas for improvement.</p>
+                       <p  className='para list5'  ><b>Analytics & Reporting</b> Get detailed insights and performance reports on how your SEO strategy is performing.</p>
+                       <p  className='para list5'  ><b>Local SEO</b>Target local customers by optimizing your business for location-based searches.</p>
 
                     </div>
                                         </div>

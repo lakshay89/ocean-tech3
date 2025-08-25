@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // import axios from "axios"; // keep if you plan to send data to backend
 import "./SMSTransection.css";
 import InquiaryForm from "../InquiaryForm/InquiaryForm";
+import Link from "next/link";
 
 export default function SMSTransection() {
   const [formData, setFormData] = useState({
@@ -38,16 +39,17 @@ export default function SMSTransection() {
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="SMStitle text-left mb-3">
               <h1 className="fw-bold">
-                <span className="titlebold text-left"> BULK SMS TRANSACTION </span> Secure, Fast & Reliable Messaging
+                <span className="titlebold text-left">Website Designing</span> Crafting Beautiful & Functional Websites 
               </h1>
             </div>
             <div className="SMS-Content" >
               <p className="text-muted mb-4">
-                Send instant and secure transactional SMS alerts, OTPs, and
-                important notifications to your customers with our robust,
-                high-delivery SMS gateway.
+                Designs That Define Your Digital Presence.
+                We prioritize user experience to make sure your website not only looks great but also performs.
               </p>
+              <Link href="/Pages/contact" className="text-decoration-none">
               <button className="btn themebacground text-light px-4">Schedule Demo</button>
+              </Link>
             </div>
           </div>
 

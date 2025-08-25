@@ -153,4 +153,13 @@
     padding: 8px 18px;
     font-size: 0.85rem;
   }
+  .fw-bold {
+    font-weight: 700 !important;
+    text-align: left;
+}
+.titlebold {
+    color: var(--theme-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
 }

@@ -189,5 +189,22 @@
     .RCS-MainSec .RCS-Content {
       margin-bottom: 30px;
     }
+    .fw-bold{
+      text-align: left !important;
+    }
+    .titlebold{
+      font-size: 1.7rem !important;
+      text-align: left;
+    }
+    .text-muted {
+      text-align: left !important;
+    }
+    .RCS-title h2,p{
+      text-align: left !important;
+    }
+    .titlebold {
+      font-size: 1.7rem !important;
+      text-align: left;
+    }
   }
   

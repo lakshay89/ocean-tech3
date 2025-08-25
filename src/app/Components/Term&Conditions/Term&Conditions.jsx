@@ -24,8 +24,8 @@ const handleDownload = () => {
       <div className="container terms-container">
         <header className="terms-header">
     <div className="d-flex mt-4 gap-3 float-end">
-      <button variant="primary" className="btn btn-warning" onClick={handleDownload}>Download PDF</button>
-      <button variant="secondary" className="btn btn-warning " onClick={()=>setShowModal(true)} >View in Modal</button>
+      <button variant="primary" className="btn btn-primary" onClick={handleDownload}>Download PDF</button>
+      <button variant="secondary" className="btn btn-primary " onClick={()=>setShowModal(true)} >View in Modal</button>
     </div>
           <h1 className="uppercase">OceanTechZone Terms & Conditions</h1>
           <p>

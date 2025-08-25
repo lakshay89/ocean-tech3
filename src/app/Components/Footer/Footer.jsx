@@ -62,84 +62,29 @@ export default function Footer() {
           <h4>Services</h4>
 
           <ul className="list-unstyled">
+           
             <li className="mb-2">
               <Link
-                href="/Pages/bulk-sms-promotion"
+                href="/Pages/seo"
                 className="text-light text-decoration-none d-block"
               >
-                Bulk SMS Promotion
+               Search Engine Optimization 
               </Link>
             </li>
             <li className="mb-2">
               <Link
-                href="/Pages/bulk-sms-transactional"
+                href="/Pages/Socialmedia"
                 className="text-light text-decoration-none d-block"
               >
-                Bulk SMS Transaction
+              Social Media Optimization
               </Link>
             </li>
             <li className="mb-2">
               <Link
-                href="/Pages/otp-sms"
+                href="/Pages/Digital-marketing"
                 className="text-light text-decoration-none d-block"
               >
-                OTP SMS
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/about"
-                className="text-light text-decoration-none d-block"
-              >
-                About
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/bulk-sms-whatsapp"
-                className="text-light text-decoration-none d-block"
-              >
-                WhatsApp SMS
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/bulk-sms"
-                className="text-light text-decoration-none d-block"
-              >
-                Bulk SMS
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/dtl-service"
-                className="text-light text-decoration-none d-block"
-              >
-                DTL Service
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/ivr-services"
-                className="text-light text-decoration-none d-block"
-              >
-                IVR Services
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/voice-call"
-                className="text-light text-decoration-none d-block"
-              >
-                Voice Call
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="/Pages/bulk-email"
-                className="text-light text-decoration-none d-block"
-              >
-                Bulk Email
+              Website Designing
               </Link>
             </li>
           </ul>

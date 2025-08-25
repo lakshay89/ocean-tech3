@@ -98,7 +98,7 @@ export default function SMSWhatsApp() {
 
                        
                         <div className="col-md-6 d-flex align-items-center justify-content-center">
-                        <div className="w-75"> 
+                        <div className="w-100"> 
                             <div className="RightSidetitle text-center mb-4">
                                 <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                                
@@ -150,7 +150,7 @@ export default function SMSWhatsApp() {
                 <div className="container">
 
                     <div className="row">
-                        <h1 className="text-center fontweight">
+                        <h1 className="text-left fontweight">
                             Key  <span className="titlebold">FEATURES</span> and <span className="titlebold"> BENEFITS</span> of <span className="titlebold"> VOICE CALL SERVICE </span>
 
                         </h1>
@@ -205,7 +205,7 @@ export default function SMSWhatsApp() {
 
             <div className="Voice-ServiceTitleSec ">
                 <div className="text-center">
-                    <h1 className="title titlebold "> VOICE CALL  SERVICES</h1>
+                    <h1 className=" title titlebold "> VOICE CALL  SERVICES</h1>
                     <p > You can create your own voice message and automate the calling process with just a few simple steps. Managing and keeping track of calls becomes easy with our bulk voice calling service.</p>
                 </div>
             </div>

@@ -21,37 +21,36 @@ export default function SmsFeatures() {
             viewport={{ once: true }}
           >
             <h1 className="section-title fontweight text-left">
-              <span className="titlebold"> TRANSACTION SMS :</span> Reliable, Essential, and Trust-Building Communication
-            </h1>
+              <span className="titlebold"> Website Designing:</span>Boost your business with our experienced Web development team and build your presence.</h1>
             <ul className="feature-list">
               <li>
-                <h5>Purpose-Driven Messaging</h5>
+                <h5>Creative Result</h5>
                 <p>
-                  Send important, non-promotional information like alerts, OTPs, service updates, and confirmations.
+                  We help create a well-structured and creative website that captures the audience's attention.
                 </p>
               </li>
               <li>
-                <h5>Essential for User Experience</h5>
+                <h5>User Friendly</h5>
                 <p>
-                  Critical for customer interaction like password resets or two-factor authentication.
+                  Our user interface designs ensure that your website is responsive to all visitors.
                 </p>
               </li>
               <li>
-                <h5>DND Reachability</h5>
+                <h5>Mobile Friendly</h5>
                 <p>
-                  Can be delivered to DND numbers, ensuring crucial information always reaches users.
+                  We design websites that are as easy to use on mobile devices as they are on desktops.
                 </p>
               </li>
               <li>
-                <h5>Brand Trust Building</h5>
+                <h5>Optimized</h5>
                 <p>
-                  Builds long-term trust by maintaining consistent communication and reliability.
+                  Our SEO techniques ensure your website ranks highly in search engine results.
                 </p>
               </li>
               <li>
-                <h5>Reliable & Instant Delivery</h5>
+                <h5>Fast And Secure</h5>
                 <p>
-                  Backed by advanced systems and expert support for fast, secure delivery.
+                  We focus on the safety and security of your website, ensuring it operates smoothly and securely.
                 </p>
               </li>
             </ul>
@@ -74,8 +73,8 @@ export default function SmsFeatures() {
         </div>
 
         {/* Bottom Section */}
-        <div className="row align-items-center flex-md-row-reverse">
-          {/* Right Content */}
+        {/* <div className="row align-items-center flex-md-row-reverse">
+          
           <motion.div
             className="col-md-6"
             initial={{ opacity: 0, x: 60 }}
@@ -110,7 +109,7 @@ export default function SmsFeatures() {
             </ul>
           </motion.div>
 
-          {/* Left Image */}
+      
           <motion.div
             className="col-md-6 text-center"
             initial={{ opacity: 0, x: -60 }}
@@ -124,7 +123,7 @@ export default function SmsFeatures() {
               className="img-fluid feature-image"
             />
           </motion.div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

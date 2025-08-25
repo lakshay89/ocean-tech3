@@ -1,179 +1,63 @@
-/* Main Section */
-.IVRService-MainSec {
-    background: linear-gradient(135deg, #f8fbff, #eef5ff);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  /* Left Section */
-  .IVRService-MainSec .SMStitle h3 {
-    /* color: #0d47a1; */
-    font-size: 1.8rem;
-    line-height: 1.4;
-  }
-  .FormLeftSec{
-    width: 90%;
-  }
-  .whatsappImg{
-    width:100%;
-    height:100%;
-  }
-  .textCloumn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .IVRService-MainSec .SMS-Content p {
-    font-size: 1rem;
-    color: #555;
-  }
-  .IVR-title{
-    text-align: left;
-  }
-
-  .IVR-title h1{
-    font-size: 25px;
-    font-weight: 700;
-  }
-  .IVRService-MainSec .SMS-Content .btn {
-    /* background: #0d6efd; */
-    border: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-  }
-  
-  .IVRService-MainSec .SMS-Content .btn:hover {
-    /* background: #084298; */
-    transform: translateY(-2px);
-  }
-  
-  /* Right Section */
-  .IVRService-MainSec .RightSidetitle h3 {
-    color: #333;
-    font-size: 1.5rem;
-  }
-  
-  .IVRService-MainSec .RightSidetitle p {
-    font-size: 0.95rem;
-    color: #666;
-  }
-  
-  /* Form Styles */
-  .IVRService-MainSec form {
-    background: #fff;
-    border-radius: 12px;
-    border: 1px solid #e5e5e5;
-  }
-  
-  .IVRService-MainSec .form-control {
-    border-radius: 8px;
-    padding: 12px 15px;
-    font-size: 0.95rem;
-    transition: 0.3s ease;
-  }
-  
-  .IVRService-MainSec .form-control:focus {
-    /* border-color: #0d6efd; */
-    box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
-  }
-  
-  /* Submit Button */
-  .IVRService-MainSec button[type="submit"] {
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-  }
-  
-  .IVRService-MainSec button[type="submit"]:hover {
-    /* background: #084298; */
-    transform: scale(1.02);
-  }
+.seo-section {
+  /* background-color: #000; */
+  color: #fff;
+}
+.gif-img {
+  width: 120px !important;    /* or 150px, 200px */
+  height: 120px !important;
+  object-fit: contain; /* keeps aspect ratio */
+}
 
 
+.button1{
+  /* background-color: #124bdb !important; */
+  background-color: #fff !important;
+  color: #123bdb;
+  border-radius: 6px;
+  padding:10px 40px !important;
+  border: 0.5px solid #124bdb !important;
+}
+.button1:hover {
+  background-color: #123bdb !important;
+  color: #fff;
+  border-radius: 6px;
+  border: 0.5px solid #124bdb !important;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
 
+.text-pink {
+  color: #124bdb;
+}
 
-  .IvrServices-section {
-    padding: 60px 0;
-    text-align: center;
-  }
-  .IvrServiceTitleSec{
-    margin-top: 20px;
-      text-align: center;
-  } 
+.seo-underline {
+  width: 100px;
+  height: 3px;
+  background-color: #124bdb;
+  border: none;
+  margin-bottom: 2rem;
+}
 
-  .IvrServiceTitleSec h3{
-  font-weight: 700;
-  font-size: 2.4rem;
-  }
-  
-  
-  .Ivrservice-card {
-               /* Same color for all cards */
-    color: #fff;
-    padding: 22px;
-    border-radius: 8px;
-    margin: 15px 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-height: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .Ivrservice-card h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .Ivrservice-card p {
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 25px;
-  }
-  
-  .Ivrservice-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  }
-  
-  .Ivrservice-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
-    transition: background 0.3s ease, color 0.3s ease;
-  }
-  
-  .Ivrservice-btn:hover {
-    background: #fff;
-    color: #333;
-  }
-  
+.seo-card {
+  transition: all 0.3s ease;
+}
+.seo-card:hover {
+  background-color: #111;
+  transform: translateY(-5px);
+}
 
-  
-  /* Responsive */
-  @media (max-width: 991px) {
-    .IVRService-MainSec .SMStitle h3 {
-      font-size: 1.5rem;
-    }
-    .IVRService-MainSec .RightSidetitle h3 {
-      font-size: 1.3rem;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .IVRService-MainSec {
-      padding: 30px 15px;
-    }
-    .IVRService-MainSec .container {
-      text-align: center;
-    }
-    .IVRService-MainSec .SMS-Content {
-      margin-bottom: 30px;
-    }
-  }
-  
+.seo-card img {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-pink {
+  background-color: #124bdb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+.btn-pink:hover {
+  background-color: #124bdb;
+}

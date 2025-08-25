@@ -62,7 +62,7 @@ export default function SMSWhatsApp() {
 
             {/* Right Section */}
             <div className="col-md-6 d-flex justify-content-center">
-              <div className="w-75 w-sm-100">
+              <div className="w-75 w-100 d-sm-none d-md-block">
                 <div className="dlt-right-title text-center mb-4">
                   <h1 className="uppercase fontweight spanbold">Get a Quote</h1>
                   {/* <p className="text-muted">
