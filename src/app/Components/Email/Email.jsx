@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from "react";
 // import axios from "axios"; // keep if you plan to send data to backend
-import "./email.css"
+import "./Email.css"
 
 // import InquiaryForm from "../InquiaryForm/InquiaryForm";
 import Link from "next/link";
