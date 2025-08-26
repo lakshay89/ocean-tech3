@@ -20,13 +20,12 @@ export default function AboutSection() {
                                 </div>
                                 <div className='aboutDetail-sec'>
                                     <p className='text-center fw-bold '>OCEAN TECH ZONE SINCE 2017 </p>
-                                    <p className=' paragraph-details'>Ocean Tech Zone, established in 2017, is a leading provider of advanced business communication solutions. We specialize in services like Bulk SMS, Voice Call Solutions, WhatsApp Business Messaging, and IVR Systems, empowering businesses to engage their customers more effectively. With a strong focus on reliability, cost-efficiency, and customization, Ocean Tech Zone delivers communication tools tailored to meet the unique needs of every client — helping them grow, connect, and thrive in todays competitive landscape.
+                                    <p className=' paragraph-details'>Ocean Tech Zone, established in 2017, is a leading provider of digital marketing and web development solutions. We specialize in SEO (Search Engine Optimization), SMO (Social Media Optimization), and Website Designing, helping businesses enhance their online visibility, build brand authority, and engage customers more effectively.
 
+With a strong focus on reliability, cost-efficiency, and customized strategies, Ocean Tech Zone delivers solutions tailored to the unique goals of each client — empowering them to grow, connect, and thrive in today’s competitive digital landscape.
                                     </p>
                                     <h3 className='titlebold '>What We Do </h3>
-                                    <p className='paragraph-details'>"We specialize in delivering high-quality Bulk SMS services tailored to enhance your business communication strategy.
-                                        Our platform includes features like high delivery rates, real-time tracking, and customizable messaging options, ensuring your messages reach the right audience at the right time."
-                                    </p>
+                                    <p className='paragraph-details'>We specialize in delivering high-quality digital solutions tailored to enhance your business’s online presence. Our core services include SEO (Search Engine Optimization), SMO (Social Media Optimization), and Website Designing, all crafted to drive visibility, engagement, and conversions. With a focus on strategy, performance, and customization, we ensure that your brand reaches the right audience at the right time, helping your business grow and stand out in the digital landscape.</p>
                                 </div>
                             </div>
                         </div>
@@ -51,44 +50,35 @@ export default function AboutSection() {
                         <div className="col-md-6">
                             <div className='aboutbottomSec'>
 
-                                <h2 className='fontweight mb-3'>	Why Choose Us for Your <span className='titlebold'>Trusted Business</span> Growth Partner </h2>
-                                <p className='paragraph-details'>Bulk SMS has become an indispensable tool for businesses in Delhi, offering a powerful, cost-effective way to communicate with customers. Below are the key reasons why Bulk SMS is the best choice for Delhi-based businesses
-                                </p>
+                                <h2 className='fontweight mb-3'>Why Choose Us for Your <span className='titlebold'>Trusted Business</span> Growth Partner </h2>
+                                <p className='paragraph-details'>Digital marketing has become an essential growth tool for businesses in Delhi, offering powerful and cost-effective ways to build brand visibility, engage customers, and drive conversions. Here why services like SEO, SMO, and Website Designing are the best choice for Delhi-based businesses.</p>
 
                                 <b>
                                     "Local Expertise</b>
-                                <p className='paragraph-details'>Our team has extensive knowledge of the Delhi market, enabling us to help you design effective SMS campaigns that are specifically tailored to your target audience.
-                                </p>
+                                <p className='paragraph-details'>Our team has in-depth knowledge of the Delhi market, allowing us to create customized digital strategies that resonate with your local audience. From keyword research to region-specific social media campaigns and web design that reflects local trends, we tailor every solution to maximize your impact.</p>
 
 
                                 <b>High Conversion Rates</b>
                                 <p className='paragraph-details'>
-                                    SMS has an excellent 98% open rate, which is higher than other marketing channels such as email and social media.
-                                    This strong engagement leads to better campaign results and quicker conversion of leads into customers.
-                                </p>
+                                    Search engines and social media platforms are where your audience is most active. With our SEO and SMO strategies, your brand gets better visibility, higher engagement, and improved conversion rates — far outperforming traditional marketing channels.</p>
 
 
                                 <b>Cost-Effective Alternative</b>
                                 <p className='paragraph-details'>
 
-                                    SMS marketing is a more affordable option compared to costly methods like direct mail, email campaigns, or paid advertisements.
-                                    For small and medium businesses in Delhi, Bulk SMS provides an economical way to reach a wide audience without sacrificing performance.
-
+                                   Compared to traditional advertising methods, digital marketing is far more cost-efficient. Whether you're a startup or an established business in Delhi, our SEO, SMO, and website designing services help you reach a broader audience without overspending — delivering real ROI.
                                 </p>
 
 
                                 <b>24/7 Availability</b>
                                 <p className='paragraph-details'>
 
-                                    Our service is available around the clock, allowing businesses to provide support and share information even when they are not open for regular business hours.
-                                </p>
+                                   With a professionally designed website and ongoing optimization, your business remains visible and accessible 24/7. This ensures your customers can find information, make inquiries, or interact with your brand at any time — even outside business hours.   </p>
 
 
                                 <b>Instant Delivery</b>
                                 <p className='paragraph-details'>
-                                    With instant delivery, your SMS messages are sent to recipients within seconds.
-                                    This ensures real-time communication for promotions, alerts, OTPs, and other urgent updates, delivering maximum speed and efficiency. </p>
-
+                                    From immediate visibility on social media through SMO to long-term search engine rankings via SEO, our solutions combine short-term impact with sustained growth. A well-designed website ties everything together, offering users a seamless, high-converting experience.</p>
                             </div>
 
                         </div>
@@ -96,8 +86,7 @@ export default function AboutSection() {
                             <div className='Detail-Sec'>
                                 <h2 className='fontweight mb-3'>   Our Vision Shaping the Future with <span className='titlebold'>Innovation and Excellence	</span>	</h2>
                                 <p className='paragraph-details'>
-                                    To be the global leader in bulk SMS solutions, we aim to transform the way people communicate by upholding the highest standards of reliability, innovation, and customer satisfaction. Our vision is a world where businesses of all sizes can leverage the power of SMS to create stronger connections, boost growth, and provide outstanding value to their customers. Through ongoing advancements in technology and expanding our services, we seek to shape the future of messaging and become the trusted partner for organizations looking to enhance their communication strategies.
-                                </p>
+                                   Our vision is to become a global leader in digital marketing and web solutions, transforming the way businesses grow and connect with their audience. We strive to uphold the highest standards of innovation, reliability, and customer satisfaction through our core services — SEO, SMO, and Website Designing. We envision a future where businesses of all sizes can harness the full potential of digital platforms to build stronger relationships, drive growth, and deliver exceptional value. By continuously evolving our strategies and embracing cutting-edge technologies, we aim to shape the future of digital engagement and become the trusted partner for businesses seeking long-term success online.</p>
 
                             </div>
 
@@ -121,12 +110,11 @@ export default function AboutSection() {
             </div>
 
 
-            <div className='container mb-5 text-center'>
+            <div className='container mb-5 text-center d-flex flex-column justify-content-center align-items-center'>
                 <h3 className='text-center titlebold'>  OUR MISSION	</h3>
 
-                <p className='paragraph-details'>
-                    Our mission is to empower businesses with innovative and reliable SMS solutions that drive engagement, enhance communication, and optimize customer relationships. Through our state-of-the-art bulk SMS platform, we deliver seamless transactional and promotional messaging services that enable our clients to connect with their audience effectively and efficiently. We are committed to providing exceptional service, cutting-edge technology, and unparalleled support to help businesses achieve their goals and grow their brand.”
-                </p>
+                <p className='paragraph-details text-center'>
+                    Our mission is to empower businesses with innovative and results-driven digital solutions that enhance visibility, boost engagement, and strengthen customer relationships. Through our expertise in SEO, SMO, and Website Designing, we provide tailored strategies that help our clients build a strong online presence, connect with their target audience, and achieve measurable growth. We are committed to delivering exceptional service, cutting-edge technology, and dedicated support to help businesses reach their full potential in the digital world.                </p>
             </div>
 
 
