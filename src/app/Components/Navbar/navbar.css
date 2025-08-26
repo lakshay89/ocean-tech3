@@ -62,3 +62,13 @@
 .nav-link:focus::after {
   width: 100%;
 }
+.navbar .nav-link {
+  font-weight: 600;       /* Makes it semi-bold */
+  font-size: 1rem;      /* Slightly larger text */
+  color: #000 !important;  /* Optional: force color if not already set */
+}
+
+/* Optional: hover effect */
+.navbar .nav-link:hover {
+  color: #007bff !important; /* Bootstrap primary or your brand color */
+}

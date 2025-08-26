@@ -15,7 +15,7 @@ export default function NavScrollExample() {
     <Navbar expand="lg" className="bg-body-tertiary px-3">
       <Container fluid>
         {/* Left: Logo */}
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <Image src={logo} width={170} alt="logo" />
         </Navbar.Brand>
 
@@ -60,8 +60,9 @@ export default function NavScrollExample() {
 
           {/* Right: Buttons */}
           <div className="d-flex gap-2">
-            <Button variant="outline-primary">+91 9289933499</Button>
+           
             <Button variant="primary">Call Us</Button>
+             <Button variant="outline-primary">+91 9289933499</Button>
           </div>
         </Navbar.Collapse>
       </Container>
