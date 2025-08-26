@@ -33,6 +33,30 @@ export default function Services() {
       color: "#1897eb;",
       alt:"Web Design",
     },
+    {
+      img:img3,
+      title: "Content Marketing",
+      desc: "We create blogs, videos, graphics, and posts that attract, engage, and convert your target audience. We create compelling blogs, videos, infographics, and social media content .",
+      link: "/Pages/Content",
+      color: "#1897eb;",
+      alt:"Content Marketing",
+    },
+    {
+      img:img3,
+      title: "Email & WhatsApp Marketing",
+      desc: "Stay connected with your customers through personalized email and WhatsApp campaigns.Automated email & WhatsApp sequences for consistent communication. ",
+      link: "/Pages/Email",
+      color: "#1897eb;",
+      alt:"Web Design",
+    },
+    {
+      img:img3,
+      title: "Pay-Per-Click Advertising (Google Ads & Meta Ads)",
+      desc: "Boost your website’s visibility on Google with our white-hat SEO techniques. Drive organic traffic, increase rankings, and stay ahead of competitors.",
+      link: "/Pages/Advertising",
+      color: "#1897eb;",
+      alt:"Web Design",
+    },
   ];
 
   return (

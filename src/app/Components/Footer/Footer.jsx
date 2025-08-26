@@ -1,7 +1,15 @@
 "use client";
 import React from "react";
 import "./footer.css";
-import { FaFacebookF, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,  FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -15,7 +23,6 @@ export default function Footer() {
             <div className="logo-text">
               <span className="logo-icon"> ✉ OCEAN TECH ZONE </span>
             </div>
-            {/* <p className="tagline">The SMS leader...</p>  */}
           </div>
           <p className="footer-desc">
             Our focus lies in targeted marketing, customer care, customer voice,
@@ -51,24 +58,19 @@ export default function Footer() {
             >
               <FaYoutube size={20} />
             </a>
-            {/* <a href="mailto:info@oceantechzone.com">
-              <FaEnvelope size={20} />
-            </a> */}
           </div>
         </div>
 
         {/* Column 2 - Services */}
         <div className="footer-col">
           <h4>Services</h4>
-
           <ul className="list-unstyled">
-           
             <li className="mb-2">
               <Link
                 href="/Pages/seo"
                 className="text-light text-decoration-none d-block"
               >
-               Search Engine Optimization 
+                Search Engine Optimization
               </Link>
             </li>
             <li className="mb-2">
@@ -76,7 +78,7 @@ export default function Footer() {
                 href="/Pages/Socialmedia"
                 className="text-light text-decoration-none d-block"
               >
-              Social Media Optimization
+                Social Media Optimization
               </Link>
             </li>
             <li className="mb-2">
@@ -84,13 +86,13 @@ export default function Footer() {
                 href="/Pages/Digital-marketing"
                 className="text-light text-decoration-none d-block"
               >
-              Website Designing
+                Website Designing
               </Link>
             </li>
           </ul>
         </div>
 
-        {/* Column 3 - Digital Marketing & Policy Info */}
+        {/* Column 3 - Policy Info */}
         <div className="footer-col">
           <h4 className="">Policy Info.</h4>
           <ul className="list-unstyled">
@@ -135,6 +137,15 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+
+      {/* Copyright Section */}
+      <div className="footer-bottom text-center mt-2 mb-0">
+        <p style={{ margin: 0, fontSize: "14px", color: "#ccc" }}>
+          © 2025 Ocean Tech Zone. All rights reserved. Designed By <Link href="https://www.digiindiasolutions.com" target="_blank" rel="noopener noreferrer">
+  DIGI INDIA SOLUTIONS
+</Link>
+        </p>
       </div>
     </footer>
   );
