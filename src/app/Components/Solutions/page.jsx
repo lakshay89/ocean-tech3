@@ -54,9 +54,10 @@ export default function page() {
               Get the best and most <br /> creative results.
             </h2>
             <p className="text-muted mb-4">
-              Mauris iaculis vel pretium dapibus amet ullamcorper tortor dis
-              mus nulla ornare. Fermentum cras consectetur vivamus vitae elit
-              orci habitant.
+             We offer strategic digital solutions that combine creativity, data, and
+  technology to elevate your brand. From SEO and social media optimization
+  to stunning, responsive website designs — we help businesses grow by
+  enhancing their online visibility and engagement.
             </p>
             {services.map((item, index) => (
               <div className="d-flex align-items-start mb-4" key={index}>
