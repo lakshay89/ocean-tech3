@@ -47,6 +47,7 @@
   z-index: 1;
   width: 90%;
   max-width: 400px;
+  /* clip-path: inset(0 3% 0 2% round 5% 20% 0 10%); */
 }
 
 /* MEDIA QUERIES */

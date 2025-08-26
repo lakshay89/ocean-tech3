@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import './bulk.css'
-import img1 from '@/app/Images/Bulk SMS Promotion Page/High-Performance Bulk SMS Marketing Services to Grow Your Business.png'
+import img1 from '../../Images/current/seo-7168460_1920.png'
 
 export default function BulkSms() {
   return (
@@ -31,7 +31,7 @@ export default function BulkSms() {
                 </div>
                 <div className="col-md-6 d-flex justify-content-center align-items-center">
                    <div className='RightSideSec d-flex justify-content-center align-items-center'>
-                   <Image src={img1} alt=""  className='BulkImg' />
+                   <Image src={img1} alt=""  className='BulkImg img-fluid' />
                    </div>
                 </div>
             </div>

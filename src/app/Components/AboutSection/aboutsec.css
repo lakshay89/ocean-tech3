@@ -11,6 +11,11 @@
     width: 90%;
 
 }
+  .titlebold {
+    color: var(--theme-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 .Detail-Sec h1{
     width:90%;

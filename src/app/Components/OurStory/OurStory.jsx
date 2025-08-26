@@ -1,7 +1,7 @@
 'use client';
 import React from "react";
 import "./ourstory.css";
-import Img1 from "@/app/Images/Home Page/BulkSMS.png";
+import Img1 from "../../Images/current/dd-removebg-preview.png";
 import Image from "next/image";
 import { IoArrowRedoCircleSharp } from "react-icons/io5";
 import Link from "next/link";
