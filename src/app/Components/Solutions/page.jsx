@@ -4,7 +4,7 @@
 
 import React from "react";
 import Image from "next/image";
-import solutionImg from "../../Images/current/Marketing consulting-amico.png";
+import solutionImg from "../../Images/current/Marketingconsulting-amico.png";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCheckCircle } from "react-icons/fa";
 

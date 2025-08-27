@@ -40,7 +40,7 @@ export default function NavScrollExample() {
                 >
 
               <NavDropdown.Item href="/Pages/seo">Search Engine Optimization</NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/Digital-marketing">Website Designing</NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/Website-Design">Website Designing</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/Socialmedia">Social Media Optimization</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/Content">Content Marketing</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/Email">Email & WhatsApp Marketing</NavDropdown.Item>

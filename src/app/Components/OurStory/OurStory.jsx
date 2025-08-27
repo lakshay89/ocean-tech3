@@ -13,10 +13,10 @@ export default function OurStory() {
         {/* Left Content */}
         <div className="col-lg-6 mb-4 mb-lg-0 text-left text-lg-start">
           <h1 className="fw-bold pb-3 story-heading fs-1">
-            Grow Your Business <br /> <span className="spanbold fs-1">with Result-Driven <br/>Digital Marketing Solutions</span>
+            Grow Your Business <br /> <span className="spanbold fs-1 text-white">with Result-Driven <br/>Digital Marketing Solutions</span>
            
           </h1>
-          <p className="text-muted story-text mx-auto mx-lg-0">
+          <p className=" story-text mx-auto mx-lg-0 text-black">
             We help businesses build a powerful online presence, generate qualified leads, and achieve sustainable growth through innovative marketing strategies.
           </p>
           <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-4">
@@ -31,7 +31,7 @@ export default function OurStory() {
 
         {/* Right Image */}
         <div className="col-lg-6 text-center position-relative">
-          <div className="hero-bg-shape"></div>
+          <div className=""></div>
           <Image src={Img1} alt="Bulk SMS" className="img-fluid story-img" />
         </div>
       </div>

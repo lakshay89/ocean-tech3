@@ -16,33 +16,32 @@ export default function StatsSection() {
       <div className="container">
         {/* First Row - 2 Big Items */}
         <div className="row justify-content-center mb-5">
-          <div className="col-lg-6 col-md-6 col-sm-6 col-6 mb-4">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
             <div className="stat-box statfirst big">
               <div className="stat-icon">
                 <Image src={pic1} alt="stateImg" height={50} width={50} />
               </div>
               <div className="stat-text">
-                <h2>7 Years</h2>
+                <h2>7 Yrs</h2>
                 <p>in Business</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6 col-6 mb-4">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
             <div className="stat-box big topSectionRight">
               <div className="stat-icon">
                 <Image src={pic2} alt="stateImg" height={50} width={50} />
               </div>
               <div className="stat-text">
-                <h2>1.6k</h2>
+                <h2>2.5k</h2>
                 <p>Project Done</p>
               </div>
             </div>
           </div>
-        </div>
+       
 
-        {/* Second Row - 4 Smaller Items */}
-        <div className="row justify-content-center">
-          <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
+
+        <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
             <div className="stat-box small">
               <div className="stat-icon">
                 <Image src={pic3} alt="stateImg" height={50} width={50} />
@@ -54,29 +53,9 @@ export default function StatsSection() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
-            <div className="stat-box small">
-              <div className="stat-icon">
-                <Image src={pic4} alt="stateImg" height={50} width={50} />
-              </div>
-              <div className="stat-text">
-                <h3>700+</h3>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-          </div>
+         
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
-            <div className="stat-box small">
-              <div className="stat-icon">
-                <Image src={pic5} alt="stateImg" height={50} width={50} />
-              </div>
-              <div className="stat-text">
-                <h3>95k</h3>
-                <p>Hours Worked</p>
-              </div>
-            </div>
-          </div>
+         
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-6 mb-4">
             <div className="stat-box small">
@@ -89,7 +68,8 @@ export default function StatsSection() {
               </div>
             </div>
           </div>
-        </div>
+         </div>
+        
       </div>
     </section>
   );

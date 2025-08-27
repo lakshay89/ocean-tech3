@@ -83,10 +83,34 @@ export default function Footer() {
             </li>
             <li className="mb-2">
               <Link
-                href="/Pages/Digital-marketing"
+                href="/Pages/Website-Design"
                 className="text-light text-decoration-none d-block"
               >
                 Website Designing
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link
+                href="/Pages/Content"
+                className="text-light text-decoration-none d-block"
+              >
+                Content Marketing
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link
+                href="/Pages/Email"
+                className="text-light text-decoration-none d-block"
+              >
+                Email & WhatsApp Marketing
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link
+                href="/Pages/Advertising"
+                className="text-light text-decoration-none d-block"
+              >
+                Pay-Per Click Advertising
               </Link>
             </li>
           </ul>

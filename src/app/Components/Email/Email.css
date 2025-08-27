@@ -1,4 +1,12 @@
-/* Main Section */
+.seo-section {
+  /* background-color: #000; */
+  color: #fff;
+}
+.gif-img {
+  width: 120px !important;    /* or 150px, 200px */
+  height: 120px !important;
+  object-fit: contain; /* keeps aspect ratio */
+}
 .SMS-Transection-MainSec {
     background: linear-gradient(135deg, #f8fbff, #eef5ff);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -56,7 +64,7 @@
   
   .SMS-Transection-MainSec .form-control:focus {
     border-color: var(--theme-color);
-    box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
+    box-shadow: 0 0 6px #0d6efd4d;
   }
   
   /* Submit Button */
@@ -71,16 +79,6 @@
     background: #084298;
     transform: scale(1.02);
   }
-  .seo-section {
-  /* background-color: #000; */
-  color: #fff;
-}
-.gif-img {
-  width: 120px !important;    /* or 150px, 200px */
-  height: 120px !important;
-  object-fit: contain; /* keeps aspect ratio */
-}
-
 
 .button1{
   /* background-color: #124bdb !important; */
@@ -134,8 +132,7 @@
 .btn-pink:hover {
   background-color: #124bdb;
 }
-
-  
+ 
   /* Responsive */
   @media (max-width: 991px) {
     .SMS-Transection-MainSec .SMStitle h3 {

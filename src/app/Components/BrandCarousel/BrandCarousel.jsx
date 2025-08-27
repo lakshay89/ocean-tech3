@@ -28,7 +28,7 @@ export default function BrandCarousel() {
         </div>
       </div>
 
-      <div className="brand-carousel-container py-5">
+      <div className="brand-carousel-container pt-1 py-5">
         <Swiper
           slidesPerView={5} // default for large screens
           spaceBetween={30}

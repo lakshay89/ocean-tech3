@@ -29,7 +29,7 @@ export default function Services() {
       img:img3,
       title: "Website Designing",
       desc: "Get a professional, mobile-friendly, and SEO-optimized website that represents your brand effectively. Boost your business with our experienced Web development team and build your presence. ",
-      link: "/Pages/Digital-marketing",
+      link: "/Pages/Website-Design",
       color: "#1897eb;",
       alt:"Web Design",
     },
@@ -61,18 +61,19 @@ export default function Services() {
 
   return (
     <>
-    <div className="ServiceTitleSec text-center mt-5 d-flex align-items-center justify-content-center flex-column">
+   
+    <section className="services-section mb-5 bg-light">
+      <div className="container">
+        <div className="row justify-content-center align-items-center">
+           <div className="ServiceTitleSec text-center mt-5 d-flex align-items-center justify-content-center flex-column ">
       <h3 className="title"> We Deliver revenue-generating <span style={{color:"#0a4adc"}}>Digital marketing solutions</span></h3>
             <p className="w-75">Connect with your audience through fast, reliable, and scalable communication
                solutions. Whether it's Website Designing ,Social Media Optimization , Search Engine Optimization (SEO) we’ve got you covered.</p>
     </div>
-    <section className="services-section mb-5">
-      <div className="container">
-        <div className="row justify-content-center align-items-center">
           {services.map((service, index) => (
-            <div className="col-md-3" key={index}>
+            <div className="col-md-4" key={index}>
               <div
-                className="service-card"
+                className="service-card text-center p-4 m-3"
                 // style={{background:"#0a4adc", background:"linear-gradient(179deg,rgba(10, 74, 220, 1) 18%, rgba(24, 151, 235, 1) 70%);"}}
               >
                <Image

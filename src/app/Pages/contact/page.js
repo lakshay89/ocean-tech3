@@ -224,10 +224,10 @@ import {
 
 export default function ContactUs() {
   return (
-    <section className="contact-us py-5 bg-white text-dark mb-5">
-      <Container>
+    <section className="contact-us py-5 bg-white text-dark mb-5 d-flex align-items-center justify-content-center">
+      <Container className="d-flex flex-column align-items-center justify-content-center">
         <h2 className="text-center text-primary mb-4 fw-bold">Contact Us</h2>
-        <p className="text-center mb-5 text-secondary">
+        <p className="text-center mb-5 text-secondary w-75">
           Thanks for your interest in <strong>Ocean Techzone</strong>. We ll be happy to hear from you.
           Kindly use this form to share your query and we shall get back to you shortly.
         </p>
@@ -241,7 +241,7 @@ export default function ContactUs() {
               feel free to reach out. We are here to help!
             </p>
 
-            <p><FaMapMarkerAlt className="me-2 text-primary" /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030</p>
+            {/* <p><FaMapMarkerAlt className="me-2 text-primary" /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030</p> */}
             <p><FaEnvelope className="me-2 text-primary" /> <a href="mailto:info@oceantechzone.com" className="text-decoration-none text-dark">info@oceantechzone.com</a></p>
             <p><FaPhone className="me-2 text-primary" /> <a href="tel:+919289933499" className="text-decoration-none text-dark">+91 9289933499</a></p>
 

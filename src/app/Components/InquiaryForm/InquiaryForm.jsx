@@ -13,15 +13,12 @@ export default function InquiaryForm() {
   });
 
   const [services] = useState([
-    "Bulk SMS Service",
-    "Bulk SMS Promotion",
-    "OTP SMS Service",
-    "WhatsApp SMS Service",
-    "Voice Call Service",
-    "IVR Service",
-    "Bulk Email Marketing",
-    "Bulk SMS Transactional",
-    "RCS Service",
+    "Search Engine Optimization (SEO)",
+    "Social Media Optimization",
+    "Website Designing",
+    "Content Marketing",
+    "Email & WhatsApp Marketing",
+    "Pay-Per-Click Advertising (Google Ads & Meta Ads)",
   ]);
 
   const [loading, setLoading] = useState(false);
