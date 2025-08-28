@@ -36,7 +36,7 @@ const seoFeatures = [
   {
     img: "/gif/smo5.gif",
     title: "Analytics & Reporting",
-    desc: "You’ll receive transparent monthly reports showing rankings, traffic, and ROI so you can see the direct impact of our work.",
+    desc: "Shopify Website Scalable, easy-to-manage, and conversion-focused Shopify stores built to grow businesses of every size.",
   },
   {
     img: "/gif/smo6.gif",
@@ -66,7 +66,7 @@ export default function Website() {
               leaves a lasting one. From sleek business websites to fully
               functional e-commerce stores, our Website Design & Development
               services help your brand stand out in the digital world. A website
-              is more than just an online presence—it’s your digital storefront.
+              is more than just an online presence—it s your digital storefront.
               A professionally designed and optimized website
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function Website() {
                 Our Website Design & Development Services
               </h3>
               <p className="text-light text-black">
-                A website is more than just an online presence—it’s your digital
+                A website is more than just an online presence—it s your digital
                 storefront. A professionally designed and optimized website.
               </p>
             </div>
@@ -120,12 +120,12 @@ export default function Website() {
               Build a Website That Works for You
             </h2>
             <p className="text-uppercase text-black mb-3 text-center ">
-              we don’t just design websites—we build digital experiences that
+              we don t just design websites—we build digital experiences that
               help businesses grow. Whether you need a corporate website, a
               portfolio, or a full-fledged online store, our Website Design &
               Development services deliver performance, style, and results.
               Ready to create a website that truly represents your business?
-              Let’s build it together.
+              Let s build it together.
             </p>
             <Link href="/Pages/contact">
               <button className="btn-primary btn mx-3 px-4 py-2 fw-semibold">

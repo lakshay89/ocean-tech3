@@ -10,6 +10,7 @@
 .SMS-Transection-MainSec {
     background: linear-gradient(135deg, #f8fbff, #eef5ff);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 85vh;
   }
   
   /* Left Section */
