@@ -55,7 +55,7 @@ export default function SMSWhatsApp() {
                     DLT ensures transparency, security, and compliance in digital messaging by verifying sender identity, reducing fraud, and enabling trusted communication across SMS, voice, and bulk services.
 
                   </p>
-                  <button className="btn themebackground px-4">Schedule Demo</button>
+                  <button className="btn themebackground px-4">Contact Us</button>
                 </div>
               </div>
             </div>

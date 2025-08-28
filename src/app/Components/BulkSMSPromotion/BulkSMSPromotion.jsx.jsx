@@ -81,7 +81,7 @@ export default function BulkSMSPromotion() {
                                 <p className="text-muted mb-4">
                                     Boost engagement, increase sales, and deliver your message directly to your audiences mobile phones with our fast, affordable, and targeted bulk SMS marketing solutions.
                                 </p>
-                                <button className="btn btn-primary px-4">Schedule Demo</button>
+                                <button className="btn btn-primary px-4">Contact Us</button>
                             </div>
                          </div>
                         </div>

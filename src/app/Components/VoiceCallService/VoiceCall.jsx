@@ -91,7 +91,7 @@ export default function SMSWhatsApp() {
                             <div className="SMS-Content">
                                 <p className="text-muted mb-4">
                                     Deliver promotional, transactional, or reminder messages instantly with our high-quality automated voice call solutions designed for businesses of all sizes.    </p>
-                                <button className="btn themebackground text-light px-4">Schedule Demo</button>
+                                <button className="btn themebackground text-light px-4">Contact Us</button>
                             </div>
                           </div> 
                         </div>

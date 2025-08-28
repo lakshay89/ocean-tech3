@@ -97,7 +97,7 @@ export default function Advertising() {
                 </p>
                 <Link href="/Pages/contact" className="text-decoration-none">
                   <button className="btn themebacground text-light px-4">
-                    Schedule Demo
+                    Contact Us
                   </button>
                 </Link>
               </div>

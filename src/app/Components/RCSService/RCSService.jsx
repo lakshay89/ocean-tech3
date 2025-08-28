@@ -53,7 +53,7 @@ export default function RCSService() {
                                 <p className="text-muted mb-4">
                                     Deliver interactive, secure, and media-rich messages instantly using RCS. Share images, videos, buttons, and updates seamlessly, empowering businesses to connect with customers in smarter ways.
                                 </p>
-                                <button className="btn btn-primary px-4">Schedule Demo</button>
+                                <button className="btn btn-primary px-4">Contact Us</button>
                             </div>
                           </div>
                         </div>

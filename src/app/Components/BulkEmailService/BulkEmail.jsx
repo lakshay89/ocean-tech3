@@ -81,7 +81,7 @@ export default function BulkEmail() {
                                 <p className="text-muted mb-4">
                                     Promote your business, nurture leads, and engage customers with our powerful bulk email marketing service featuring targeted campaigns, professional templates, and real-time analytics.
                                 </p>
-                                <button className="btn themebackground px-4">Schedule Demo</button>
+                                <button className="btn themebackground px-4">Contact Us</button>
                             </div>
                            </div>
                         </div>
