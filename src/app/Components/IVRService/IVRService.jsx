@@ -59,7 +59,7 @@ const seoFeatures = [
 export default function SEOSection() {
   return (
     <>
-      <div className="SMS-Transection-MainSec py-5">
+      <div className="SMS-Transection-MainSec  py-5">
         <div className="container ">
           <div className="row align-items-center">
             {/* Left Section */}
