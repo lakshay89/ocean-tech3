@@ -40,7 +40,7 @@ export default function AboutSection() {
               <div>
                 
                 <div className="aboutDetail-sec">
-                  <p className="text-center fw-bold ">
+                  <p className="text-center fw-bold  fontWeb">
                     OCEAN TECH ZONE SINCE 2017
                   </p>
                   <p className=" paragraph-details">
@@ -53,14 +53,14 @@ export default function AboutSection() {
                     customers, and drive measurable results.{" "}
                   </p>
 
-                  <h5 className="text-black">Our Mission </h5>
+                  <h5 className="text-black fontWeb">Our Mission </h5>
                   <p className=" paragraph-details">
                     To empower businesses of all sizes with result-oriented
                     digital marketing strategies that increase brand visibility,
                     generate quality leads, and boost ROI.
                   </p>
 
-                  <h5 className="text-black">Our Vision </h5>
+                  <h5 className="text-black fontWeb">Our Vision </h5>
                   <p className=" paragraph-details">
                     To become a trusted global digital marketing agency known
                     for innovation, creativity, and delivering measurable growth
@@ -82,7 +82,7 @@ export default function AboutSection() {
           <div className="row">
             <div className="col-md-6">
               <div className="aboutbottomSec">
-                <h2 className="fontweight mb-3 fs-5">
+                <h2 className="fontweight mb-3  fontWeb">
                   Our Core Values
                 </h2>
                 <p className="paragraph-details">
@@ -91,7 +91,7 @@ export default function AboutSection() {
                   to build brand visibility.
                 </p>
 
-                <b>-Creativity</b>
+                <b>Creativity</b>
                 <p className="paragraph-details">
                     We craft campaigns that inspire, engage, and convert.
                   Our team has in-depth knowledge of the Delhi market, allowing
@@ -132,7 +132,7 @@ export default function AboutSection() {
             </div>
             <div className="col-md-6">
               <div className="Detail-Sec">
-                <h5 className=" mb-3"> Our Journey </h5>
+                <h5 className=" mb-3 fontWeb"> Our Journey </h5>
                 <p className="paragraph-details">
                   Founded with a vision to simplify online marketing, [Your
                   Agency Name] has grown into a full-service digital marketing

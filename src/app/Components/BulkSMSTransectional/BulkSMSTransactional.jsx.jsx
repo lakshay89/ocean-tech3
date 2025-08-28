@@ -53,7 +53,7 @@ export default function BulkSMSPromotion() {
                                 <div className="SMS-Content">
                                     <p className=" mb-4">
                                         Send instant and secure transactional SMS alerts, OTPs, and important notifications to your customers with our robust and high-delivery SMS gateway.										     </p>
-                                    <button className="btn btn-primary px-4">Schedule Demo</button>
+                                    <button className="btn btn-primary px-4">Contact Us</button>
                                 </div>
                             </div>
                         </div>

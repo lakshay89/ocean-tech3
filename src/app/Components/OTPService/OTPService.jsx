@@ -45,7 +45,7 @@ export default function SMSTransection() {
               <p className="text-muted mb-4 w-75 text-left">
               Ensure fast, reliable, and secure OTP delivery to authenticate users, prevent fraud, and enhance account security with our high-performance SMS gateway.
               </p>
-              <button className="btn text-light px-3">Schedule Demo</button>
+              <button className="btn text-light px-3">Contact Us</button>
             </div>
           </div>
 

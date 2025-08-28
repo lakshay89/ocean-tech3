@@ -65,8 +65,8 @@ export default function SEOSection() {
             {/* Left Section */}
             <div className="col-md-6 mb-4 mb-md-0">
               <div className="SMStitle text-left mb-3">
-                <h1 className="fw-bold text-black fs-3">
-                  <span className="titlebold text-left fs-3">
+                <h1 className="fw-bold pageHeader  text-black ">
+                  <span className="titlebold text-left ">
                     Search Engine Optimization (SEO)
                   </span>{" "}
                   <br />
@@ -111,14 +111,14 @@ export default function SEOSection() {
               />
             </div>
             <div className="col-lg-6">
-              <h4 className="fw-bold text-black w-75 fs-3 mb-4">
+              <h2 className=" text-black w-75 PageHeader  mb-4">
                 Unlock the full potential of your website and boost your search
                 rankings with
                 <br />{" "}
                 <span style={{ color: "#124bdb" }}>
                   our expert SEO services.
                 </span>
-              </h4>
+              </h2>
               <p className="text-light text-black ">
                 Comprehensive SEO Solutions by TheClickFunnel
                 <br />

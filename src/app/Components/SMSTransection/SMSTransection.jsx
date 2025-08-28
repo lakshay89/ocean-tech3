@@ -50,7 +50,7 @@ export default function SMSTransection() {
                 We prioritize user experience to make sure your website not only looks great but also performs.
               </p>
               <Link href="/Pages/contact" className="text-decoration-none">
-              <button className="btn themebacground text-light px-4">Schedule Demo</button>
+              <button className="btn themebacground text-light px-4">Contact Us</button>
               </Link>
             </div>
           </div>

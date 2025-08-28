@@ -51,7 +51,7 @@ export default function SMSWhatsApp() {
                                 <p className="text-muted mb-4">
                                     "Reach your audience instantly with personalized bulk messages on WhatsApp, featuring images, videos, and interactive content for maximum engagement and conversions."
                                 </p>
-                                <button className="btn btn themebackground text-light px-4">Schedule Demo</button>
+                                <button className="btn btn themebackground text-light px-4">Contact Us</button>
                             </div>
                            </div>
                         </div>
