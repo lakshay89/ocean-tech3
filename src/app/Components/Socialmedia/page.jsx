@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../SEOSection/ivr-service.css";
+import "../SEOSection/SEOSection.css";
 import Image from "next/image";
 
 import seoImg from "../../Images/current/p1.png";
@@ -12,12 +12,12 @@ const seoFeatures = [
   {
     img: "/gif/smo1.gif",
     title: "Organic Social Media Strategy",
-    desc: "Optimize profiles, create content, and ensure you’re using the most effective hashtags.",
+    desc: "Optimize profiles, create content, and ensure you are using the most effective hashtags.",
   },
   {
     img: "/gif/smo2.gif",
     title: "Influencer Marketing",
-    desc: "Strategize and collaborate with influencers to grow your brand’s reach and engagement.",
+    desc: "Strategize and collaborate with influencers to grow your brands  reach and engagement.",
   },
   {
     img: "/gif/smo3.gif",
@@ -37,7 +37,7 @@ const seoFeatures = [
   {
     img: "/gif/smo6.gif",
     title: "Content Marketing",
-    desc: "Content remains king – we help with blogs, press releases, eBooks, and more.",
+    desc: "Content remains king we help with blogs, press releases, eBooks, and more.",
   },
 ];
 
@@ -126,7 +126,7 @@ export default function SMOSection() {
                 Benefits with TheClickFunnel SMO
               </h3>
               <p className="text-light text-black">
-                Maximize your website’s potential by leveraging our SEO
+                Maximize your website potential by leveraging our SEO
                 strategies to get ahead of your competition.
               </p>
             </div>
@@ -160,12 +160,13 @@ export default function SMOSection() {
           <div className="row my-5">
             <div className="col-12 d-flex align-items-center flex-column">
               <h2 className="text-pink fw-bold mb-2 text-center fs-1 pb-2">
-                Let’s Build Your Social Presence              </h2>
+                Lets Build Your Social Presence              </h2>
               <p className="text-uppercase text-black mb-3 text-center w-75">
 
-                At Our Company, we don’t just manage social media—we build brands that people love to follow and engage with. Whether you’re a startup or an established business, our Social Media Marketing services will help you grow your audience, boost conversions, and strengthen your brand identity.
+                At Our Company, we do not just manage social media—we build brands that people love to follow and engage with. Whether you are a startup or an established business, our Social Media Marketing services will help you grow your audience, boost conversions,
+                 and strengthen your brand identity.
 
-Ready to turn your social media into a powerful marketing machine? Let’s get started today!
+Ready to turn your social media into a powerful marketing machine? Lets get started today!
               </p>
               {/* <div className="seo-underline mx-auto mb-4"></div> */}
               <Link href="/Pages/contact">
