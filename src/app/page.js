@@ -5,8 +5,9 @@ import Faq from "./Components/Faq/Faq";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import StatsSection from "./Components/StateSection/StateSection";
 import Services from "./Components/Services/Services";
-import BulkSms from "./Components/BulkSMS/BulkSms";
+import SEO from "./Components/SEO/SEO";
 import Solutions from "./Components/Solutions/page.jsx";
+import SEOSection from "./Components/SEOSection/SEOSection";
 // import PricingPlans from "./Components/PricingPlans/PricingPlans";
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
         </section>
          {/* <PricingPlans/> */}
          <StatsSection/>
-         <BulkSms/>
+         <SEOSection/>
          <Testimonial/>
          {/* <GoogleMap/> */}
          <Faq/>

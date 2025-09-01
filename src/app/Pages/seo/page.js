@@ -1,11 +1,12 @@
 import BrandCarousel from '@/app/Components/BrandCarousel/BrandCarousel'
-import IVRService from '@/app/Components/IVRService/IVRService'
+import SEOSection from '@/app/Components/SEOSection/SEOSection'
+
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <IVRService/>
+        <SEOSection/>
         <BrandCarousel/>
     </>
   )

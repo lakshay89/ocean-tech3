@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import './bulk.css'
+import './seo.css'
 import img1 from '../../Images/current/seo-7168460_1920.png'
 
-export default function BulkSms() {
+export default function SEO() {
   return (
     <>
       <div className='MainSection'>

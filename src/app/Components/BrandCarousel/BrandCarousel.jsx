@@ -6,12 +6,12 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import './brandcarousel.css';
 
-import brand1 from '../../Images/current/s1.png';
-import brand2 from '../../Images/current/s2.png';
-import brand3 from '../../Images/current/s3.png';
-import brand4 from '../../Images/current/s4.png';
-import brand5 from '../../Images/current/s5.png';
-import brand6 from '../../Images/current/s6.png';
+// import brand1 from '../../Images/current/s1.png';
+// import brand2 from '../../Images/current/s2.png';
+// import brand3 from '../../Images/current/s3.png';
+// import brand4 from '../../Images/current/s4.png';
+// import brand5 from '../../Images/current/s5.png';
+// import brand6 from '../../Images/current/s6.png';
 import brand7 from '../../Images/download1.png';
 import brand8 from '../../Images/download2.png';
 import brand9 from '../../Images/download3.png';
@@ -24,7 +24,7 @@ import brand13 from '../../Images/download7.png';
 import Image from 'next/image';
 
 export default function BrandCarousel() {
-  const brands = [brand1, brand2, brand3, brand4, brand5, brand6,brand7,brand8,brand9,brand10,brand11,brand12,brand13];
+  const brands = [brand7,brand8,brand9,brand10,brand11,brand12,brand13];
   const allSlides = [...brands, ...brands];
 
   return (

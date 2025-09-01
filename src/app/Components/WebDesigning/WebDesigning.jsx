@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 // import axios from "axios"; // keep if you plan to send data to backend
-import "./SMSTransection.css";
+import "./webdesigning.css";
 // import InquiaryForm from "../InquiaryForm/InquiaryForm";
 import Link from "next/link";
 import Image from "next/image";

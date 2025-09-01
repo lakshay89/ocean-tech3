@@ -35,8 +35,8 @@ const seoFeatures = [
   },
   {
     img: "/gif/smo5.gif",
-    title: "Analytics & Reporting",
-    desc: "Shopify Website Scalable, easy-to-manage, and conversion-focused Shopify stores built to grow businesses of every size.",
+    title: "Shopify Website",
+    desc: "Scalable, easy-to-manage, and conversion-focused Shopify stores built to grow businesses of every size.",
   },
   {
     img: "/gif/smo6.gif",

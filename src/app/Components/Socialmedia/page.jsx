@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../IVRService/ivr-service.css";
+import "../SEOSection/ivr-service.css";
 import Image from "next/image";
 
 import seoImg from "../../Images/current/p1.png";
