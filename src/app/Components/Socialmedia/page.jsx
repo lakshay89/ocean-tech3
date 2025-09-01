@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../SEOSection/SEOSection.css";
+import "../SEOSection/seosection.css";
 import Image from "next/image";
 
 import seoImg from "../../Images/current/p1.png";
