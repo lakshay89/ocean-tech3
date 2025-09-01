@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Digital Marketing Agency | SEO, PPC & Social Media Experts",
   description: "Grow your business with our digital marketing agency. We specialize in SEO, PPC, social media & content marketing to drive traffic, leads & sales.",
+  icons: {
+    icon: "/favlogo.png",         // Default favicon
+    shortcut: "/favlogo.png",     // For older browsers
+    apple: "/favlogo.png",        // For iOS/Apple devices
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -30,7 +35,7 @@ export default function RootLayout({ children }) {
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossOrigin="anonymous"
         />
-        {/* <link rel="icon"  href="/public/faviconlogo.png" /> */}
+        {/* <link rel="icon"  href="/favlogo.png" /> */}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar />
