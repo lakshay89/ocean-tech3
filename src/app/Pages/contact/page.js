@@ -30,7 +30,7 @@ export default function ContactUs() {
           <Col md={6} className="mb-4">
             <h4 className="fw-semibold">Get in Touch</h4>
             <p className="text-muted">
-              For any inquiries or support related to our bulk SMS and marketing services,
+              For any inquiries or support related to our SEO , SMO , Website Development , Digital Marketing 
               feel free to reach out. We are here to help!
             </p>
 

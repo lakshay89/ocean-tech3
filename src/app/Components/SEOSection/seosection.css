@@ -66,6 +66,10 @@
     font-size: 0.95rem;
     transition: 0.3s ease;
   }
+  .PageHeader{
+    font-size: 30px;
+
+  }
   
   .SMS-Transection-MainSec .form-control:focus {
     border-color: var(--theme-color);

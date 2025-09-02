@@ -111,14 +111,14 @@ export default function SEOSection() {
               />
             </div>
             <div className="col-lg-6">
-              <h2 className=" text-black w-75 PageHeader  mb-4">
+              <p className="text-black w-75 PageHeader mb-4">
                 Unlock the full potential of your website and boost your search
                 rankings with
                 <br />{" "}
                 <span style={{ color: "#124bdb" }}>
                   our expert SEO services.
                 </span>
-              </h2>
+              </p>
               <p className="text-light text-black ">
                 Comprehensive SEO Solutions by TheClickFunnel
                 <br />
