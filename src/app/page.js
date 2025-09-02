@@ -25,7 +25,7 @@ export default function Home() {
         </section>
          {/* <PricingPlans/> */}
          <StatsSection/>
-         <SEOSection/>
+         {/* <SEOSection/> */}
          <Testimonial/>
          {/* <GoogleMap/> */}
          <Faq/>
