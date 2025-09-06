@@ -3,8 +3,8 @@ import React from "react";
 import "../SEOSection/seosection.css";
 import Image from "next/image";
 
-import seoImg from "../../Images/current/p1.png";
-import img1 from "../../Images/current/man-5711343_1920-removebg-preview.png";
+import seoImg from "../../Images/current/Why Social Media.png";
+import img1 from "../../Images/current/p11.png";
 
 import Link from "next/link";
 

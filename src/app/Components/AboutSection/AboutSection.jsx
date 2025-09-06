@@ -82,7 +82,7 @@ export default function AboutSection() {
           <div className="row">
             <div className="col-md-6">
               <div className="aboutbottomSec">
-                <h2 className="fontweight mb-3  fontWeb">
+                <h2 className="fontweight mb-8  fontWeb">
                   Our Core Values
                 </h2>
                 <p className="paragraph-details">

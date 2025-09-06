@@ -6,8 +6,8 @@ import "./Advertising.css";
 // import InquiaryForm from "../InquiaryForm/InquiaryForm";
 import Link from "next/link";
 import Image from "next/image";
-import img1 from "../../Images/current/p1.png";
-import seoImg from "../../Images/current/p3.png";
+import img1 from "../../Images/current/p3.png";
+import seoImg from "../../Images/current/p1.png";
 
 const seoFeatures = [
   {

@@ -3,7 +3,7 @@ import React from "react";
 import "./website.css";
 import Image from "next/image";
 
-import seoImg from "../../Images/current/Marketingconsulting-amico.png";
+import seoImg from "../../Images/current/Marketingconsulting-amico11.png";
 // import keyword from '../../Images/Banners/banner1.png';
 // import onpage from '../../Images/Banners/banner1.png';
 // import link from '../../Images/Banners/banner1.png';

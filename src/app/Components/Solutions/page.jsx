@@ -5,7 +5,7 @@
 import React from "react";
 import Image from "next/image";
 import solutionImg from "../../Images/current/Marketingconsulting-amico.png";
-import seoImg1 from "../../Images/current/seo-7168460_1920.png";
+import seoImg1 from "../../Images/current/seo-7168460_19201.png";
 
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCheckCircle } from "react-icons/fa";
@@ -53,7 +53,7 @@ export default function page() {
     {
       title: "SEO Audit",
       description:
-        "We analyze your current SEO efforts and identify areas for improvement.",
+        "We evaluate your existing SEO strategies to pinpoint weaknesses and recommend actionable improvements for better results.",
     },
     {
       title: "Analytics & Reporting ",
@@ -83,7 +83,7 @@ export default function page() {
           </Col>
           <Col lg={6}>
             <p className="text-primary text-uppercase mb-2 fw-semibold small">
-              OUR SOLUTIONS
+             
             </p>
             <h2 className="fw-bold mb-3">
               Get the best and most <br /> creative results.

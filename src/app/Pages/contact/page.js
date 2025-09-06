@@ -19,7 +19,7 @@ export default function ContactUs() {
   return (
     <section className="contact-us py-5 bg-white text-dark mb-5 d-flex align-items-center justify-content-center">
       <Container className="d-flex flex-column align-items-center justify-content-center">
-        <h2 className="text-center text-primary mb-4 fw-bold">Contact Us</h2>
+        <h2 className="text-center text-primary mb-4 fw-bold">CONTACT US | OCEANTECHZONE </h2>
         <p className="text-center mb-5 text-secondary w-75">
           Thanks for your interest in <strong>Ocean Techzone</strong>. We ll be happy to hear from you.
           Kindly use this form to share your query and we shall get back to you shortly.
@@ -28,9 +28,9 @@ export default function ContactUs() {
         <Row>
           {/* Left Side - Contact Info */}
           <Col md={6} className="mb-4">
-            <h4 className="fw-semibold">Get in Touch</h4>
+            <h2 className="fw-semibold">Get in Touch</h2>
             <p className="text-muted">
-              For any inquiries or support related to our SEO , SMO , Website Development , Digital Marketing 
+              For any inquiries or support related to our SEO, SMO, Website Development, Digital Marketing
               feel free to reach out. We are here to help!
             </p>
 

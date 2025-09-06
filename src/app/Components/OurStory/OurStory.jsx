@@ -13,7 +13,7 @@ export default function OurStory() {
         {/* Left Content */}
         <div className="col-lg-6 mb-4 mb-lg-0 text-left text-lg-start">
           <h1 className="fw-bold pb-3 story-heading fs-1">
-            Grow Your Business <br /> <span className="spanbold fs-1 text-white">with Result-Driven <br/>Digital Marketing Solutions</span>
+            Grow Your Business <br /> <span className="spanbold fs-1 text-white">with Result-Driven <br/>Digital Marketing Solutions.</span>
            
           </h1>
           <p className=" story-text mx-auto mx-lg-0 text-black">
