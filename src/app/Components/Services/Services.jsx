@@ -2,8 +2,11 @@
 import React from "react";
 import "./Services.css";
 import img1 from '../../Images/current/seo-97.png';
-import img2 from '../../Images/current/marketing-campaign-1-95.png';
-import img3 from '../../Images/current/marketing-campaign-1-33.png'
+import img2 from '../../Images/current/p11.png';
+import img3 from '../../Images/current/man-5711343_1920-removebg-preview.png'
+import img4 from '../../images/current/e33.png'
+import img5 from '../../images/current/cc.png'
+import img6 from '../../images/current/p3.png'
 import Image from "next/image";
 
 
@@ -20,7 +23,7 @@ export default function Services() {
     {
       img:img2,
       title: "Social Media Optimization",
-      desc: "Build a strong brand presence on Facebook, Instagram, LinkedIn, and more. Engage with your audience and grow your followers.",
+      desc: "Build a strong online brand presence on Facebook, Instagram, LinkedIn, and more. Engage effectively with your target audience and consistently grow loyal followers.",
       link: "/Pages/Socialmedia",
       color: "#0a4adc;",
       alt:"SMO",
@@ -28,13 +31,13 @@ export default function Services() {
     {
       img:img3,
       title: "Website Designing",
-      desc: "Get a professional, mobile-friendly, and SEO-optimized website that represents your brand effectively. Boost your business with our experienced Web development team and build your presence. ",
+      desc: "Get a professional, mobile-friendly, SEO-optimized website that represents your brand effectively. Boost business with our experienced web development team and build your presence. ",
       link: "/Pages/Website-Design",
       color: "#1897eb;",
       alt:"Web Design",
     },
     {
-      img:img3,
+      img:img5,
       title: "Content Marketing",
       desc: "We create blogs, videos, graphics, and posts that attract, engage, and convert your target audience. We create compelling blogs, videos, infographics, and social media content .",
       link: "/Pages/Content",
@@ -42,15 +45,15 @@ export default function Services() {
       alt:"Content Marketing",
     },
     {
-      img:img3,
+      img:img4,
       title: "Email & WhatsApp Marketing",
-      desc: "Stay connected with your customers through personalized email and WhatsApp campaigns.Automated email & WhatsApp sequences for consistent communication. ",
+      desc: "Engage customers with personalized email and WhatsApp campaigns. Automate sequences for consistent, effective communication.",
       link: "/Pages/Email",
       color: "#1897eb;",
-      alt:"Web Design",
+      alt:"Email Marketing",
     },
     {
-      img:img3,
+      img:img6,
       title: "Pay-Per-Click Advertising (Google Ads & Meta Ads)",
       desc: "Boost your website’s visibility on Google with our white-hat SEO techniques. Drive organic traffic, increase rankings, and stay ahead of competitors.",
       link: "/Pages/Advertising",

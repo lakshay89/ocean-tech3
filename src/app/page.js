@@ -20,8 +20,9 @@ export default function Home() {
          {/* <Header/> */}
          {/* <FeatureSection/> */}
          {/* <AboutUs/> */}
-          <section className="bg-white py-5">
-         <Services/>
+          <Services/>
+          <section className="bg-white py-1">
+        
         </section>
          {/* <PricingPlans/> */}
          <StatsSection/>

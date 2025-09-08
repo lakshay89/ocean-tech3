@@ -16,20 +16,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Digital Marketing Agency | SEO, PPC & Social Media Experts",
-  description: "Grow your business with our digital marketing agency. We specialize in SEO, PPC, social media & content marketing to drive traffic, leads & sales.",
-  icons: {
-    icon: "/favlogo.png",         // Default favicon
-    shortcut: "/favlogo.png",     // For older browsers
-    apple: "/favlogo.png",        // For iOS/Apple devices
+  title: "Ocean Tech Zone - Digital Marketing Agency in Delhi, India",
+  description: "Drive traffic, boost conversions, and dominate rankings with our digital marketing agency. Contact us today to elevate your online strategy and grow success.",
+  keywords:
+    "send bulk emails, email marketing services in india, bulk email marketing",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://oceantechzone.in",
   },
+  icons: {
+    icon: "/meta.ico",     // favicon from your logo
+    shortcut: "/logo.jpg", // browser shortcut
+    apple: "/logo.jpg",    // iOS home screen icon
+  },
+  verification: {
+    google: "lPHNTvgJ0OGhwK75Y7vjisPzK59Km_eoymKvRRQGn1I",
+  },
+  other: {
+    Keywords: "ocean tech zone"
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-       <link
+        <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -42,8 +54,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
 
-  
-      <Script
+
+        <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
           crossOrigin="anonymous"

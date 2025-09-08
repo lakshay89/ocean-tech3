@@ -31,9 +31,9 @@ export default function BrandCarousel() {
     <>
       <div className='BrandSec mt-5'>
         <div className='BrandTitleSec'>
-          <h1 className='BrandTitle fs-3'>
-            <span style={{color:"#124bdb"}}> TRUSTED BY 500+ LARGE </span> AND SMALL BUSINESS
-          </h1>
+          <h2 className='BrandTitle fs-3'>
+           Trusted by Businesses Large and Small <span style={{color:"#124bdb"}}> — Proudly Serving 500+ </span> 
+          </h2>
         </div>
       </div>
 

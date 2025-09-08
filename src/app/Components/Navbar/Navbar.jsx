@@ -65,7 +65,7 @@ export default function NavScrollExample() {
           <div className="d-flex gap-2">
            
             <Button variant="primary">Call Us</Button>
-             <Button variant="outline-primary">+91 9289933499</Button>
+            <Button variant="outline-primary">Book Your Consultation</Button>
           </div>
         </Navbar.Collapse>
       </Container>
