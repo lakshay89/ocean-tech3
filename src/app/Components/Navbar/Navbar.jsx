@@ -65,7 +65,7 @@ export default function NavScrollExample() {
           <div className="d-flex gap-2">
 
             <Button as="a" href="tel:+919289933499" variant="primary">Call Us</Button>
-            <Link href='/pages/contact'>
+            <Link href='/Pages/contact'>
               <Button variant="outline-primary">
                 Book Your Consultation
               </Button>
