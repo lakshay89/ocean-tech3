@@ -19,7 +19,7 @@ export const metadata = {
   title: "Ocean Tech Zone - Digital Marketing Agency in Delhi, India",
   description: "Drive traffic, boost conversions, and dominate rankings with our digital marketing agency. Contact us today to elevate your online strategy and grow success.",
   keywords:
-    "send bulk emails, email marketing services in india, bulk email marketing",
+    "Digital Marketing Agency,Digital Marketing Agency in Delhi,Digital Marketing Solutions,Search Engine Optimization,website Desiging,Delhi-NCR,SEO Services,PPC Advertising,Social Media Marketing,Content Marketing,Email Marketing,Online Marketing,Digital Strategy,Marketing Solutions",
   robots: "index, follow",
   alternates: {
     canonical: "https://oceantechzone.in",

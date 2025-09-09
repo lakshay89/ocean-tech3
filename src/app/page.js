@@ -5,34 +5,35 @@ import Faq from "./Components/Faq/Faq";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import StatsSection from "./Components/StateSection/StateSection";
 import Services from "./Components/Services/Services";
-import SEO from "./Components/SEO/SEO";
+import SEO from "./Components/SEO/SEO.jsx";
 import Solutions from "./Components/Solutions/page.jsx";
 import SEOSection from "./Components/SEOSection/SEOSection";
 // import PricingPlans from "./Components/PricingPlans/PricingPlans";
 
 export default function Home() {
-  return (
-   <>
-      <div>
-         <OurStory/>
-         <BrandCarousel/>
-         <Solutions />
-         {/* <Header/> */}
-         {/* <FeatureSection/> */}
-         {/* <AboutUs/> */}
-          <Services/>
-          <section className="bg-white py-1">
-        
-        </section>
-         {/* <PricingPlans/> */}
-         <StatsSection/>
-         {/* <SEOSection/> */}
-         <Testimonial/>
-         {/* <GoogleMap/> */}
-         <Faq/>
+   return (
+      <>
+         <div>
+            <OurStory />
+            <BrandCarousel />
 
-      </div>
-   
-   </>
-  );
+            {/* <Header/> */}
+            {/* <FeatureSection/> */}
+            {/* <AboutUs/> */}
+            <SEO />
+            <Services />
+            <section className="bg-white py-1">
+               <Solutions />
+            </section>
+            {/* <PricingPlans/> */}
+            <StatsSection />
+            {/* <SEOSection/> */}
+            <Testimonial />
+            {/* <GoogleMap/> */}
+            <Faq />
+
+         </div>
+
+      </>
+   );
 }

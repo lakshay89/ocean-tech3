@@ -18,13 +18,13 @@ export default function page() {
 
 
 export const metadata = {
-  title: "Discover the Best Digital Marketing Agency - About OCENtechzone",
-  description: "Get to know OceanTechZone, a top digital marketing agency. Discover our services, expert team, and how we drive results for your business.",
+  title: "Discover the Best Digital Marketing Agency - About Oceantechzone",
+  description: "Get to know Oceantechzone, a top digital marketing agency. Discover our services, expert team, and how we drive results for your business.",
   keywords:
-    "about OceanTechZone,digital marketing agency about us,our team digital marketing,digital marketing experts,professional marketing team,about us",
+    "about Oceantechzone,digital marketing agency about us,our team digital marketing,digital marketing experts,professional marketing team,about us",
   robots: "index, follow",
   alternates: {
-    canonical: "https://oceantechzone.in/about",
+    canonical: "https://oceantechzone.in/Pages/about",
   },
   icons: {
     icon: "/meta.ico",     // favicon from your logo
@@ -35,6 +35,6 @@ export const metadata = {
     google: "lPHNTvgJ0OGhwK75Y7vjisPzK59Km_eoymKvRRQGn1I",
   },
   other: {
-    Keywords: "ocean tech zone,learn about OceanTechZone digital marketing services,top digital marketing agency for business growth,expert digital marketing services and solutions"
+    Keywords: "ocean tech zone,learn about OceanTechZone digital marketing services,top digital marketing agency for business growth,"
   }
 };
