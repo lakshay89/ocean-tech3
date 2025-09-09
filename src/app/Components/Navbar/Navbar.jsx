@@ -29,15 +29,15 @@ export default function NavScrollExample() {
             <Nav.Link href="/Pages/about">About us</Nav.Link>
 
             {/* Custom Dropdown with icon */}
-              <NavDropdown
-                  title={
-                    <span className="d-flex align-items-center gap-1">
-                      Services <RiArrowDropDownLine size={25} />
-                    </span>
-                  }
-                  id="services-dropdown"
-                  className="custom-dropdown"
-                >
+            <NavDropdown
+              title={
+                <span className="d-flex align-items-center gap-1">
+                  Services <RiArrowDropDownLine size={25} />
+                </span>
+              }
+              id="services-dropdown"
+              className="custom-dropdown"
+            >
 
               <NavDropdown.Item href="/Pages/seo">Search Engine Optimization</NavDropdown.Item>
               <NavDropdown.Item href="/Pages/Website-Design">Website Designing</NavDropdown.Item>
@@ -58,12 +58,12 @@ export default function NavScrollExample() {
             {/* <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link> */}
             <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>
             <Nav.Link href="/Pages/blogs">Blogs</Nav.Link>
-            
+
           </Nav>
 
           {/* Right: Buttons */}
           <div className="d-flex gap-2">
-           
+
             <Button variant="primary">Call Us</Button>
             <Button variant="outline-primary">Book Your Consultation</Button>
           </div>

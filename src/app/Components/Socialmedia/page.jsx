@@ -51,8 +51,8 @@ export default function SMOSection() {
             <div className="col-md-6 mb-4 mb-md-0">
               <div className="SMStitle text-left mb-3">
                 <h1 className="fw-bold">
-                  <span className="titlebold text-left">Social Media </span>
-                  Marketing Services
+                  <span className="titlebold text-left">Professional Social Media Marketing </span>
+                  Services to Grow Your Business
                 </h1>
               </div>
               <div className="SMS-Content">
@@ -102,7 +102,7 @@ export default function SMOSection() {
                 </span>
               </h4>
               <p className="text-light text-black w-75">
-                
+
                 Social media is where your customers spend most of their time. With billions of active users worldwide, it has become the most effective channel for brand awareness, customer engagement, and lead generation. A well-executed social media strategy ensures that your brand stays relevant, builds trust, and creates lasting relationships with your target audience. Our main objective behind our social
                 media services is to bring your brand into social conversations
                 between your potential consumers. We help build presence on
@@ -112,51 +112,51 @@ export default function SMOSection() {
             </div>
           </div>
         </div>
-            <div className="container-fluid py-5  bg-light">
-            <div className="container">
-              
-
-
-          <div className="row bg-light">
-            <div className="mb-5">
-              <h3
-                className="text-pink fw-bold mb-2"
-                style={{ color: "#124bdb" }}
-              >
-                Benefits with TheClickFunnel SMO
-              </h3>
-              <p className="text-light text-black">
-                Maximize your website potential by leveraging our SEO
-                strategies to get ahead of your competition.
-              </p>
-            </div>
-            {seoFeatures.map((feature, idx) => (
-              <div className="col-md-6 col-lg-4 mb-4" key={idx}>
-                <div
-                  className="card h-100 border-0 rounded-4 p-3 shadow-sm seo-card"
-                  style={{
-                    background:
-                      "linear-gradient(179deg, rgba(10, 74, 220, 1) 18%, rgba(24, 151, 235, 1) 70%)",
-                  }}
-                >
-                  <img
-                    src={feature.img}
-                    alt={feature.title}
-                    // width={120}
-                    // height={120}
-                    className="mb-3 gif-img"
-                  />
-                  <h5 className="fw-semibold text-white">{feature.title}</h5>
-                  <p className="small text-white">{feature.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          </div>
-          </div>
-
-
+        <div className="container-fluid py-5  bg-light">
           <div className="container">
+
+
+
+            <div className="row bg-light">
+              <div className="mb-5">
+                <h3
+                  className="text-pink fw-bold mb-2"
+                  style={{ color: "#124bdb" }}
+                >
+                  Benefits with TheClickFunnel SMO
+                </h3>
+                <p className="text-light text-black">
+                  Maximize your website potential by leveraging our SEO
+                  strategies to get ahead of your competition.
+                </p>
+              </div>
+              {seoFeatures.map((feature, idx) => (
+                <div className="col-md-6 col-lg-4 mb-4" key={idx}>
+                  <div
+                    className="card h-100 border-0 rounded-4 p-3 shadow-sm seo-card"
+                    style={{
+                      background:
+                        "linear-gradient(179deg, rgba(10, 74, 220, 1) 18%, rgba(24, 151, 235, 1) 70%)",
+                    }}
+                  >
+                    <img
+                      src={feature.img}
+                      alt={feature.title}
+                      // width={120}
+                      // height={120}
+                      className="mb-3 gif-img"
+                    />
+                    <h5 className="fw-semibold text-white">{feature.title}</h5>
+                    <p className="small text-white">{feature.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+
+        <div className="container">
           <div className="row my-5">
             <div className="col-12 d-flex align-items-center flex-column">
               <h2 className="text-pink fw-bold mb-2 text-center fs-1 pb-2">
@@ -164,9 +164,9 @@ export default function SMOSection() {
               <p className="text-uppercase text-black mb-3 text-center w-75">
 
                 At Our Company, we do not just manage social media—we build brands that people love to follow and engage with. Whether you are a startup or an established business, our Social Media Marketing services will help you grow your audience, boost conversions,
-                 and strengthen your brand identity.
+                and strengthen your brand identity.
 
-Ready to turn your social media into a powerful marketing machine? Lets get started today!
+                Ready to turn your social media into a powerful marketing machine? Lets get started today!
               </p>
               {/* <div className="seo-underline mx-auto mb-4"></div> */}
               <Link href="/Pages/contact">

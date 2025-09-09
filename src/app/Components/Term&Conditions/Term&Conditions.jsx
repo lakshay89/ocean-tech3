@@ -26,17 +26,10 @@ export default function TermsAndConditions() {
               >
                 Download PDF
               </button>
-              <button
-                variant="secondary"
-                className="btn btn-primary"
-                onClick={() => setShowModal(true)}
-              >
-                View in Modal
-              </button>
             </div>
             <h1 className="uppercase">OceanTechZone Terms & Conditions</h1>
             <p>
-              <strong>Effective Date:</strong> 28-08-2025 &nbsp;|&nbsp;
+              <strong>Effective Date:</strong> 09-09-2025 &nbsp;|&nbsp;
               <strong>Company Name:</strong> OceanTechZone &nbsp;|&nbsp;
               <strong>Website:</strong> oceantechzone.in
             </p>
@@ -172,11 +165,15 @@ export default function TermsAndConditions() {
               <p>
                 For any questions regarding these Terms & Conditions, you can reach us at:
               </p>
-              <ul>
-                <li>Phone: +91 9289933499</li>
-                <li>Email: info@oceantechzone.com</li>
-                <li>Website: oceantechzone.in</li>
-              </ul>
+              <p>
+                <strong>Phone:</strong> 9289933499 <br />
+                <strong>Email:</strong>{" "}
+                <a href="mailto:info@oceantechzone.com">
+                  info@oceantechzone.com
+                </a>
+                <br />
+                <strong>Website:</strong> oceantechzone.in
+              </p>
             </section>
           </main>
         </div>
@@ -210,7 +207,7 @@ export default function TermsAndConditions() {
             </Button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div >
     </>
   );
 }

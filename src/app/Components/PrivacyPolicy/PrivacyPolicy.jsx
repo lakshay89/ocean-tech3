@@ -25,20 +25,14 @@ export default function PrivacyPolicy() {
           >
             Download PDF
           </button>
-          <button
-            variant="secondary"
-            className="btn btn-primary"
-            onClick={() => setShowModal(true)}
-          >
-            View in Modal
-          </button>
+
         </div>
 
         {/* Header Section */}
         <header className="policy-header">
           <h1 className="uppercase">OceanTechZone Privacy Policy</h1>
           <p>
-            <strong>Effective Date:</strong> 28-08-2025 &nbsp;|&nbsp;
+            <strong>Effective Date:</strong> 09-09-2025 &nbsp;|&nbsp;
             <strong>Company Name:</strong> OceanTechZone &nbsp;|&nbsp;
             <strong>Website:</strong> oceantechzone.in
           </p>

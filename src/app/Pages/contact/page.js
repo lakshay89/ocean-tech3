@@ -45,16 +45,16 @@ export default function ContactUs() {
               <a href="https://www.linkedin.com/company/ocean-tech-zone/" className="text-dark hover-opacity"><FaLinkedin /></a>
               <a href="https://www.youtube.com/channel/UC1RKOYMU2fW13keNQmZLKyQ" className="text-dark hover-opacity"><FaYoutube /></a>
             </div>
-            
 
-            <GoogleMap/>
+
+            <GoogleMap />
 
           </Col>
 
           {/* Right Side - Form */}
           <Col md={6}>
             <div className="p-4 rounded ">
-              
+
               {/* <Form>
                 <Form.Group className="mb-3">
                   <Form.Label>Name<span className="text-danger">*</span></Form.Label>
