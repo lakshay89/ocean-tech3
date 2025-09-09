@@ -6,7 +6,7 @@ import logo from '../../Images/logo.jpg';
 import Image from 'next/image';
 import './navbar.css'
 import { RiArrowDropDownLine } from "react-icons/ri";
-
+import Link from "next/link";
 
 // Create Navbar.css in the same folder
 
@@ -64,9 +64,16 @@ export default function NavScrollExample() {
           {/* Right: Buttons */}
           <div className="d-flex gap-2">
 
-            <Button variant="primary">Call Us</Button>
-            <Button variant="outline-primary">Book Your Consultation</Button>
+            <Button as="a" href="tel:+919289933499" variant="primary">Call Us</Button>
+            <Link href='/pages/contact'>
+              <Button variant="outline-primary">
+                Book Your Consultation
+              </Button>
+            </Link>
           </div>
+
+
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

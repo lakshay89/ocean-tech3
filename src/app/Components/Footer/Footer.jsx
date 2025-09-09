@@ -144,7 +144,7 @@ export default function Footer() {
           <h4>Contacts</h4>
           <ul className="contact-list list-style-none">
             <li>
-              <FaMapMarkerAlt /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030
+              <FaMapMarkerAlt /> OLD MB ROAD, LADO SARAI, NEW DELHI 110030
             </li>
             <li>
               <FaPhoneAlt /> +91 9289933499
@@ -162,14 +162,14 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <hr/>
+      <hr />
 
       {/* Copyright Section */}
       <div className="footer-bottom text-center mt-2 mb-0">
         <p style={{ margin: 0, fontSize: "14px", color: "#ccc" }}>
-         <Link href="https://www.oceantechzone.com/" className="text-decoration-none text-light" target="_blank" rel="noopener noreferrer">
-         © 2025 Ocean Tech Zone. All rights reserved.
-</Link>
+          <Link href="https://www.oceantechzone.com/" className="text-decoration-none text-light" target="_blank" rel="noopener noreferrer">
+            © 2025 Ocean Tech Zone. All rights reserved.
+          </Link>
         </p>
       </div>
     </footer>

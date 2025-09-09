@@ -4,26 +4,28 @@ import React from "react";
 import "./aboutsec.css";
 import Pic1 from "@/app/Images/About Us Page/our story.png";
 import Pic2 from "@/app/Images/About Us Page/Why Choose Us for Your Trusted Business Growth Partner.png";
-
+import Pic3 from "@/app/Images/current/Founder.png";
+import Pic4 from "@/app/Images/current/Teamleader.png";
+import Pic5 from "@/app/Images/current/mg.png";
 
 const teamMembers = [
   {
     name: "Rahul Sharma",
     role: "Founder & CEO",
-    image: Pic1,
+    image: Pic3,
     desc: "Visionary leader with a passion for innovation and digital growth.",
   },
   {
     name: "Priya Mehta",
     role: "HR Manager",
-    image: Pic1,
-    desc: "Ensures a positive workplace culture and team success.",
+    image: Pic5,
+    desc: "Drives business operations and long-term strategy.",
   },
   {
     name: "Amit Verma",
-    role: "Owner",
-    image: Pic1,
-    desc: "Drives business operations and long-term strategy.",
+    role: "Team Leader",
+    image: Pic4,
+    desc: "Leads project teams to success with effective strategies.",
   },
 ];
 
@@ -38,7 +40,7 @@ export default function AboutSection() {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6">
               <div>
-                
+
                 <div className="aboutDetail-sec">
                   <p className="text-center fw-bold  fontWeb">
                     OCEAN TECH ZONE SINCE 2017
@@ -67,7 +69,7 @@ export default function AboutSection() {
                     for clients across industries.
                   </p>
                 </div>
-                  
+
               </div>
             </div>
             <div className="col-md-6">
@@ -93,40 +95,40 @@ export default function AboutSection() {
 
                 <b>Creativity</b>
                 <p className="paragraph-details">
-                    We craft campaigns that inspire, engage, and convert.
+                  We craft campaigns that inspire, engage, and convert.
                   Our team has in-depth knowledge of the Delhi market, allowing
                   us to create customized digital strategies that resonate with
-                  your local audience. 
+                  your local audience.
                 </p>
 
                 <b>Transparency</b>
                 <p className="paragraph-details">
-                    Open communication and clear results are at the heart of our work.
+                  Open communication and clear results are at the heart of our work.
                   Search engines and social media platforms are where your
                   audience is most active.
                 </p>
 
                 <b>Performance-Driven</b>
                 <p className="paragraph-details">
-                    Every strategy we create is backed by data and analytics
+                  Every strategy we create is backed by data and analytics
                   Compared to traditional advertising methods, digital marketing
                   is far more cost-efficient.
                 </p>
 
                 <b>Client Success</b>
                 <p className="paragraph-details">
-                    Your growth defines our success.
+                  Your growth defines our success.
                   With a professionally designed website and ongoing
                   optimization, your business remains visible and accessible
-                  24/7. 
+                  24/7.
                 </p>
 
                 <b>Innovation</b>
                 <p className="paragraph-details">
-                    Adapting to the latest tools, trends, and technologies in digital marketing.
+                  Adapting to the latest tools, trends, and technologies in digital marketing.
                   From immediate visibility on social media through SMO to
                   long-term search engine rankings via SEO, our solutions
-                  combine short-term impact with sustained growth. 
+                  combine short-term impact with sustained growth.
                 </p>
               </div>
             </div>
@@ -150,39 +152,39 @@ export default function AboutSection() {
       </div>
 
 
-   
 
-                     <section className="py-5 ">
-      <div className="container">
-        <h2 className="text-center text-primary fw-bold mb-5">Meet Our Team</h2>
-        <div className="row g-4">
-          {teamMembers.map((member, index) => (
-            <div className="col-md-6 col-lg-4" key={index}>
-              <div className="card h-100 shadow border-0 text-center rounded-4 p-3">
-                <Image
-                  src={member.image}
-                  alt={member.name}
-                  width={150}
-                  height={150}
-                  className="rounded-circle mx-auto"
-                  style={{
-                    objectFit: "cover",
-                    border: "4px solid #007bff",
-                  }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-primary fw-bold mt-3">
-                    {member.name}
-                  </h5>
-                  <h6 className="text-muted">{member.role}</h6>
-                  <p className="card-text mt-3 text-dark">{member.desc}</p>
+
+      <section className="py-5 ">
+        <div className="container">
+          <h2 className="text-center text-primary fw-bold mb-5">Meet Our Team</h2>
+          <div className="row g-4">
+            {teamMembers.map((member, index) => (
+              <div className="col-md-6 col-lg-4" key={index}>
+                <div className="card h-100 shadow border-0 text-center rounded-4 p-3">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    width={150}
+                    height={150}
+                    className="rounded-circle mx-auto"
+                    style={{
+                      objectFit: "cover",
+                      border: "4px solid #007bff",
+                    }}
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title text-primary fw-bold mt-3">
+                      {member.name}
+                    </h5>
+                    <h6 className="text-muted">{member.role}</h6>
+                    <p className="card-text mt-3 text-dark">{member.desc}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
       <div className="container mt-5 mb-5 text-center d-flex flex-column justify-content-center align-items-center">
         <h3 className="text-center titlebold"> OUR MISSION </h3>
 
